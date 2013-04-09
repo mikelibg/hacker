@@ -1,0 +1,1 @@
+com\apperhand\device\android\a\e.java:    return "content://" + paramString + ".settings/favorites?notify=false";

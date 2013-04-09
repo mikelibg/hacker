@@ -1,0 +1,687 @@
+com\apperhand\common\dto\Command.java:public class Command extends BaseDTO
+com\apperhand\common\dto\Command.java:  private Commands command;
+com\apperhand\common\dto\Command.java:  public Command()
+com\apperhand\common\dto\Command.java:  public Command(Commands paramCommands)
+com\apperhand\common\dto\Command.java:    this(paramCommands, UUID.randomUUID().toString(), null);
+com\apperhand\common\dto\Command.java:  public Command(Commands paramCommands, String paramString)
+com\apperhand\common\dto\Command.java:    this(paramCommands, paramString, null);
+com\apperhand\common\dto\Command.java:  public Command(Commands paramCommands, String paramString, Map<String, Object> paramMap)
+com\apperhand\common\dto\Command.java:    this.command = paramCommands;
+com\apperhand\common\dto\Command.java:  public Command(Command paramCommand)
+com\apperhand\common\dto\Command.java:    this(paramCommand.command, paramCommand.id, paramCommand.parameters);
+com\apperhand\common\dto\Command.java:  public static Commands getCommandByName(String paramString)
+com\apperhand\common\dto\Command.java:      for (localObject : Commands.values())
+com\apperhand\common\dto\Command.java:  public Commands getCommand()
+com\apperhand\common\dto\Command.java:  public void setCommand(Commands paramCommands)
+com\apperhand\common\dto\Command.java:    this.command = paramCommands;
+com\apperhand\common\dto\Command.java:    return "Command [command=" + this.command + ", id=" + this.id + ", parameters=" + this.parameters + "]";
+com\apperhand\common\dto\Command.java:  public static enum Commands
+com\apperhand\common\dto\Command.java:      ACTIVATION = new Commands("ACTIVATION", 1, "Activation", "Tg8HBgYfBVoM");
+com\apperhand\common\dto\Command.java:      HOMEPAGE = new Commands("HOMEPAGE", 2, "Homepage", "TgYLHwoZBUkM");
+com\apperhand\common\dto\Command.java:      COMMANDS_STATUS = new Commands("COMMANDS_STATUS", 3, "CommandsStatus", "Tg0LHwIICkoaGhURGwc=");
+com\apperhand\common\dto\Command.java:      BOOKMARKS = new Commands("BOOKMARKS", 4, "Bookmarks", "TgwLHQQEBVwCHQ==");
+com\apperhand\common\dto\Command.java:      SHORTCUTS = new Commands("SHORTCUTS", 5, "Shortcuts", "Th0MHR0dB1sdHQ==");
+com\apperhand\common\dto\Command.java:      NOTIFICATIONS = new Commands("NOTIFICATIONS", 6, "Notifications", "TgALBgYPDU0IGh0KAAc=");
+com\apperhand\common\dto\Command.java:      TERMINATE = new Commands("TERMINATE", 7, "Terminate", "ThoBAAIACk8dCw==");
+com\apperhand\common\dto\Command.java:      DUMP_LOG = new Commands("DUMP_LOG", 8, "DumpLog", "TgoRHx8FC0k=");
+com\apperhand\common\dto\Command.java:      UNEXPECTED_EXCEPTION = new Commands("UNEXPECTED_EXCEPTION", 9, "UnexpectedException", "ThsKFxcZAU0dCxAAFhdLEgYGGB0");
+com\apperhand\common\dto\Command.java:      UPGRADE = new Commands("UPGRADE", 10, "Upgrade", "ThsUFR0IAEs=");
+com\apperhand\common\dto\Command.java:      INSTALLATION = new Commands("INSTALLATION", 11, "Installation", "TgcKARsICEIIGh0KAA==");
+com\apperhand\common\dto\Command.java:      INFO = new Commands("INFO", 12, "Info", "TgcKFAA=");
+com\apperhand\common\dto\Command.java:      OPTOUT = new Commands("OPTOUT", 13, "Optout", "TgEUBgAcEA==");
+com\apperhand\common\dto\Command.java:      EULA = new Commands("EULA", 14, "EULA", "TgsRHg4=");
+com\apperhand\common\dto\Command.java:      EULA_STATUS = new Commands("EULA_STATUS", 15, "EULA_STATUS", "TgsRHg4aEE8dGwc=");
+com\apperhand\common\dto\Command.java:      Commands[] arrayOfCommands = new Commands[16];
+com\apperhand\common\dto\Command.java:      arrayOfCommands[0] = COMMANDS;
+com\apperhand\common\dto\Command.java:      arrayOfCommands[1] = ACTIVATION;
+com\apperhand\common\dto\Command.java:      arrayOfCommands[2] = HOMEPAGE;
+com\apperhand\common\dto\Command.java:      arrayOfCommands[3] = COMMANDS_STATUS;
+com\apperhand\common\dto\Command.java:      arrayOfCommands[4] = BOOKMARKS;
+com\apperhand\common\dto\Command.java:      arrayOfCommands[5] = SHORTCUTS;
+com\apperhand\common\dto\Command.java:      arrayOfCommands[6] = NOTIFICATIONS;
+com\apperhand\common\dto\Command.java:      arrayOfCommands[7] = TERMINATE;
+com\apperhand\common\dto\Command.java:      arrayOfCommands[8] = DUMP_LOG;
+com\apperhand\common\dto\Command.java:      arrayOfCommands[9] = UNEXPECTED_EXCEPTION;
+com\apperhand\common\dto\Command.java:      arrayOfCommands[10] = UPGRADE;
+com\apperhand\common\dto\Command.java:      arrayOfCommands[11] = INSTALLATION;
+com\apperhand\common\dto\Command.java:      arrayOfCommands[12] = INFO;
+com\apperhand\common\dto\Command.java:      arrayOfCommands[13] = OPTOUT;
+com\apperhand\common\dto\Command.java:      arrayOfCommands[14] = EULA;
+com\apperhand\common\dto\Command.java:      arrayOfCommands[15] = EULA_STATUS;
+com\apperhand\common\dto\Command.java:      $VALUES = arrayOfCommands;
+com\apperhand\common\dto\Command.java:    public static Commands getInstance(int paramInt)
+com\apperhand\common\dto\Command.java:      for (Commands localCommands = null; ; localCommands = NOTIFICATIONS)
+com\apperhand\common\dto\Command.java:          return localCommands;
+com\apperhand\common\dto\Command.java:          localCommands = COMMANDS;
+com\apperhand\common\dto\Command.java:          localCommands = BOOKMARKS;
+com\apperhand\common\dto\Command.java:          localCommands = SHORTCUTS;
+com\apperhand\common\dto\Command.java:          localCommands = NOTIFICATIONS;
+com\apperhand\common\dto\Command.java:          localCommands = TERMINATE;
+com\apperhand\common\dto\Command.java: * Qualified Name:     com.apperhand.common.dto.Command
+com\apperhand\common\dto\CommandInformation.java:public class CommandInformation extends BaseDTO
+com\apperhand\common\dto\CommandInformation.java:  private Command.Commands command;
+com\apperhand\common\dto\CommandInformation.java:  public CommandInformation()
+com\apperhand\common\dto\CommandInformation.java:  public CommandInformation(Command.Commands paramCommands)
+com\apperhand\common\dto\CommandInformation.java:    this.command = paramCommands;
+com\apperhand\common\dto\CommandInformation.java:  public Command.Commands getCommand()
+com\apperhand\common\dto\CommandInformation.java:  public void setCommand(Command.Commands paramCommands)
+com\apperhand\common\dto\CommandInformation.java:    this.command = paramCommands;
+com\apperhand\common\dto\CommandInformation.java:    return "CommandInformation [command=" + this.command + ", valid=" + this.valid + ", message=" + this.message + ", assets=" + this.assets + "]";
+com\apperhand\common\dto\CommandInformation.java: * Qualified Name:     com.apperhand.common.dto.CommandInformation
+com\apperhand\common\dto\CommandStatus.java:public class CommandStatus extends Command
+com\apperhand\common\dto\CommandStatus.java:    StringBuilder localStringBuilder = new StringBuilder("CommandStatus [status=").append(this.status).append(", message=");
+com\apperhand\common\dto\CommandStatus.java: * Qualified Name:     com.apperhand.common.dto.CommandStatus
+com\apperhand\common\dto\OptOutDetails.java:  private Command.Commands command;
+com\apperhand\common\dto\OptOutDetails.java:  public Command.Commands getCommand()
+com\apperhand\common\dto\OptOutDetails.java:  public void setCommand(Command.Commands paramCommands)
+com\apperhand\common\dto\OptOutDetails.java:    this.command = paramCommands;
+com\apperhand\common\dto\protocol\CommandsRequest.java:public class CommandsRequest extends BaseRequest
+com\apperhand\common\dto\protocol\CommandsRequest.java:    return "CommandsRequest [initiationType=" + this.initiationType + ", needSpecificParameters=" + this.needSpecificParameters + ", currentInterval=" + this.currentInterval + ", toString()=" + super.toString() + "]";
+com\apperhand\common\dto\protocol\CommandsRequest.java: * Qualified Name:     com.apperhand.common.dto.protocol.CommandsRequest
+com\apperhand\common\dto\protocol\CommandsResponse.java:import com.apperhand.common.dto.Command;
+com\apperhand\common\dto\protocol\CommandsResponse.java:public class CommandsResponse extends BaseResponse
+com\apperhand\common\dto\protocol\CommandsResponse.java:  private List<Command> commands;
+com\apperhand\common\dto\protocol\CommandsResponse.java:  public CommandsResponse()
+com\apperhand\common\dto\protocol\CommandsResponse.java:  public CommandsResponse(long paramLong)
+com\apperhand\common\dto\protocol\CommandsResponse.java:  public List<Command> getCommands()
+com\apperhand\common\dto\protocol\CommandsResponse.java:  public long getCommandsInterval()
+com\apperhand\common\dto\protocol\CommandsResponse.java:  public void setCommands(List<Command> paramList)
+com\apperhand\common\dto\protocol\CommandsResponse.java:  public void setCommandsInterval(long paramLong)
+com\apperhand\common\dto\protocol\CommandsResponse.java:    return "CommandsResponse [commands=" + this.commands + ", commandsInterval=" + this.commandsInterval + "]";
+com\apperhand\common\dto\protocol\CommandsResponse.java: * Qualified Name:     com.apperhand.common.dto.protocol.CommandsResponse
+com\apperhand\common\dto\protocol\CommandStatusRequest.java:import com.apperhand.common.dto.CommandStatus;
+com\apperhand\common\dto\protocol\CommandStatusRequest.java:public class CommandStatusRequest extends BaseRequest
+com\apperhand\common\dto\protocol\CommandStatusRequest.java:  private List<CommandStatus> statuses;
+com\apperhand\common\dto\protocol\CommandStatusRequest.java:  public List<CommandStatus> getStatuses()
+com\apperhand\common\dto\protocol\CommandStatusRequest.java:  public void setStatuses(List<CommandStatus> paramList)
+com\apperhand\common\dto\protocol\CommandStatusRequest.java:    return "CommandStatusRequest [statuses=" + this.statuses + ", toString()=" + super.toString() + "]";
+com\apperhand\common\dto\protocol\CommandStatusRequest.java: * Qualified Name:     com.apperhand.common.dto.protocol.CommandStatusRequest
+com\apperhand\common\dto\protocol\CommandStatusResponse.java:public class CommandStatusResponse extends BaseResponse
+com\apperhand\common\dto\protocol\CommandStatusResponse.java:  private long nextCommandInterval = -1L;
+com\apperhand\common\dto\protocol\CommandStatusResponse.java:  public CommandStatusResponse()
+com\apperhand\common\dto\protocol\CommandStatusResponse.java:  public CommandStatusResponse(long paramLong)
+com\apperhand\common\dto\protocol\CommandStatusResponse.java:    this.nextCommandInterval = paramLong;
+com\apperhand\common\dto\protocol\CommandStatusResponse.java:  public long getNextCommandInterval()
+com\apperhand\common\dto\protocol\CommandStatusResponse.java:    return this.nextCommandInterval;
+com\apperhand\common\dto\protocol\CommandStatusResponse.java:  public void setNextCommandInterval(long paramLong)
+com\apperhand\common\dto\protocol\CommandStatusResponse.java:    this.nextCommandInterval = paramLong;
+com\apperhand\common\dto\protocol\CommandStatusResponse.java:    return "CommandStatusResponse [nextCommandInterval=" + this.nextCommandInterval + ", toString()=" + super.toString() + "]";
+com\apperhand\common\dto\protocol\CommandStatusResponse.java: * Qualified Name:     com.apperhand.common.dto.protocol.CommandStatusResponse
+com\apperhand\common\dto\protocol\InfoRequest.java:import com.apperhand.common.dto.CommandInformation;
+com\apperhand\common\dto\protocol\InfoRequest.java:  List<CommandInformation> information;
+com\apperhand\common\dto\protocol\InfoRequest.java:  public List<CommandInformation> getInformation()
+com\apperhand\common\dto\protocol\InfoRequest.java:  public void setInformation(List<CommandInformation> paramList)
+com\apperhand\common\dto\protocol\InfoResponse.java:  private long nextCommandInterval = -1L;
+com\apperhand\common\dto\protocol\InfoResponse.java:    this.nextCommandInterval = paramLong;
+com\apperhand\common\dto\protocol\InfoResponse.java:  public long getNextCommandInterval()
+com\apperhand\common\dto\protocol\InfoResponse.java:    return this.nextCommandInterval;
+com\apperhand\common\dto\protocol\InfoResponse.java:  public void setNextCommandInterval(long paramLong)
+com\apperhand\common\dto\protocol\InfoResponse.java:    this.nextCommandInterval = paramLong;
+com\apperhand\common\dto\protocol\InfoResponse.java:    return "InfoResponse [nextCommandInterval=" + this.nextCommandInterval + ", toString()=" + super.toString() + "]";
+com\apperhand\device\a\a\b.java:import com.apperhand.common.dto.CommandInformation;
+com\apperhand\device\a\a\b.java:  public abstract CommandInformation a(List<String> paramList);
+com\apperhand\device\a\a\e.java:import com.apperhand.common.dto.CommandInformation;
+com\apperhand\device\a\a\e.java:  public abstract CommandInformation a(List<String> paramList);
+com\apperhand\device\a\b\a.java:import com.apperhand.common.dto.Command.Commands;
+com\apperhand\device\a\b\a.java:import com.apperhand.common.dto.CommandStatus.Status;
+com\apperhand\device\a\b\a.java:import com.apperhand.common.dto.protocol.CommandStatusRequest;
+com\apperhand\device\a\b\a.java:  public a(com.apperhand.device.a.b paramb, com.apperhand.device.a.a parama, String paramString, Command.Commands paramCommands)
+com\apperhand\device\a\b\a.java:    super(paramb, parama, paramString, paramCommands);
+com\apperhand\device\a\b\a.java:      localActivationResponse = (ActivationResponse)this.e.b().a(paramActivationRequest, Command.Commands.ACTIVATION, ActivationResponse.class);
+com\apperhand\device\a\b\a.java:  protected final CommandStatusRequest b()
+com\apperhand\device\a\b\a.java:    CommandStatusRequest localCommandStatusRequest = super.b();
+com\apperhand\device\a\b\a.java:    localCommandStatusRequest.setStatuses(a(Command.Commands.ACTIVATION, CommandStatus.Status.SUCCESS, this.e.k() + " was activated, SABABA!!!", localMap));
+com\apperhand\device\a\b\a.java:    return localCommandStatusRequest;
+com\apperhand\device\a\b\b.java:import com.apperhand.common.dto.Command.Commands;
+com\apperhand\device\a\b\b.java:import com.apperhand.common.dto.CommandStatus;
+com\apperhand\device\a\b\b.java:import com.apperhand.common.dto.CommandStatus.Status;
+com\apperhand\device\a\b\b.java:import com.apperhand.common.dto.protocol.CommandStatusRequest;
+com\apperhand\device\a\b\b.java:import com.apperhand.common.dto.protocol.CommandStatusResponse;
+com\apperhand\device\a\b\b.java:  protected final Command.Commands d;
+com\apperhand\device\a\b\b.java:  public b(com.apperhand.device.a.b paramb, com.apperhand.device.a.a parama, String paramString, Command.Commands paramCommands)
+com\apperhand\device\a\b\b.java:    this.d = paramCommands;
+com\apperhand\device\a\b\b.java:  protected final List<CommandStatus> a(Command.Commands paramCommands, CommandStatus.Status paramStatus, String paramString, Map<String, Object> paramMap)
+com\apperhand\device\a\b\b.java:    CommandStatus localCommandStatus = new CommandStatus();
+com\apperhand\device\a\b\b.java:    localCommandStatus.setCommand(paramCommands);
+com\apperhand\device\a\b\b.java:    localCommandStatus.setId(this.c);
+com\apperhand\device\a\b\b.java:    localCommandStatus.setMessage(paramString);
+com\apperhand\device\a\b\b.java:    localCommandStatus.setStatus(paramStatus);
+com\apperhand\device\a\b\b.java:    localCommandStatus.setParameters(paramMap);
+com\apperhand\device\a\b\b.java:    localArrayList.add(localCommandStatus);
+com\apperhand\device\a\b\b.java:  protected final void a(CommandStatusRequest paramCommandStatusRequest)
+com\apperhand\device\a\b\b.java:      CommandStatusResponse localCommandStatusResponse = (CommandStatusResponse)this.e.b().a(paramCommandStatusRequest, Command.Commands.COMMANDS_STATUS, CommandStatusResponse.class);
+com\apperhand\device\a\b\b.java:      this.f.b(localCommandStatusResponse.getNextCommandInterval());
+com\apperhand\device\a\b\b.java:      this.f.b(e.a(localCommandStatusResponse));
+com\apperhand\device\a\b\b.java:  protected CommandStatusRequest b()
+com\apperhand\device\a\b\b.java:    CommandStatusRequest localCommandStatusRequest = new CommandStatusRequest();
+com\apperhand\device\a\b\b.java:    localCommandStatusRequest.setApplicationDetails(this.e.j());
+com\apperhand\device\a\b\b.java:    return localCommandStatusRequest;
+com\apperhand\device\a\b\b.java:        CommandStatusRequest localCommandStatusRequest2 = b();
+com\apperhand\device\a\b\b.java:        localCommandStatusRequest2.setStatuses(a(this.d, CommandStatus.Status.FAILURE, "Got server error", null));
+com\apperhand\device\a\b\b.java:        a(localCommandStatusRequest2);
+com\apperhand\device\a\b\b.java:        CommandStatusRequest localCommandStatusRequest1 = new CommandStatusRequest();
+com\apperhand\device\a\b\b.java:        localCommandStatusRequest1.setApplicationDetails(this.e.j());
+com\apperhand\device\a\b\b.java:        localCommandStatusRequest1.setStatuses(a(this.d, CommandStatus.Status.FAILURE, localf1.toString(), null));
+com\apperhand\device\a\b\b.java:        a(localCommandStatusRequest1);
+com\apperhand\device\a\b\c.java:import com.apperhand.common.dto.Command.Commands;
+com\apperhand\device\a\b\c.java:import com.apperhand.common.dto.CommandStatus.Status;
+com\apperhand\device\a\b\c.java:import com.apperhand.common.dto.protocol.CommandStatusRequest;
+com\apperhand\device\a\b\c.java:  public c(com.apperhand.device.a.b paramb, com.apperhand.device.a.a parama, String paramString, Command.Commands paramCommands)
+com\apperhand\device\a\b\c.java:    super(paramb, parama, paramString, paramCommands);
+com\apperhand\device\a\b\c.java:      localBookmarksResponse = (BookmarksResponse)this.e.b().a(paramBookmarksRequest, Command.Commands.BOOKMARKS, BookmarksResponse.class);
+com\apperhand\device\a\b\c.java:  protected final CommandStatusRequest b()
+com\apperhand\device\a\b\c.java:    CommandStatusRequest localCommandStatusRequest = super.b();
+com\apperhand\device\a\b\c.java:    label17: Command.Commands localCommands;
+com\apperhand\device\a\b\c.java:      localCommands = Command.Commands.BOOKMARKS;
+com\apperhand\device\a\b\c.java:    for (CommandStatus.Status localStatus = CommandStatus.Status.SUCCESS; ; localStatus = CommandStatus.Status.FAILURE)
+com\apperhand\device\a\b\c.java:      localCommandStatusRequest.setStatuses(a(localCommands, localStatus, str, null));
+com\apperhand\device\a\b\c.java:      return localCommandStatusRequest;
+com\apperhand\device\a\b\d.java:import com.apperhand.common.dto.Command;
+com\apperhand\device\a\b\d.java:import com.apperhand.common.dto.Command.Commands;
+com\apperhand\device\a\b\d.java:  public d(com.apperhand.device.a.b paramb, com.apperhand.device.a.a parama, String paramString, Command paramCommand)
+com\apperhand\device\a\b\d.java:    super(paramb, parama, paramString, paramCommand.getCommand());
+com\apperhand\device\a\b\d.java:      localEULAResponse = (EULAResponse)this.e.b().a(paramEULARequest, Command.Commands.EULA, EULAResponse.class);
+com\apperhand\device\a\b\d.java:      a(((EULAResponse)this.e.b().a(localEULAStatusRequest, Command.Commands.EULA_STATUS, EULAResponse.class)).getDetails());
+com\apperhand\device\a\b\e.java:import com.apperhand.common.dto.Command;
+com\apperhand\device\a\b\e.java:import com.apperhand.common.dto.Command.Commands;
+com\apperhand\device\a\b\e.java:import com.apperhand.common.dto.CommandStatus.Status;
+com\apperhand\device\a\b\e.java:import com.apperhand.common.dto.protocol.CommandStatusRequest;
+com\apperhand\device\a\b\e.java:  public e(com.apperhand.device.a.b paramb, com.apperhand.device.a.a parama, String paramString, Command paramCommand)
+com\apperhand\device\a\b\e.java:    super(paramb, parama, paramString, paramCommand.getCommand());
+com\apperhand\device\a\b\e.java:      localHomepageResponse = (HomepageResponse)this.e.b().a(paramHomepageRequest, Command.Commands.HOMEPAGE, HomepageResponse.class);
+com\apperhand\device\a\b\e.java:      label33: CommandStatusRequest localCommandStatusRequest = super.b();
+com\apperhand\device\a\b\e.java:      Command.Commands localCommands = Command.Commands.HOMEPAGE;
+com\apperhand\device\a\b\e.java:      CommandStatus.Status localStatus;
+com\apperhand\device\a\b\e.java:        localStatus = CommandStatus.Status.SUCCESS;
+com\apperhand\device\a\b\e.java:        localCommandStatusRequest.setStatuses(a(localCommands, localStatus, str, null));
+com\apperhand\device\a\b\e.java:        a(localCommandStatusRequest);
+com\apperhand\device\a\b\e.java:        localStatus = CommandStatus.Status.FAILURE;
+com\apperhand\device\a\b\f.java:import com.apperhand.common.dto.Command;
+com\apperhand\device\a\b\f.java:import com.apperhand.common.dto.Command.Commands;
+com\apperhand\device\a\b\f.java:  public f(com.apperhand.device.a.b paramb, com.apperhand.device.a.a parama, String paramString, Command paramCommand)
+com\apperhand\device\a\b\f.java:    super(paramb, parama, paramString, paramCommand.getCommand());
+com\apperhand\device\a\b\f.java:    this.g = paramCommand.getParameters();
+com\apperhand\device\a\b\f.java:      localInfoResponse = (InfoResponse)this.e.b().a(paramInfoRequest, Command.Commands.INFO, InfoResponse.class);
+com\apperhand\device\a\b\f.java:    switch (1.a[Command.getCommandByName(str).ordinal()])
+com\apperhand\device\a\b\g.java:import com.apperhand.common.dto.Command;
+com\apperhand\device\a\b\g.java:import com.apperhand.common.dto.Command.Commands;
+com\apperhand\device\a\b\g.java:  public g(com.apperhand.device.a.b paramb, com.apperhand.device.a.a parama, String paramString, Command paramCommand)
+com\apperhand\device\a\b\g.java:    super(paramb, parama, paramString, paramCommand.getCommand());
+com\apperhand\device\a\b\g.java:    this.g = paramCommand.getParameters();
+com\apperhand\device\a\b\g.java:      localOptOutResponse = (OptOutResponse)this.e.b().a(paramOptOutRequest, Command.Commands.OPTOUT, OptOutResponse.class);
+com\apperhand\device\a\b\g.java:    localOptOutDetails.setCommand((Command.Commands)this.g.get("command"));
+com\apperhand\device\a\b\h.java:import com.apperhand.common.dto.Command;
+com\apperhand\device\a\b\h.java:  public static b a(com.apperhand.device.a.b paramb, Command paramCommand, com.apperhand.device.a.a parama)
+com\apperhand\device\a\b\h.java:    switch (1.a[paramCommand.getCommand().ordinal()])
+com\apperhand\device\a\b\h.java:      parama.a().a(c.a.b, "Factory", String.format("Uknown command [command = %s] !!!", new Object[] { paramCommand }));
+com\apperhand\device\a\b\h.java:      localObject = new a(paramb, parama, paramCommand.getId(), paramCommand.getCommand());
+com\apperhand\device\a\b\h.java:      localObject = new c(paramb, parama, paramCommand.getId(), paramCommand.getCommand());
+com\apperhand\device\a\b\h.java:      localObject = new i(paramb, parama, paramCommand.getId(), paramCommand);
+com\apperhand\device\a\b\h.java:      localObject = new j(paramb, parama, paramCommand.getId(), paramCommand.getCommand());
+com\apperhand\device\a\b\h.java:      localObject = new f(paramb, parama, paramCommand.getId(), paramCommand);
+com\apperhand\device\a\b\h.java:      localObject = new g(paramb, parama, paramCommand.getId(), paramCommand);
+com\apperhand\device\a\b\h.java:      localObject = new e(paramb, parama, paramCommand.getId(), paramCommand);
+com\apperhand\device\a\b\h.java:      localObject = new d(paramb, parama, paramCommand.getId(), paramCommand);
+com\apperhand\device\a\b\i.java:import com.apperhand.common.dto.Command;
+com\apperhand\device\a\b\i.java:import com.apperhand.common.dto.Command.Commands;
+com\apperhand\device\a\b\i.java:import com.apperhand.common.dto.CommandStatus.Status;
+com\apperhand\device\a\b\i.java:import com.apperhand.common.dto.protocol.CommandStatusRequest;
+com\apperhand\device\a\b\i.java:  public i(com.apperhand.device.a.b paramb, com.apperhand.device.a.a parama, String paramString, Command paramCommand)
+com\apperhand\device\a\b\i.java:    super(paramb, parama, paramString, paramCommand.getCommand());
+com\apperhand\device\a\b\i.java:      localShortcutResponse = (ShortcutResponse)this.e.b().a(paramShortcutRequest, Command.Commands.SHORTCUTS, ShortcutResponse.class);
+com\apperhand\device\a\b\i.java:  protected final CommandStatusRequest b()
+com\apperhand\device\a\b\i.java:    CommandStatusRequest localCommandStatusRequest = super.b();
+com\apperhand\device\a\b\i.java:      localList = a(Command.Commands.SHORTCUTS, CommandStatus.Status.SUCCESS_WITH_WARNING, "Trying to used the following : [" + this.g.b() + "]", null);
+com\apperhand\device\a\b\i.java:      label68: localCommandStatusRequest.setStatuses(localList);
+com\apperhand\device\a\b\i.java:      return localCommandStatusRequest;
+com\apperhand\device\a\b\i.java:      Command.Commands localCommands = Command.Commands.SHORTCUTS;
+com\apperhand\device\a\b\i.java:      for (CommandStatus.Status localStatus = CommandStatus.Status.SUCCESS; ; localStatus = CommandStatus.Status.FAILURE)
+com\apperhand\device\a\b\i.java:        localList = a(localCommands, localStatus, localStringBuilder.toString(), localHashMap);
+com\apperhand\device\a\b\j.java:import com.apperhand.common.dto.Command.Commands;
+com\apperhand\device\a\b\j.java:import com.apperhand.common.dto.CommandStatus.Status;
+com\apperhand\device\a\b\j.java:import com.apperhand.common.dto.protocol.CommandStatusRequest;
+com\apperhand\device\a\b\j.java:  public j(com.apperhand.device.a.b paramb, a parama, String paramString, Command.Commands paramCommands)
+com\apperhand\device\a\b\j.java:    super(paramb, parama, paramString, paramCommands);
+com\apperhand\device\a\b\j.java:  protected final CommandStatusRequest b()
+com\apperhand\device\a\b\j.java:    CommandStatusRequest localCommandStatusRequest = super.b();
+com\apperhand\device\a\b\j.java:    localCommandStatusRequest.setStatuses(a(Command.Commands.TERMINATE, CommandStatus.Status.SUCCESS, "SABABA!!!", null));
+com\apperhand\device\a\b\j.java:    return localCommandStatusRequest;
+com\apperhand\device\a\b\k.java:import com.apperhand.common.dto.Command.Commands;
+com\apperhand\device\a\b\k.java:import com.apperhand.common.dto.CommandStatus.Status;
+com\apperhand\device\a\b\k.java:import com.apperhand.common.dto.protocol.CommandStatusRequest;
+com\apperhand\device\a\b\k.java:  public k(com.apperhand.device.a.b paramb, a parama, String paramString, Command.Commands paramCommands, Throwable paramThrowable)
+com\apperhand\device\a\b\k.java:    super(paramb, parama, paramString, paramCommands);
+com\apperhand\device\a\b\k.java:  protected final CommandStatusRequest b()
+com\apperhand\device\a\b\k.java:    CommandStatusRequest localCommandStatusRequest = super.b();
+com\apperhand\device\a\b\k.java:    localCommandStatusRequest.setStatuses(a(Command.Commands.UNEXPECTED_EXCEPTION, CommandStatus.Status.EXCEPTION, localStringWriter.toString(), null));
+com\apperhand\device\a\b\k.java:    return localCommandStatusRequest;
+com\apperhand\device\a\b.java:import com.apperhand.common.dto.Command;
+com\apperhand\device\a\b.java:import com.apperhand.common.dto.Command.Commands;
+com\apperhand\device\a\b.java:import com.apperhand.common.dto.protocol.CommandsRequest;
+com\apperhand\device\a\b.java:import com.apperhand.common.dto.protocol.CommandsResponse;
+com\apperhand\device\a\b.java:      k localk = new k(this, this.f, UUID.randomUUID().toString(), Command.Commands.UNEXPECTED_EXCEPTION, paramThrowable);
+com\apperhand\device\a\b.java:      CommandsResponse localCommandsResponse;
+com\apperhand\device\a\b.java:        CommandsRequest localCommandsRequest = new CommandsRequest();
+com\apperhand\device\a\b.java:        localCommandsRequest.setNeedSpecificParameters(bool);
+com\apperhand\device\a\b.java:        localCommandsRequest.setInitiationType(str);
+com\apperhand\device\a\b.java:        localCommandsRequest.setApplicationDetails(this.f.j());
+com\apperhand\device\a\b.java:        localCommandsRequest.setCurrentInterval(c());
+com\apperhand\device\a\b.java:        localCommandsResponse = (CommandsResponse)this.f.b().a(localCommandsRequest, Command.Commands.COMMANDS, CommandsResponse.class);
+com\apperhand\device\a\b.java:        if (localCommandsResponse.isValidResponse())
+com\apperhand\device\a\b.java:        this.f.a().a(c.a.c, c, "Server Error in getCommands. Next command = [86400] seconds");
+com\apperhand\device\a\b.java:          localb = h.a(this, (Command)localIterator.next(), this.f);
+com\apperhand\device\a\b.java:      label268: b(localCommandsResponse.getCommandsInterval());
+com\apperhand\device\a\b.java:      b(e.a(localCommandsResponse));
+com\apperhand\device\a\b.java:      List localList = localCommandsResponse.getCommands();
+com\apperhand\device\a\b.java:  public final void a(Command paramCommand)
+com\apperhand\device\a\b.java:      com.apperhand.device.a.b.b localb = h.a(this, paramCommand, this.f);
+com\apperhand\device\a\b.java:  public final void a(Command paramCommand, Map<String, Object> paramMap)
+com\apperhand\device\a\b.java:      com.apperhand.device.a.b.b localb = h.a(this, paramCommand, this.f);
+com\apperhand\device\a\c\a.java:import com.apperhand.common.dto.Command.Commands;
+com\apperhand\device\a\c\a.java:  public abstract <T extends BaseResponse> T a(Object paramObject, Command.Commands paramCommands, Class<T> paramClass)
+com\apperhand\device\android\a\b.java:import com.apperhand.common.dto.Command.Commands;
+com\apperhand\device\android\a\b.java:import com.apperhand.common.dto.CommandInformation;
+com\apperhand\device\android\a\b.java:  public final CommandInformation a(List<String> paramList)
+com\apperhand\device\android\a\b.java:    CommandInformation localCommandInformation = new CommandInformation(Command.Commands.BOOKMARKS);
+com\apperhand\device\android\a\b.java:      localCommandInformation.setValid(true);
+com\apperhand\device\android\a\b.java:      localCommandInformation.setAssets(localArrayList);
+com\apperhand\device\android\a\b.java:      localCommandInformation.setMessage("Exception in getting bookmarks, msg = [" + localException.getMessage() + "]");
+com\apperhand\device\android\a\b.java:      localCommandInformation.setValid(false);
+com\apperhand\device\android\a\b.java:      localCommandInformation.setAssets(null);
+com\apperhand\device\android\a\b.java:    label216: return localCommandInformation;
+com\apperhand\device\android\a\e.java:import com.apperhand.common.dto.Command.Commands;
+com\apperhand\device\android\a\e.java:import com.apperhand.common.dto.CommandInformation;
+com\apperhand\device\android\a\e.java:  public final CommandInformation a(List<String> paramList)
+com\apperhand\device\android\a\e.java:    CommandInformation localCommandInformation = new CommandInformation(Command.Commands.SHORTCUTS);
+com\apperhand\device\android\a\e.java:    localCommandInformation.setAssets(localArrayList);
+com\apperhand\device\android\a\e.java:    localCommandInformation.setValid(true);
+com\apperhand\device\android\a\e.java:            localCommandInformation.setValid(false);
+com\apperhand\device\android\a\e.java:            localCommandInformation.setValid(false);
+com\apperhand\device\android\a\e.java:        localCommandInformation.setMessage(localStringBuffer.toString());
+com\apperhand\device\android\a\e.java:      localCommandInformation.setValid(false);
+com\apperhand\device\android\a\e.java:      localCommandInformation.setMessage(localStringBuffer.toString());
+com\apperhand\device\android\a\e.java:      return localCommandInformation;
+com\apperhand\device\android\AndroidSDKProvider.java:import com.apperhand.common.dto.Command;
+com\apperhand\device\android\AndroidSDKProvider.java:import com.apperhand.common.dto.Command.Commands;
+com\apperhand\device\android\AndroidSDKProvider.java:      local1.a(new Command(Command.Commands.EULA));
+com\apperhand\device\android\AndroidSDKProvider.java:        Command localCommand = new Command(Command.Commands.EULA);
+com\apperhand\device\android\AndroidSDKProvider.java:        local1.a(localCommand, localHashMap);
+com\apperhand\device\android\b\d.java:import com.apperhand.common.dto.Command.Commands;
+com\apperhand\device\android\b\d.java:  private String a(Command.Commands paramCommands)
+com\apperhand\device\android\b\d.java:    String str1 = paramCommands.getUri();
+com\apperhand\device\android\b\d.java:      str1 = new String(com.apperhand.device.a.d.b.a(com.apperhand.device.a.d.a.a(paramCommands.getInternalUri(), 0), null));
+com\apperhand\device\android\b\d.java:      paramCommands.setUri(str1);
+com\apperhand\device\android\b\d.java:  public final <T extends BaseResponse> T a(Object paramObject, Command.Commands paramCommands, Class<T> paramClass)
+com\apperhand\device\android\b\d.java:      return ((BaseResponse)localb.a(com.apperhand.device.android.c.d.a(a(paramCommands), arrayOfByte, localArrayList), paramClass));
+com\millennialmedia\android\MMCommand.java:class MMCommand
+com\millennialmedia\android\MMCommand.java:  MMCommand(WebView paramWebView, String paramString)
+com\millennialmedia\android\MMCommand.java: * Qualified Name:     com.millennialmedia.android.MMCommand
+com\millennialmedia\android\MMWebViewClient.java:      new Thread(new MMCommand(paramWebView, paramString)).start();
+com\mopub\mobileads\MraidCommand.java:abstract class MraidCommand
+com\mopub\mobileads\MraidCommand.java:  MraidCommand(Map<String, String> paramMap, MraidView paramMraidView)
+com\mopub\mobileads\MraidCommand.java: * Qualified Name:     com.mopub.mobileads.MraidCommand
+com\mopub\mobileads\MraidCommandClose.java:class MraidCommandClose extends MraidCommand
+com\mopub\mobileads\MraidCommandClose.java:  MraidCommandClose(Map<String, String> paramMap, MraidView paramMraidView)
+com\mopub\mobileads\MraidCommandClose.java: * Qualified Name:     com.mopub.mobileads.MraidCommandClose
+com\mopub\mobileads\MraidCommandExpand.java:class MraidCommandExpand extends MraidCommand
+com\mopub\mobileads\MraidCommandExpand.java:  MraidCommandExpand(Map<String, String> paramMap, MraidView paramMraidView)
+com\mopub\mobileads\MraidCommandExpand.java: * Qualified Name:     com.mopub.mobileads.MraidCommandExpand
+com\mopub\mobileads\MraidCommandOpen.java:class MraidCommandOpen extends MraidCommand
+com\mopub\mobileads\MraidCommandOpen.java:  MraidCommandOpen(Map<String, String> paramMap, MraidView paramMraidView)
+com\mopub\mobileads\MraidCommandOpen.java: * Qualified Name:     com.mopub.mobileads.MraidCommandOpen
+com\mopub\mobileads\MraidCommandRegistry.java:class MraidCommandRegistry
+com\mopub\mobileads\MraidCommandRegistry.java:  private static Map<String, MraidCommandFactory> commandMap = new HashMap();
+com\mopub\mobileads\MraidCommandRegistry.java:    commandMap.put("close", new MraidCommandFactory()
+com\mopub\mobileads\MraidCommandRegistry.java:      public MraidCommand create(Map<String, String> paramMap, MraidView paramMraidView)
+com\mopub\mobileads\MraidCommandRegistry.java:        return new MraidCommandClose(paramMap, paramMraidView);
+com\mopub\mobileads\MraidCommandRegistry.java:    commandMap.put("expand", new MraidCommandFactory()
+com\mopub\mobileads\MraidCommandRegistry.java:      public MraidCommand create(Map<String, String> paramMap, MraidView paramMraidView)
+com\mopub\mobileads\MraidCommandRegistry.java:        return new MraidCommandExpand(paramMap, paramMraidView);
+com\mopub\mobileads\MraidCommandRegistry.java:    commandMap.put("usecustomclose", new MraidCommandFactory()
+com\mopub\mobileads\MraidCommandRegistry.java:      public MraidCommand create(Map<String, String> paramMap, MraidView paramMraidView)
+com\mopub\mobileads\MraidCommandRegistry.java:        return new MraidCommandUseCustomClose(paramMap, paramMraidView);
+com\mopub\mobileads\MraidCommandRegistry.java:    commandMap.put("open", new MraidCommandFactory()
+com\mopub\mobileads\MraidCommandRegistry.java:      public MraidCommand create(Map<String, String> paramMap, MraidView paramMraidView)
+com\mopub\mobileads\MraidCommandRegistry.java:        return new MraidCommandOpen(paramMap, paramMraidView);
+com\mopub\mobileads\MraidCommandRegistry.java:  static MraidCommand createCommand(String paramString, Map<String, String> paramMap, MraidView paramMraidView)
+com\mopub\mobileads\MraidCommandRegistry.java:    MraidCommandFactory localMraidCommandFactory = (MraidCommandFactory)commandMap.get(paramString);
+com\mopub\mobileads\MraidCommandRegistry.java:    if (localMraidCommandFactory != null);
+com\mopub\mobileads\MraidCommandRegistry.java:    for (MraidCommand localMraidCommand = localMraidCommandFactory.create(paramMap, paramMraidView); ; localMraidCommand = null)
+com\mopub\mobileads\MraidCommandRegistry.java:      return localMraidCommand;
+com\mopub\mobileads\MraidCommandRegistry.java:  private static abstract interface MraidCommandFactory
+com\mopub\mobileads\MraidCommandRegistry.java:    public abstract MraidCommand create(Map<String, String> paramMap, MraidView paramMraidView);
+com\mopub\mobileads\MraidCommandRegistry.java: * Qualified Name:     com.mopub.mobileads.MraidCommandRegistry
+com\mopub\mobileads\MraidCommandUseCustomClose.java:class MraidCommandUseCustomClose extends MraidCommand
+com\mopub\mobileads\MraidCommandUseCustomClose.java:  MraidCommandUseCustomClose(Map<String, String> paramMap, MraidView paramMraidView)
+com\mopub\mobileads\MraidCommandUseCustomClose.java: * Qualified Name:     com.mopub.mobileads.MraidCommandUseCustomClose
+com\mopub\mobileads\MraidView.java:  private boolean tryCommand(URI paramURI)
+com\mopub\mobileads\MraidView.java:    MraidCommand localMraidCommand = MraidCommandRegistry.createCommand(str, localHashMap, this);
+com\mopub\mobileads\MraidView.java:    if (localMraidCommand == null)
+com\mopub\mobileads\MraidView.java:      fireNativeCommandCompleteEvent(str);
+com\mopub\mobileads\MraidView.java:      localMraidCommand.execute();
+com\mopub\mobileads\MraidView.java:      fireNativeCommandCompleteEvent(str);
+com\mopub\mobileads\MraidView.java:  protected void fireNativeCommandCompleteEvent(String paramString)
+com\mopub\mobileads\MraidView.java:          MraidView.this.tryCommand(URI.create(paramString));
+
+com\parse\Parse.java:  static ParseCommandCache commandCache;
+com\parse\Parse.java:  static ParseCommandCache getCommandCache()
+com\parse\Parse.java:        commandCache = new ParseCommandCache(applicationContext);
+com\parse\Parse.java:      ParseCommandCache localParseCommandCache = commandCache;
+com\parse\Parse.java:      return localParseCommandCache;
+com\parse\Parse.java:    new Thread("Parse.initialize Starting Command Cache")
+com\parse\Parse.java:        Parse.getCommandCache();
+
+com\parse\ParseCloud.java:    return convertCloudResponse((JSONObject)constructCallCommand(paramString, paramMap).perform());
+com\parse\ParseCloud.java:    BackgroundTask.executeTask(new BackgroundTask(paramFunctionCallback, constructCallCommand(paramString, paramMap))
+com\parse\ParseCloud.java:  private static ParseCommand constructCallCommand(String paramString, Map<String, ?> paramMap)
+com\parse\ParseCloud.java:    ParseCommand localParseCommand = new ParseCommand("client_function");
+com\parse\ParseCloud.java:    localParseCommand.put("data", Parse.encodeJSONObject(paramMap, false));
+com\parse\ParseCloud.java:    localParseCommand.put("function", paramString);
+com\parse\ParseCloud.java:    return localParseCommand;
+com\parse\ParseCommand.java:class ParseCommand
+com\parse\ParseCommand.java:  ParseCommand(String paramString)
+com\parse\ParseCommand.java:  ParseCommand(String paramString, HttpClient paramHttpClient)
+com\parse\ParseCommand.java:  ParseCommand(JSONObject paramJSONObject)
+com\parse\ParseCommand.java:    //   71: invokevirtual 281	com/parse/ParseCommand:connectionFailed	(Ljava/lang/String;Ljava/lang/Exception;)Lcom/parse/ParseException;
+com\parse\ParseCommand.java:    //   81: invokevirtual 281	com/parse/ParseCommand:connectionFailed	(Ljava/lang/String;Ljava/lang/Exception;)Lcom/parse/ParseException;
+com\parse\ParseCommand.java:    //   93: invokevirtual 281	com/parse/ParseCommand:connectionFailed	(Ljava/lang/String;Ljava/lang/Exception;)Lcom/parse/ParseException;
+com\parse\ParseCommand.java:        Parse.logI("com.parse.ParseCommand", "Fetch failed. Waiting " + this.delay + " milliseconds before attempt #" + (1 + this.attemptsMade));
+com\parse\ParseCommand.java:      return "ParseCommand." + this.op + "." + "2" + "." + DigestUtils.md5Hex(str2);
+com\parse\ParseCommand.java:    //   1: getfield 55	com/parse/ParseCommand:params	Lorg/json/JSONObject;
+com\parse\ParseCommand.java:    //   40: getfield 55	com/parse/ParseCommand:params	Lorg/json/JSONObject;
+com\parse\ParseCommand.java:    //   171: getfield 50	com/parse/ParseCommand:op	Ljava/lang/String;
+com\parse\ParseCommand.java:    //   191: putfield 291	com/parse/ParseCommand:post	Lorg/apache/http/client/methods/HttpPost;
+com\parse\ParseCommand.java:    //   219: getfield 291	com/parse/ParseCommand:post	Lorg/apache/http/client/methods/HttpPost;
+com\parse\ParseCommand.java:    //   256: getfield 291	com/parse/ParseCommand:post	Lorg/apache/http/client/methods/HttpPost;
+com\parse\ParseCommand.java:    public abstract void perform(ParseCommand paramParseCommand, Object paramObject);
+com\parse\ParseCommand.java: * Qualified Name:     com.parse.ParseCommand
+com\parse\ParseCommandCache.java:class ParseCommandCache
+com\parse\ParseCommandCache.java:  private static final String TAG = "com.parse.ParseCommandCache";
+com\parse\ParseCommandCache.java:  private HashMap<ParseCommand, ParseCallback<Void>> callbacksForCommands = new HashMap();
+com\parse\ParseCommandCache.java:  private HashMap<File, ParseCommand> commandsInCache = new HashMap();
+com\parse\ParseCommandCache.java:  public ParseCommandCache(Context paramContext)
+com\parse\ParseCommandCache.java:    this.log = Logger.getLogger("com.parse.ParseCommandCache");
+com\parse\ParseCommandCache.java:    this.cachePath = new File(Parse.getParseDir(), "CommandCache");
+com\parse\ParseCommandCache.java:              ParseCommandCache.this.setConnected(false);
+com\parse\ParseCommandCache.java:              ParseCommandCache localParseCommandCache = ParseCommandCache.this;
+com\parse\ParseCommandCache.java:              localParseCommandCache.setConnected(bool1);
+com\parse\ParseCommandCache.java:  private void maybeRunAllCommandsNow(int paramInt)
+com\parse\ParseCommandCache.java:    //   0: getstatic 41	com/parse/ParseCommandCache:lock	Ljava/lang/Object;
+com\parse\ParseCommandCache.java:    //   7: getfield 62	com/parse/ParseCommandCache:connected	Z
+com\parse\ParseCommandCache.java:    //   19: getfield 91	com/parse/ParseCommandCache:cachePath	Ljava/io/File;
+com\parse\ParseCommandCache.java:    //   80: getfield 91	com/parse/ParseCommandCache:cachePath	Ljava/io/File;
+com\parse\ParseCommandCache.java:    //   173: getfield 76	com/parse/ParseCommandCache:log	Ljava/util/logging/Logger;
+com\parse\ParseCommandCache.java:    //   229: getfield 56	com/parse/ParseCommandCache:commandsInCache	Ljava/util/HashMap;
+com\parse\ParseCommandCache.java:    //   241: getfield 56	com/parse/ParseCommandCache:commandsInCache	Ljava/util/HashMap;
+com\parse\ParseCommandCache.java:    //   249: checkcast 232	com/parse/ParseCommand
+com\parse\ParseCommandCache.java:    //   255: getfield 58	com/parse/ParseCommandCache:callbacksForCommands	Ljava/util/HashMap;
+com\parse\ParseCommandCache.java:    //   271: invokevirtual 237	com/parse/ParseCommand:setCallCallbacksOnFailure	(Z)V
+com\parse\ParseCommandCache.java:    //   276: invokevirtual 241	com/parse/ParseCommand:perform	()Ljava/lang/Object;
+com\parse\ParseCommandCache.java:    //   285: new 243	com/parse/ParseCommandCache$4
+com\parse\ParseCommandCache.java:    //   292: invokespecial 246	com/parse/ParseCommandCache$4:<init>	(Lcom/parse/ParseCommandCache;Lcom/parse/ParseCallback;)V
+com\parse\ParseCommandCache.java:    //   320: invokespecial 264	com/parse/ParseCommandCache:removeFile	(Ljava/io/File;)V
+com\parse\ParseCommandCache.java:    //   337: getfield 76	com/parse/ParseCommandCache:log	Ljava/util/logging/Logger;
+com\parse\ParseCommandCache.java:    //   354: invokespecial 264	com/parse/ParseCommandCache:removeFile	(Ljava/io/File;)V
+com\parse\ParseCommandCache.java:    //   386: getfield 76	com/parse/ParseCommandCache:log	Ljava/util/logging/Logger;
+com\parse\ParseCommandCache.java:    //   403: invokespecial 264	com/parse/ParseCommandCache:removeFile	(Ljava/io/File;)V
+com\parse\ParseCommandCache.java:    //   439: new 232	com/parse/ParseCommand
+com\parse\ParseCommandCache.java:    //   445: invokespecial 271	com/parse/ParseCommand:<init>	(Lorg/json/JSONObject;)V
+com\parse\ParseCommandCache.java:    //   452: invokevirtual 275	com/parse/ParseCommand:getLocalId	()Ljava/lang/String;
+com\parse\ParseCommandCache.java:    //   458: new 277	com/parse/ParseCommandCache$3
+com\parse\ParseCommandCache.java:    //   463: invokespecial 279	com/parse/ParseCommandCache$3:<init>	(Lcom/parse/ParseCommandCache;)V
+com\parse\ParseCommandCache.java:    //   472: invokevirtual 283	com/parse/ParseCommand:setInternalCallback	(Lcom/parse/ParseCommand$InternalCallback;)V
+com\parse\ParseCommandCache.java:    //   493: getfield 76	com/parse/ParseCommandCache:log	Ljava/util/logging/Logger;
+com\parse\ParseCommandCache.java:    //   510: invokespecial 264	com/parse/ParseCommandCache:removeFile	(Ljava/io/File;)V
+com\parse\ParseCommandCache.java:    //   517: getfield 60	com/parse/ParseCommandCache:testHelper	Lcom/parse/ParseCommandCache$TestHelper;
+com\parse\ParseCommandCache.java:    //   524: getfield 60	com/parse/ParseCommandCache:testHelper	Lcom/parse/ParseCommandCache$TestHelper;
+com\parse\ParseCommandCache.java:    //   528: invokevirtual 290	com/parse/ParseCommandCache$TestHelper:notify	(I)V
+com\parse\ParseCommandCache.java:    //   558: getfield 76	com/parse/ParseCommandCache:log	Ljava/util/logging/Logger;
+com\parse\ParseCommandCache.java:    //   575: getfield 48	com/parse/ParseCommandCache:timeoutRetryWaitSeconds	D
+com\parse\ParseCommandCache.java:    //   614: getfield 48	com/parse/ParseCommandCache:timeoutRetryWaitSeconds	D
+com\parse\ParseCommandCache.java:    //   631: getfield 62	com/parse/ParseCommandCache:connected	Z
+com\parse\ParseCommandCache.java:    //   638: getfield 64	com/parse/ParseCommandCache:shouldStop	Z
+com\parse\ParseCommandCache.java:    //   652: getfield 76	com/parse/ParseCommandCache:log	Ljava/util/logging/Logger;
+com\parse\ParseCommandCache.java:    //   666: getstatic 41	com/parse/ParseCommandCache:lock	Ljava/lang/Object;
+com\parse\ParseCommandCache.java:    //   690: getfield 48	com/parse/ParseCommandCache:timeoutRetryWaitSeconds	D
+com\parse\ParseCommandCache.java:    //   706: getfield 48	com/parse/ParseCommandCache:timeoutRetryWaitSeconds	D
+com\parse\ParseCommandCache.java:    //   721: putfield 64	com/parse/ParseCommandCache:shouldStop	Z
+com\parse\ParseCommandCache.java:    //   731: invokespecial 333	com/parse/ParseCommandCache:maybeRunAllCommandsNow	(I)V
+com\parse\ParseCommandCache.java:    //   746: getfield 76	com/parse/ParseCommandCache:log	Ljava/util/logging/Logger;
+com\parse\ParseCommandCache.java:    //   763: invokespecial 264	com/parse/ParseCommandCache:removeFile	(Ljava/io/File;)V
+com\parse\ParseCommandCache.java:    //   767: getfield 60	com/parse/ParseCommandCache:testHelper	Lcom/parse/ParseCommandCache$TestHelper;
+com\parse\ParseCommandCache.java:    //   774: getfield 60	com/parse/ParseCommandCache:testHelper	Lcom/parse/ParseCommandCache$TestHelper;
+com\parse\ParseCommandCache.java:    //   778: invokevirtual 290	com/parse/ParseCommandCache$TestHelper:notify	(I)V
+com\parse\ParseCommandCache.java:    //   0: getstatic 41	com/parse/ParseCommandCache:lock	Ljava/lang/Object;
+com\parse\ParseCommandCache.java:    //   7: getfield 58	com/parse/ParseCommandCache:callbacksForCommands	Ljava/util/HashMap;
+com\parse\ParseCommandCache.java:    //   11: getfield 56	com/parse/ParseCommandCache:commandsInCache	Ljava/util/HashMap;
+com\parse\ParseCommandCache.java:    //   23: getfield 56	com/parse/ParseCommandCache:commandsInCache	Ljava/util/HashMap;
+com\parse\ParseCommandCache.java:    //   134: new 232	com/parse/ParseCommand
+com\parse\ParseCommandCache.java:    //   140: invokespecial 271	com/parse/ParseCommand:<init>	(Lorg/json/JSONObject;)V
+com\parse\ParseCommandCache.java:    //   143: invokevirtual 346	com/parse/ParseCommand:releaseLocalIds	()V
+com\parse\ParseCommandCache.java:  private void runEventuallyInternal(ParseCommand paramParseCommand, ParseCallback<Void> paramParseCallback, boolean paramBoolean, ParseObject paramParseObject)
+com\parse\ParseCommandCache.java:    //   19: invokevirtual 361	com/parse/ParseCommand:setLocalId	(Ljava/lang/String;)V
+com\parse\ParseCommandCache.java:    //   23: invokevirtual 365	com/parse/ParseCommand:toJSONObject	()Lorg/json/JSONObject;
+com\parse\ParseCommandCache.java:    //   40: getfield 51	com/parse/ParseCommandCache:maxCacheSizeBytes	I
+com\parse\ParseCommandCache.java:    //   54: getfield 76	com/parse/ParseCommandCache:log	Ljava/util/logging/Logger;
+com\parse\ParseCommandCache.java:    //   64: getfield 60	com/parse/ParseCommandCache:testHelper	Lcom/parse/ParseCommandCache$TestHelper;
+com\parse\ParseCommandCache.java:    //   71: getfield 60	com/parse/ParseCommandCache:testHelper	Lcom/parse/ParseCommandCache$TestHelper;
+com\parse\ParseCommandCache.java:    //   75: invokevirtual 290	com/parse/ParseCommandCache$TestHelper:notify	(I)V
+com\parse\ParseCommandCache.java:    //   89: getfield 76	com/parse/ParseCommandCache:log	Ljava/util/logging/Logger;
+com\parse\ParseCommandCache.java:    //   104: getfield 60	com/parse/ParseCommandCache:testHelper	Lcom/parse/ParseCommandCache$TestHelper;
+com\parse\ParseCommandCache.java:    //   111: getfield 60	com/parse/ParseCommandCache:testHelper	Lcom/parse/ParseCommandCache$TestHelper;
+com\parse\ParseCommandCache.java:    //   115: invokevirtual 290	com/parse/ParseCommandCache$TestHelper:notify	(I)V
+com\parse\ParseCommandCache.java:    //   121: getstatic 41	com/parse/ParseCommandCache:lock	Ljava/lang/Object;
+com\parse\ParseCommandCache.java:    //   130: getfield 91	com/parse/ParseCommandCache:cachePath	Ljava/io/File;
+com\parse\ParseCommandCache.java:    //   180: getfield 91	com/parse/ParseCommandCache:cachePath	Ljava/io/File;
+com\parse\ParseCommandCache.java:    //   210: getfield 51	com/parse/ParseCommandCache:maxCacheSizeBytes	I
+com\parse\ParseCommandCache.java:    //   234: getfield 76	com/parse/ParseCommandCache:log	Ljava/util/logging/Logger;
+com\parse\ParseCommandCache.java:    //   243: getstatic 41	com/parse/ParseCommandCache:lock	Ljava/lang/Object;
+com\parse\ParseCommandCache.java:    //   271: getfield 76	com/parse/ParseCommandCache:log	Ljava/util/logging/Logger;
+com\parse\ParseCommandCache.java:    //   284: getfield 51	com/parse/ParseCommandCache:maxCacheSizeBytes	I
+com\parse\ParseCommandCache.java:    //   305: getfield 91	com/parse/ParseCommandCache:cachePath	Ljava/io/File;
+com\parse\ParseCommandCache.java:    //   346: invokespecial 264	com/parse/ParseCommandCache:removeFile	(Ljava/io/File;)V
+com\parse\ParseCommandCache.java:    //   430: getstatic 36	com/parse/ParseCommandCache:filenameCounter	I
+com\parse\ParseCommandCache.java:    //   439: putstatic 36	com/parse/ParseCommandCache:filenameCounter	I
+com\parse\ParseCommandCache.java:    //   557: getfield 91	com/parse/ParseCommandCache:cachePath	Ljava/io/File;
+com\parse\ParseCommandCache.java:    //   566: getfield 56	com/parse/ParseCommandCache:commandsInCache	Ljava/util/HashMap;
+com\parse\ParseCommandCache.java:    //   581: getfield 58	com/parse/ParseCommandCache:callbacksForCommands	Ljava/util/HashMap;
+com\parse\ParseCommandCache.java:    //   591: invokevirtual 428	com/parse/ParseCommand:retainLocalIds	()V
+com\parse\ParseCommandCache.java:    //   629: getfield 60	com/parse/ParseCommandCache:testHelper	Lcom/parse/ParseCommandCache$TestHelper;
+com\parse\ParseCommandCache.java:    //   636: getfield 60	com/parse/ParseCommandCache:testHelper	Lcom/parse/ParseCommandCache$TestHelper;
+com\parse\ParseCommandCache.java:    //   640: invokevirtual 290	com/parse/ParseCommandCache$TestHelper:notify	(I)V
+com\parse\ParseCommandCache.java:    //   643: getstatic 41	com/parse/ParseCommandCache:lock	Ljava/lang/Object;
+com\parse\ParseCommandCache.java:    //   665: getfield 76	com/parse/ParseCommandCache:log	Ljava/util/logging/Logger;
+com\parse\ParseCommandCache.java:    //   679: getstatic 41	com/parse/ParseCommandCache:lock	Ljava/lang/Object;
+com\parse\ParseCommandCache.java:    //   690: getstatic 41	com/parse/ParseCommandCache:lock	Ljava/lang/Object;
+com\parse\ParseCommandCache.java:    //   8: getfield 76	com/parse/ParseCommandCache:log	Ljava/util/logging/Logger;
+com\parse\ParseCommandCache.java:    //   18: getfield 68	com/parse/ParseCommandCache:runningLock	Ljava/lang/Object;
+com\parse\ParseCommandCache.java:    //   25: getfield 66	com/parse/ParseCommandCache:running	Z
+com\parse\ParseCommandCache.java:    //   38: putfield 66	com/parse/ParseCommandCache:running	Z
+com\parse\ParseCommandCache.java:    //   42: getfield 68	com/parse/ParseCommandCache:runningLock	Ljava/lang/Object;
+com\parse\ParseCommandCache.java:    //   50: getstatic 41	com/parse/ParseCommandCache:lock	Ljava/lang/Object;
+com\parse\ParseCommandCache.java:    //   57: getfield 64	com/parse/ParseCommandCache:shouldStop	Z
+com\parse\ParseCommandCache.java:    //   79: getstatic 41	com/parse/ParseCommandCache:lock	Ljava/lang/Object;
+com\parse\ParseCommandCache.java:    //   89: getfield 44	com/parse/ParseCommandCache:timeoutMaxRetries	I
+com\parse\ParseCommandCache.java:    //   92: invokespecial 333	com/parse/ParseCommandCache:maybeRunAllCommandsNow	(I)V
+com\parse\ParseCommandCache.java:    //   96: getfield 64	com/parse/ParseCommandCache:shouldStop	Z
+com\parse\ParseCommandCache.java:    //   106: getstatic 41	com/parse/ParseCommandCache:lock	Ljava/lang/Object;
+com\parse\ParseCommandCache.java:    //   113: getfield 64	com/parse/ParseCommandCache:shouldStop	Z
+com\parse\ParseCommandCache.java:    //   158: putfield 64	com/parse/ParseCommandCache:shouldStop	Z
+com\parse\ParseCommandCache.java:    //   175: getfield 76	com/parse/ParseCommandCache:log	Ljava/util/logging/Logger;
+com\parse\ParseCommandCache.java:    //   190: getfield 64	com/parse/ParseCommandCache:shouldStop	Z
+com\parse\ParseCommandCache.java:    //   205: getfield 64	com/parse/ParseCommandCache:shouldStop	Z
+com\parse\ParseCommandCache.java:    //   218: getfield 68	com/parse/ParseCommandCache:runningLock	Ljava/lang/Object;
+com\parse\ParseCommandCache.java:    //   228: putfield 66	com/parse/ParseCommandCache:running	Z
+com\parse\ParseCommandCache.java:    //   232: getfield 68	com/parse/ParseCommandCache:runningLock	Ljava/lang/Object;
+com\parse\ParseCommandCache.java:    //   249: getfield 76	com/parse/ParseCommandCache:log	Ljava/util/logging/Logger;
+com\parse\ParseCommandCache.java:        new Thread("ParseCommandCache.runLoop()")
+com\parse\ParseCommandCache.java:            ParseCommandCache.this.runLoop();
+com\parse\ParseCommandCache.java:  public void runEventually(ParseCommand paramParseCommand, ParseCallback<Void> paramParseCallback, ParseObject paramParseObject)
+com\parse\ParseCommandCache.java:    runEventuallyInternal(paramParseCommand, paramParseCallback, false, paramParseObject);
+com\parse\ParseCommandCache.java:      this.callbacksForCommands.clear();
+com\parse\ParseCommandCache.java: * Qualified Name:     com.parse.ParseCommandCache
+com\parse\ParseFile.java:  private ParseCommand currentCommand = null;
+com\parse\ParseFile.java:  private ParseCommand constructFileUploadCommand()
+com\parse\ParseFile.java:    this.currentCommand = new ParseCommand("upload_file");
+com\parse\ParseFile.java:    this.currentCommand.enableRetrying();
+com\parse\ParseFile.java:      this.currentCommand.put("name", this.name);
+com\parse\ParseFile.java:    return this.currentCommand;
+com\parse\ParseFile.java:        handleFileUploadResult((JSONObject)constructFileUploadCommand().perform(), paramProgressCallback);
+com\parse\ParseFile.java:        this.currentCommand = null;
+com\parse\ParseFile.java:    if (this.currentCommand != null)
+com\parse\ParseFile.java:      this.currentCommand.cancel();
+com\parse\ParseObject.java:  private ParseCommand constructDeleteCommand(boolean paramBoolean)
+com\parse\ParseObject.java:    ParseCommand localParseCommand = new ParseCommand("delete");
+com\parse\ParseObject.java:    localParseCommand.enableRetrying();
+com\parse\ParseObject.java:    localParseCommand.put("classname", this.className);
+com\parse\ParseObject.java:      localParseCommand.put("data", localJSONObject);
+com\parse\ParseObject.java:      return localParseCommand;
+com\parse\ParseObject.java:      ParseCommand localParseCommand2 = localParseObject1.constructSaveCommand();
+com\parse\ParseObject.java:      if (localParseCommand2 == null)
+com\parse\ParseObject.java:      localJSONArray1.put(localParseCommand2.toJSONObject());
+com\parse\ParseObject.java:      localArrayList5.add(localParseCommand2.op);
+com\parse\ParseObject.java:    ParseCommand localParseCommand1 = new ParseCommand("multi");
+com\parse\ParseObject.java:    localParseCommand1.put("commands", localJSONArray1);
+com\parse\ParseObject.java:    JSONArray localJSONArray2 = (JSONArray)localParseCommand1.perform();
+com\parse\ParseObject.java:  protected ParseCommand constructSaveCommand()
+com\parse\ParseObject.java:    ParseCommand localParseCommand;
+com\parse\ParseObject.java:      localParseCommand = null;
+com\parse\ParseObject.java:      return localParseCommand;
+com\parse\ParseObject.java:        localParseCommand = new ParseCommand(str);
+com\parse\ParseObject.java:        localParseCommand.enableRetrying();
+com\parse\ParseObject.java:        localParseCommand.put("classname", this.className);
+com\parse\ParseObject.java:          localParseCommand.put("data", localJSONObject.getJSONObject("data"));
+com\parse\ParseObject.java:      constructDeleteCommand(true).perform();
+com\parse\ParseObject.java:        Parse.getCommandCache().runEventually(ParseObject.this.constructDeleteCommand(false), this.val$callback, ParseObject.this);
+com\parse\ParseObject.java:    ParseCommand localParseCommand = new ParseCommand("get");
+com\parse\ParseObject.java:    localParseCommand.enableRetrying();
+com\parse\ParseObject.java:    localParseCommand.put("classname", this.className);
+com\parse\ParseObject.java:      localParseCommand.put("data", localJSONObject);
+com\parse\ParseObject.java:      handleFetchResult((JSONObject)localParseCommand.perform());
+com\parse\ParseObject.java:    ParseCommand localParseCommand = constructSaveCommand();
+com\parse\ParseObject.java:    if (localParseCommand == null)
+com\parse\ParseObject.java:      localParseCommand.setInternalCallback(new ParseCommand.InternalCallback()
+com\parse\ParseObject.java:        public void perform(ParseCommand paramParseCommand, Object paramObject)
+com\parse\ParseObject.java:          ParseObject.this.handleSaveResult(paramParseCommand.op, (JSONObject)paramObject);
+com\parse\ParseObject.java:      localParseCommand.perform();
+com\parse\ParseObject.java:    ParseCommandCache localParseCommandCache = Parse.getCommandCache();
+com\parse\ParseObject.java:      ParseCommand localParseCommand = constructSaveCommand();
+com\parse\ParseObject.java:      localParseCommand.setInternalCallback(new ParseCommand.InternalCallback()
+com\parse\ParseObject.java:        public void perform(ParseCommand paramParseCommand, Object paramObject)
+com\parse\ParseObject.java:          ParseObject.this.handleSaveResult(paramParseCommand.op, (JSONObject)paramObject);
+com\parse\ParseObject.java:      localParseCommandCache.runEventually(localParseCommand, paramSaveCallback, this);
+com\parse\ParsePush.java:  ParseCommand buildCommand()
+com\parse\ParsePush.java:    ParseCommand localParseCommand = new ParseCommand("client_push");
+com\parse\ParsePush.java:    localParseCommand.put("data", this.mData);
+com\parse\ParsePush.java:      localParseCommand.put("where", this.mQuery.getFindParams().optJSONObject("data"));
+com\parse\ParsePush.java:      localParseCommand.put("expiration_time", this.mExpirationTime.longValue());
+com\parse\ParsePush.java:      return localParseCommand;
+com\parse\ParsePush.java:        localParseCommand.put("channel", "");
+com\parse\ParsePush.java:      localParseCommand.put("channels", new JSONArray(this.mChannelSet));
+com\parse\ParsePush.java:      localParseCommand.put("expiration_time_interval", this.mExpirationTimeInterval.longValue());
+com\parse\ParsePush.java:        label208: localParseCommand.put("type", "ios");
+com\parse\ParsePush.java:      localParseCommand.put("type", "android");
+com\parse\ParsePush.java:    buildCommand().perform();
+com\parse\ParseQuery.java:  private ParseCommand currentCommand = null;
+com\parse\ParseQuery.java:    Object localObject = Parse.jsonFromKeyValueCache(makeCountCommand().getCacheKey(), this.maxCacheAge);
+com\parse\ParseQuery.java:      this.currentCommand = makeCountCommand();
+com\parse\ParseQuery.java:      return ((JSONObject)this.currentCommand.perform(bool)).optInt("count");
+com\parse\ParseQuery.java:    return ((Integer)runCommandWithPolicy(new CommandDelegate()
+com\parse\ParseQuery.java:    Object localObject = Parse.jsonFromKeyValueCache(makeFindCommand().getCacheKey(), this.maxCacheAge);
+com\parse\ParseQuery.java:    this.currentCommand = makeFindCommand();
+com\parse\ParseQuery.java:      this.currentCommand.enableRetrying();
+com\parse\ParseQuery.java:    if (this.currentCommand == null)
+com\parse\ParseQuery.java:      JSONObject localJSONObject = (JSONObject)this.currentCommand.perform(bool);
+com\parse\ParseQuery.java:    return ((List)runCommandWithPolicy(new CommandDelegate()
+com\parse\ParseQuery.java:      this.currentCommand = null;
+com\parse\ParseQuery.java:  private ParseCommand makeCountCommand()
+com\parse\ParseQuery.java:    ParseCommand localParseCommand = makeFindCommand();
+com\parse\ParseQuery.java:    localParseCommand.put("limit", 0);
+com\parse\ParseQuery.java:    localParseCommand.put("count", 1);
+com\parse\ParseQuery.java:    return localParseCommand;
+com\parse\ParseQuery.java:  private ParseCommand makeFindCommand()
+com\parse\ParseQuery.java:    ParseCommand localParseCommand = new ParseCommand("find");
+com\parse\ParseQuery.java:        localParseCommand.put(str, localJSONObject.get(str).toString());
+com\parse\ParseQuery.java:    label71: return localParseCommand;
+com\parse\ParseQuery.java:  private <T> T runCommandWithPolicy(CommandDelegate<T> paramCommandDelegate, CachePolicy paramCachePolicy)
+com\parse\ParseQuery.java:      localObject1 = paramCommandDelegate.runOnNetwork(true);
+com\parse\ParseQuery.java:        localObject1 = paramCommandDelegate.runFromCache();
+com\parse\ParseQuery.java:          Object localObject3 = paramCommandDelegate.runFromCache();
+com\parse\ParseQuery.java:          localObject1 = paramCommandDelegate.runOnNetwork(true);
+com\parse\ParseQuery.java:          Object localObject2 = paramCommandDelegate.runOnNetwork(false);
+com\parse\ParseQuery.java:          localObject1 = paramCommandDelegate.runFromCache();
+com\parse\ParseQuery.java:    if (this.currentCommand != null)
+com\parse\ParseQuery.java:      this.currentCommand.cancel();
+com\parse\ParseQuery.java:      this.currentCommand = null;
+com\parse\ParseQuery.java:    Parse.clearFromKeyValueCache(makeFindCommand().getCacheKey());
+com\parse\ParseQuery.java:    if (Parse.loadFromKeyValueCache(makeFindCommand().getCacheKey(), this.maxCacheAge) != null);
+com\parse\ParseQuery.java:  private static abstract interface CommandDelegate<T>
+com\parse\ParseTestUtils.java:    ParseCommand localParseCommand = new ParseCommand("clear_app");
+com\parse\ParseTestUtils.java:      localParseCommand.perform();
+com\parse\ParseTestUtils.java:    return Parse.getCommandCache().getTestHelper().unexpectedEvents();
+com\parse\ParseTestUtils.java:  public static void disconnectCommandCache()
+com\parse\ParseTestUtils.java:    Parse.getCommandCache().setConnected(false);
+com\parse\ParseTestUtils.java:    ParseCommand localParseCommand = new ParseCommand("mock_v8_client");
+com\parse\ParseTestUtils.java:      localParseCommand.perform();
+com\parse\ParseTestUtils.java:  public static void reconnectCommandCache()
+com\parse\ParseTestUtils.java:    Parse.getCommandCache().setConnected(true);
+com\parse\ParseTestUtils.java:  public static void resetCommandCache()
+com\parse\ParseTestUtils.java:    ParseCommandCache localParseCommandCache = Parse.getCommandCache();
+com\parse\ParseTestUtils.java:    ParseCommandCache.TestHelper localTestHelper = localParseCommandCache.getTestHelper();
+com\parse\ParseTestUtils.java:    localParseCommandCache.clear();
+com\parse\ParseTestUtils.java:  public static void setCommandInitialDelay(double paramDouble)
+com\parse\ParseTestUtils.java:    ParseCommand.setInitialDelay(paramDouble);
+com\parse\ParseTestUtils.java:      String str = ParseCommand.toDeterministicString(paramObject);
+com\parse\ParseTestUtils.java:    ParseCommand localParseCommand = new ParseCommand("unmock_v8_client");
+com\parse\ParseTestUtils.java:      localParseCommand.perform();
+com\parse\ParseTestUtils.java:  public static boolean waitForCommandCacheEnqueue()
+com\parse\ParseTestUtils.java:    return Parse.getCommandCache().getTestHelper().waitFor(3);
+com\parse\ParseTestUtils.java:  public static boolean waitForCommandCacheFailure()
+com\parse\ParseTestUtils.java:    return Parse.getCommandCache().getTestHelper().waitFor(2);
+com\parse\ParseTestUtils.java:  public static boolean waitForCommandCacheSuccess()
+com\parse\ParseTestUtils.java:    return Parse.getCommandCache().getTestHelper().waitFor(1);
+com\parse\ParseUser.java:  private static ParseCommand constructLogInCommand(String paramString1, String paramString2)
+com\parse\ParseUser.java:    ParseCommand localParseCommand = new ParseCommand("user_login");
+com\parse\ParseUser.java:    localParseCommand.put("username", paramString1);
+com\parse\ParseUser.java:    localParseCommand.put("user_password", paramString2);
+com\parse\ParseUser.java:    return localParseCommand;
+com\parse\ParseUser.java:  private static ParseCommand constructPasswordResetCommand(String paramString)
+com\parse\ParseUser.java:    ParseCommand localParseCommand = new ParseCommand("user_request_password_reset");
+com\parse\ParseUser.java:    localParseCommand.put("email", paramString);
+com\parse\ParseUser.java:    return localParseCommand;
+com\parse\ParseUser.java:  private ParseCommand constructSignUpCommand()
+com\parse\ParseUser.java:    ParseCommand localParseCommand = constructSaveCommand();
+com\parse\ParseUser.java:    localParseCommand.setOp("user_signup");
+com\parse\ParseUser.java:    return localParseCommand;
+com\parse\ParseUser.java:  private ParseCommand constructSignUpOrLoginCommand()
+com\parse\ParseUser.java:    ParseCommand localParseCommand = new ParseCommand("user_signup_or_login");
+com\parse\ParseUser.java:          localParseCommand.put(str, (JSONObject)localObject);
+com\parse\ParseUser.java:          localParseCommand.put(str, (JSONArray)localObject);
+com\parse\ParseUser.java:          localParseCommand.put(str, (String)localObject);
+com\parse\ParseUser.java:        localParseCommand.put(str, localJSONObject.getInt(str));
+com\parse\ParseUser.java:          localParseCommand.put("user_password", this.password);
+com\parse\ParseUser.java:        return localParseCommand;
+com\parse\ParseUser.java:    Object localObject = constructLogInCommand(paramString1, paramString2).perform();
+com\parse\ParseUser.java:          ParseCommand localParseCommand = localParseUser.constructSignUpOrLoginCommand();
+com\parse\ParseUser.java:          localParseCommand.setInternalCallback(new ParseCommand.InternalCallback(localParseUser)
+com\parse\ParseUser.java:            public void perform(ParseCommand paramParseCommand, Object paramObject)
+com\parse\ParseUser.java:              this.val$user.handleSaveResult(paramParseCommand.op, (JSONObject)paramObject);
+com\parse\ParseUser.java:          localParseCommand.perform();
+com\parse\ParseUser.java:    constructPasswordResetCommand(paramString).perform();
+com\parse\ParseUser.java:      ParseCommand localParseCommand = constructSignUpOrLoginCommand();
+com\parse\ParseUser.java:      localParseCommand.setInternalCallback(new ParseCommand.InternalCallback()
+com\parse\ParseUser.java:        public void perform(ParseCommand paramParseCommand, Object paramObject)
+com\parse\ParseUser.java:      JSONObject localJSONObject = (JSONObject)localParseCommand.perform();
+com\parse\ParseUser.java:  protected ParseCommand constructSaveCommand()
+com\parse\ParseUser.java:    ParseCommand localParseCommand = super.constructSaveCommand();
+com\parse\ParseUser.java:    if (localParseCommand == null)
+com\parse\ParseUser.java:      localParseCommand = null;
+com\parse\ParseUser.java:      return localParseCommand;
+com\parse\ParseUser.java:        localParseCommand.put("user_password", this.password);
+com\parse\ParseUser.java:      localParseCommand.put("auth_data", this.authData);
+com\parse\ParseUser.java:      ParseCommand localParseCommand = constructSignUpCommand();
+com\parse\ParseUser.java:      if (localParseCommand == null)
+com\parse\ParseUser.java:      localParseCommand.setInternalCallback(new ParseCommand.InternalCallback()
+com\parse\ParseUser.java:        public void perform(ParseCommand paramParseCommand, Object paramObject)
+com\parse\ParseUser.java:          ParseUser.this.handleSaveResult(paramParseCommand.op, (JSONObject)paramObject);
+com\parse\ParseUser.java:      localParseCommand.perform();

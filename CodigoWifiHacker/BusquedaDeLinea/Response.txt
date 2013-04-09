@@ -1,0 +1,11 @@
+com\apperhand\common\dto\protocol\HomepageResponse.java:public class HomepageResponse extends BaseResponse
+com\apperhand\common\dto\protocol\HomepageResponse.java:    return "HomepageResponse [homepage=" + this.homepage + ", toString()=" + super.toString() + "]";
+com\apperhand\common\dto\protocol\HomepageResponse.java: * Qualified Name:     com.apperhand.common.dto.protocol.HomepageResponse
+com\apperhand\device\a\b\e.java:import com.apperhand.common.dto.protocol.HomepageResponse;
+com\apperhand\device\a\b\e.java:    HomepageResponse localHomepageResponse;
+com\apperhand\device\a\b\e.java:      localHomepageResponse = (HomepageResponse)this.e.b().a(paramHomepageRequest, Command.Commands.HOMEPAGE, HomepageResponse.class);
+com\apperhand\device\a\b\e.java:      return localHomepageResponse;
+com\apperhand\device\a\b\e.java:      localHomepageResponse = null;
+com\apperhand\device\a\b\e.java:    HomepageResponse localHomepageResponse = (HomepageResponse)paramBaseResponse;
+com\apperhand\device\a\b\e.java:    if (localHomepageResponse != null)
+com\apperhand\device\a\b\e.java:      boolean bool = this.g.a(localHomepageResponse.getHomepage());

@@ -1,0 +1,2 @@
+com\apperhand\common\dto\protocol\CommandsResponse.java:  public List<Command> getCommands()
+com\apperhand\device\a\b.java:      List localList = localCommandsResponse.getCommands();

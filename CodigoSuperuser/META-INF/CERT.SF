@@ -1,0 +1,538 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: pFIB51PJqySceI+rwa4yY2dOktE=
+
+Name: res/drawable-large/ic_btn_clear_log.png
+SHA1-Digest: 4dUthOzIhYF+i8h/ufZiYpjE8ok=
+
+Name: res/drawable-hdpi-v11/ic_menu_preferences.png
+SHA1-Digest: pHKorOqhQmkT7ukWGotwUa2Vubw=
+
+Name: res/layout/activity_home_tab.xml
+SHA1-Digest: Z6KgS9zZFCuKlMuoqy6XUJJRHjo=
+
+Name: res/drawable-hdpi/dialog_background.9.png
+SHA1-Digest: dvEUUZ7jsqnj8Xw36ZESwEShMmg=
+
+Name: res/drawable-mdpi/dialog_divider.9.png
+SHA1-Digest: YQQfhpviKXLH2c5d2H8fZOJsrXw=
+
+Name: res/anim/grow_from_top.xml
+SHA1-Digest: /9BpRnSDHATp5bFDUD0H5lN9rLo=
+
+Name: res/drawable-hdpi/stat_su.png
+SHA1-Digest: LT85aAkSdUuGXED0LD72BptNNbs=
+
+Name: res/drawable-ldpi/ic_menu_star.png
+SHA1-Digest: xJ9NIt1XbRpNaBeB35ECyb4puyI=
+
+Name: res/drawable-land/dialog_background.9.png
+SHA1-Digest: o8EPfCy2Gndn6IOPHG+CXxDLjDs=
+
+Name: res/layout/fragment_app_details.xml
+SHA1-Digest: DLmdNxhnX+HBDiyKMMeR5Dn+FjQ=
+
+Name: res/drawable-mdpi/timepicker_input_pressed.9.png
+SHA1-Digest: fPrWDsozzRbyspTJXXZDoqn4pZw=
+
+Name: res/drawable-mdpi/ic_menu_clear_log.png
+SHA1-Digest: YmTjjAiuUoyfi/tsqnEJ4T+JeKY=
+
+Name: res/layout/activity_log.xml
+SHA1-Digest: tUXM2x1OLBe0kl0P5jzS2HRp2QQ=
+
+Name: res/drawable-ldpi/app_list_header.9.png
+SHA1-Digest: jxtNzO2/h/7l5rrlnOYVF4hDpVM=
+
+Name: res/drawable-ldpi-v9/stat_su.png
+SHA1-Digest: ZtdK+YWIazUgr0pRm3SuXZIbEZ8=
+
+Name: res/drawable-hdpi/ic_title_home.png
+SHA1-Digest: poKVaUiF9VfqIe9kB1J1KveXzgY=
+
+Name: res/drawable-hdpi/perm_deny_dot.png
+SHA1-Digest: MiNXRf9TnIb8yeZjZlr14t3687k=
+
+Name: res/drawable-land-ldpi/dialog_background.9.png
+SHA1-Digest: wzqZeuYDXag8DCLEQWYAMNmk0VE=
+
+Name: res/drawable-mdpi/list_activated.9.png
+SHA1-Digest: jfhD8kG1rd+YAvfM3ETF0FR59LA=
+
+Name: res/drawable-hdpi/timepicker_input_selected.9.png
+SHA1-Digest: LtKaHC5a0KydT16l3QJ1DW5/eYU=
+
+Name: res/drawable-hdpi/timepicker_input_normal.9.png
+SHA1-Digest: Y+zGtCh/Xthits/AKqMIxEYCU9o=
+
+Name: res/drawable-mdpi/options_button_pressed.9.png
+SHA1-Digest: SoZj6IUNX+FJPp6mtVckKoShjtM=
+
+Name: res/drawable/app_list_selector.xml
+SHA1-Digest: xtXs2S6s4gJrtNPoR4rKCgIfTiU=
+
+Name: res/drawable-large-mdpi/app_list_divider.9.png
+SHA1-Digest: hCS237aTWoIpfnB+/lVLgLatOzg=
+
+Name: res/drawable-mdpi/ic_logo.png
+SHA1-Digest: dhFukYfZcVYpeoFMHPnmTmu8kuI=
+
+Name: res/drawable-hdpi/timepicker_up_normal.9.png
+SHA1-Digest: edfldoe+r+MhCg/FcYdU5H+8t6A=
+
+Name: res/layout/dialog_malicious_apps.xml
+SHA1-Digest: i4v6wna2fOlZHTNQ5mx6bKKH9Rs=
+
+Name: res/anim/grow_from_bottom.xml
+SHA1-Digest: wDwbCMbykJoWoekhU/t6W7LKJW8=
+
+Name: res/raw/changelog.txt
+SHA1-Digest: Pwtqn5ekSh/yBannkXj0AX1FH1w=
+
+Name: res/drawable-mdpi/perm_deny_emo.png
+SHA1-Digest: Ls+jzlz2Qa35bUCh2M6XNd5Kc1Y=
+
+Name: res/layout/activity_updater.xml
+SHA1-Digest: V1B4LGfpekJkpoTKNtdV1VSAMys=
+
+Name: res/drawable-mdpi/list_header_top.9.png
+SHA1-Digest: Vnu4OD/+dtRkyLw5bj4Si7+FIaI=
+
+Name: res/layout-large/activity_home.xml
+SHA1-Digest: gyULM1a7Ls24pJF3/ccFmxtvNQk=
+
+Name: res/drawable-mdpi/dialog_background.9.png
+SHA1-Digest: 8geq+s+XRpNva1c52ukissqTytI=
+
+Name: res/drawable-hdpi/panel_background.9.png
+SHA1-Digest: 4yT2Ff2LixcN5TPV0ii84yIu2gc=
+
+Name: res/layout/fragment_log.xml
+SHA1-Digest: weE1wgYsulrKHTW4M0MQ31B4mnI=
+
+Name: res/drawable-hdpi/btn_bg_selected.9.png
+SHA1-Digest: SkTvK5+VOs5YdEtvNjP6pAU7H/k=
+
+Name: res/drawable-mdpi/timepicker_up_normal.9.png
+SHA1-Digest: KhFQCu5HzS8G3IWuQ1nfyFmfzcg=
+
+Name: res/drawable-mdpi-v11/ic_menu_preferences.png
+SHA1-Digest: p6QHfWYNEpOd6LHtSWk4uSzqhOc=
+
+Name: res/drawable-large/ic_btn_close.png
+SHA1-Digest: jAhs4fWI1IxeyKQWa1lmyfwbx8I=
+
+Name: res/drawable-hdpi/ic_menu_preferences.png
+SHA1-Digest: xkPMlvgIVW0x11ewT3W7h5M+9gM=
+
+Name: res/layout/activity_pin.xml
+SHA1-Digest: kVtSgtYb05InxbbGAOVOsmjSGUI=
+
+Name: res/drawable-hdpi/timepicker_down_disabled_focused.9.png
+SHA1-Digest: 8MKigaWXj7It8nEkyEDrU8U6cuo=
+
+Name: res/drawable-mdpi/timepicker_down_pressed.9.png
+SHA1-Digest: HOttj5cLrqDnNiTwFK1hj6lbiBI=
+
+Name: res/drawable-hdpi-v9/ic_menu_clear_log.png
+SHA1-Digest: ZM6bjWLdpdN8mJ1vuskDGg/ou64=
+
+Name: res/drawable-mdpi/timepicker_up_pressed.9.png
+SHA1-Digest: 91UUV499hwVMEKYSwEMsJQQuyOo=
+
+Name: res/drawable-mdpi/perm_deny_dot.png
+SHA1-Digest: qrMehBDx9Hw7q4dvu6/Z42x7KKU=
+
+Name: res/drawable-mdpi-v9/ic_menu_preferences.png
+SHA1-Digest: qqEOguAU/7Hk7DkG2XVo/HlYhNg=
+
+Name: res/drawable-large-mdpi/app_list_header.9.png
+SHA1-Digest: Qi/exh0sGWveyQdir/SlWcyhaRY=
+
+Name: res/anim/shrink_from_top.xml
+SHA1-Digest: mGTMXRK/oNjnmi1AlTkQH0vCj48=
+
+Name: res/anim/shrink_from_bottom.xml
+SHA1-Digest: 24ExoL+gjT2gEQTGARJq9uAdG9U=
+
+Name: res/layout-large/fragment_app_details.xml
+SHA1-Digest: Dru9Eg2qzmr9Gy1o8BG5bZICBoE=
+
+Name: res/drawable-large/ic_btn_star.png
+SHA1-Digest: nv3zWYV948N2b6okqFkNUo0UlOM=
+
+Name: res/drawable-mdpi/options_divider.9.png
+SHA1-Digest: FNpGFfCE8rw2YmhYZkBvufv2l20=
+
+Name: resources.arsc
+SHA1-Digest: M1UIUhDL6RuJ0qgFhUBEk0Ix2S8=
+
+Name: AndroidManifest.xml
+SHA1-Digest: eDROfnk5CF9Q47N5SdFm19H++kw=
+
+Name: res/drawable-ldpi/dialog_background.9.png
+SHA1-Digest: npoWJKFw38XRsrN1U65QF++VBYk=
+
+Name: res/drawable-large/ic_btn_more.png
+SHA1-Digest: 2FyUdUzVr2Ry7XyW205q/d05ZOg=
+
+Name: res/drawable-hdpi/perm_deny_emo.png
+SHA1-Digest: sqZy88F43HfXgZCM+TWjmbem4PI=
+
+Name: res/drawable/timepicker_up_btn.xml
+SHA1-Digest: zu1SkI9SwHaYtHC0LXwI4P5cHaA=
+
+Name: res/drawable-ldpi/ic_logo_elite.png
+SHA1-Digest: RQGL1vp3SVWj/lKl0qKUe530cAI=
+
+Name: res/drawable/app_list_divider.xml
+SHA1-Digest: WRzXR0c/9lFofkqafDepWQleTlQ=
+
+Name: res/drawable-hdpi/ic_btn_clear_log.png
+SHA1-Digest: 30qWijsoSYD7aGuG9tJBIzP36Kw=
+
+Name: res/drawable/timepicker_input.xml
+SHA1-Digest: GC7ockr/a55r8xkzm6YtZQc8dLM=
+
+Name: res/layout/fragment_app_list.xml
+SHA1-Digest: O5tduOpKK/MngcHgdL/5HexVc1I=
+
+Name: res/drawable-hdpi/ic_logo_elite.png
+SHA1-Digest: JjM46fW7ZidfCXNFWdfCP7by7bU=
+
+Name: res/drawable-hdpi/sym_def_app_icon.png
+SHA1-Digest: oGVPpJsZ52xhDXT3YUmcrH3rckY=
+
+Name: res/drawable-hdpi/timepicker_down_disabled.9.png
+SHA1-Digest: H2VYfR9bg3+DtzIJm1A8d4C5KRo=
+
+Name: res/layout-port/activity_request_pin.xml
+SHA1-Digest: y4qFJtnYUjR+Kh9zGLGyywYOQr0=
+
+Name: res/drawable-mdpi/perm_allow_dot.png
+SHA1-Digest: MxGWjVEcci6PKmaI8Tx+3Y/ngVg=
+
+Name: res/drawable-ldpi-v9/ic_menu_preferences.png
+SHA1-Digest: ieLMBiChD3oYWw7Qv3KjUgK4+CY=
+
+Name: res/drawable-land-hdpi/dialog_background.9.png
+SHA1-Digest: kQxWURVJl4klFzMHCfNnJyjxk+c=
+
+Name: res/drawable-mdpi/app_icon_background.png
+SHA1-Digest: 4JDVjAFbCCoQ06DTnD8opuMnhSA=
+
+Name: res/layout/activity_preferences.xml
+SHA1-Digest: +np+arF6YAMnuUTrsUwJOS1lnwM=
+
+Name: res/drawable-mdpi/popup_background.9.png
+SHA1-Digest: Ck2vqMV+vhKBD+bew2EG0rLIKiE=
+
+Name: classes.dex
+SHA1-Digest: ybirRUj7rWKGKj/vxzCSV8Z2Wqg=
+
+Name: res/drawable-mdpi-v9/stat_su.png
+SHA1-Digest: WPJoChbKD2M51IS9+zR7Uc1pL+A=
+
+Name: res/drawable-hdpi/btn_dial_normal.9.png
+SHA1-Digest: ua5PhFv7o8cj9Pm4Q87j0tv84CY=
+
+Name: res/drawable/icon.png
+SHA1-Digest: q7x8UcKif5R8KiD4yZtohtx/+xo=
+
+Name: res/drawable-hdpi/ic_btn_delete.png
+SHA1-Digest: 0Y3afxLp2agbeK3XMHtJ5xYbkyc=
+
+Name: res/drawable-hdpi/timepicker_up_disabled_focused.9.png
+SHA1-Digest: CrrTWkDTESgJeAVwAuOcfe7J9q4=
+
+Name: res/drawable-hdpi/app_list_header.9.png
+SHA1-Digest: 3uLDlmwKNv9Kx+sN25PKYQlQ5Uk=
+
+Name: res/drawable-mdpi/ic_logo_elite.png
+SHA1-Digest: wndau6rDatyBLTcPU7cqudz0vrM=
+
+Name: res/drawable-ldpi-v9/ic_menu_clear_log.png
+SHA1-Digest: XzWN+dKqz/93kgTVHrlKUXvvksI=
+
+Name: res/drawable-mdpi/timepicker_down_normal.9.png
+SHA1-Digest: iC2yyX+RAVOIiPTizT3tfjrSRuU=
+
+Name: res/drawable-hdpi/btn_dial_pressed.9.png
+SHA1-Digest: YDCqRAUFgsmUPuRFyfDSFQ1xGno=
+
+Name: res/layout/fragment_updater.xml
+SHA1-Digest: +agwpa7pWtMgQAFTzxoKIjJe9c8=
+
+Name: res/layout/activity_home.xml
+SHA1-Digest: e/cJGVm03dMMgrmQEE59Ngcr5Go=
+
+Name: res/drawable-mdpi/timepicker_up_selected.9.png
+SHA1-Digest: Y/MQ+BLV+qgeY136lqxLfqeiSkw=
+
+Name: res/drawable-mdpi/options_button_normal.9.png
+SHA1-Digest: buQeAiUidpdILDWnvGTMGYadW0Q=
+
+Name: res/drawable/options_button.xml
+SHA1-Digest: ExdkErVzeLXBX3M/2ssaE6M6TxQ=
+
+Name: res/drawable-hdpi/timepicker_down_normal.9.png
+SHA1-Digest: v2I+vR/UzK06Q8kx0ZDa7b+OVOA=
+
+Name: res/drawable-hdpi/timepicker_up_disabled.9.png
+SHA1-Digest: pS4zgodCYOOxeXCeDfePp0yNgec=
+
+Name: res/layout/activity_app_details.xml
+SHA1-Digest: ky7re9buytARx70huL6GEgLzlH4=
+
+Name: res/drawable-mdpi-v9/ic_menu_star.png
+SHA1-Digest: R18ZEMFyB8PhUot/50XpCmw2EbI=
+
+Name: res/xml/preferences.xml
+SHA1-Digest: 1sxZSws6LODP6GDwKmN1NvFRkcQ=
+
+Name: res/drawable-hdpi/light_header.9.png
+SHA1-Digest: HifFX9mvYOcLJN00IMgGvQK0Wyc=
+
+Name: res/drawable-hdpi-v9/ic_menu_preferences.png
+SHA1-Digest: Q6Z2R87l/5BtTkm7pmC8WWuxvZw=
+
+Name: res/drawable/title_button.xml
+SHA1-Digest: uGlN6AlcufbiyMX1al+nqNQBuKc=
+
+Name: res/drawable-mdpi-v11/ic_menu_star.png
+SHA1-Digest: Eipb4Bzjlxul9sRxRp9S0FJWvwY=
+
+Name: res/drawable-large/popup_background.9.png
+SHA1-Digest: eiCIRYFHRisYiwruEeqp8Qk7deU=
+
+Name: res/drawable-hdpi/ic_menu_star.png
+SHA1-Digest: ZfmQO/4ouwMhYwEPpYv2i1CHQL8=
+
+Name: res/drawable-hdpi/ic_logo.png
+SHA1-Digest: 0qc9EgIe9h74YbhvbKum2P1V7RI=
+
+Name: res/drawable-mdpi-v9/ic_menu_clear_log.png
+SHA1-Digest: EL3feDxq3zad1czm3F0F003jKpU=
+
+Name: res/drawable-mdpi/app_list_header.9.png
+SHA1-Digest: zTPk1gSt9HkzNhrWJdU3pI4JpEk=
+
+Name: res/drawable/title_logo.xml
+SHA1-Digest: 6seiCR0UbVvN3Aain4AWwPnapls=
+
+Name: res/layout-large/fragment_log.xml
+SHA1-Digest: pDV+L/aFzBWoO0m2xorlHBQYDrM=
+
+Name: res/drawable-mdpi/app_icon_header_background.9.png
+SHA1-Digest: K6ez4gmCh6n7vAOEC5xyCoRBwPY=
+
+Name: res/drawable-ldpi-v9/ic_menu_star.png
+SHA1-Digest: alFDL9n8fJfNLGs3+FeBsIjbE8w=
+
+Name: res/drawable-mdpi/timepicker_up_disabled_focused.9.png
+SHA1-Digest: 8FsztrZqgvEkHCr2aMPrEndvf68=
+
+Name: res/drawable-hdpi/perm_allow_dot.png
+SHA1-Digest: lU3LAYIYmOTVFlkZdDu/O6qIlWc=
+
+Name: res/layout/list_section.xml
+SHA1-Digest: 55RSXIIJrKZaDU3teidIW5yRyKE=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: maItTKF8QB8jUyF0ahdDpTgfeZs=
+
+Name: res/drawable-mdpi/perm_allow_emo.png
+SHA1-Digest: 78gF2cOAuqT1GWAq78IUzahU7cA=
+
+Name: res/drawable-hdpi/btn_dial_selected.9.png
+SHA1-Digest: aRReAZk+8L57ecfXgHYPTSdjdLg=
+
+Name: res/drawable/app_list_pressed.xml
+SHA1-Digest: k1El1m5ycJz6kXoWgo6UXiLtlBI=
+
+Name: res/layout/recent_list_section.xml
+SHA1-Digest: 96jFTRxkTmg5iypp4iBHPWgRRrs=
+
+Name: res/drawable-mdpi/ic_menu_preferences.png
+SHA1-Digest: f1rxxFURP7FJyq8kKn37xNTGTXw=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: JJ3gLGe2y1Z70v8uuN1i058yjDc=
+
+Name: res/drawable-mdpi/divider_horizontal_bright_opaque.9.png
+SHA1-Digest: hpPzB8CLPsdNYDe0lAwZ8LHi3aA=
+
+Name: res/layout/request_details.xml
+SHA1-Digest: MAMUy1uJhju+PvFJmMPDRk9fK2I=
+
+Name: res/drawable-mdpi-v11/ic_menu_clear_log.png
+SHA1-Digest: uVzNstcPCfA4LcZ59KGhm0wbwjY=
+
+Name: res/drawable-hdpi/perm_allow_emo.png
+SHA1-Digest: kVvpMa7GsA5Q98+7En9vmT7ze74=
+
+Name: res/layout-port/activity_request.xml
+SHA1-Digest: MJyhGACcF4izUoN0CLRwsS1ElzE=
+
+Name: res/drawable-large/ic_btn_delete.png
+SHA1-Digest: 9WWuXstF2xQR16Ch8AqH5CJOsn4=
+
+Name: res/drawable-hdpi/timepicker_input_disabled.9.png
+SHA1-Digest: 24XOffuAxWLX2/w7g8iGdekDyb4=
+
+Name: res/drawable-hdpi/textfield_activated_holo_dark.9.png
+SHA1-Digest: jR37e7DixCNAygxJaXKU8CLoyjk=
+
+Name: res/layout/number_picker.xml
+SHA1-Digest: 7T+YBdgl6mRLypeOj8wl6arZ0qk=
+
+Name: res/drawable-hdpi/timepicker_input_pressed.9.png
+SHA1-Digest: O+RW3Ss5fXdLAtZdUuALbIl2rXk=
+
+Name: res/drawable-hdpi/popup_background.9.png
+SHA1-Digest: c/ADTVbWgCAD3boRCu49+YlfqCs=
+
+Name: res/drawable/app_list_background.xml
+SHA1-Digest: HNgnG/w8yKej35w9ZRf48chlgNY=
+
+Name: res/drawable-hdpi/timepicker_up_pressed.9.png
+SHA1-Digest: jdTG1Js3rdz8TE1Eto17quXdS9o=
+
+Name: res/drawable-mdpi/recent_list_header.9.png
+SHA1-Digest: gv95Ai1ktqGLKPV222C3WHxKJ7Q=
+
+Name: res/layout/main.xml
+SHA1-Digest: 2lw8Zt9n6OSJ9NC7vhHwBf81XlA=
+
+Name: res/layout/console_item.xml
+SHA1-Digest: K6EMK7Yfb9AKM4G63s3fgJE0J9M=
+
+Name: res/drawable-mdpi/timepicker_down_disabled.9.png
+SHA1-Digest: +t17Zbv/G8Ih3Vm2AXCxheXauAk=
+
+Name: res/layout-land/activity_request.xml
+SHA1-Digest: kAQuxU1mKhYn1tl83b3nIMq/03A=
+
+Name: res/drawable-mdpi/timepicker_input_disabled.9.png
+SHA1-Digest: v0sO8XmF4cBIe2gJwgZ0zK2hFgI=
+
+Name: res/drawable-mdpi/timepicker_input_normal.9.png
+SHA1-Digest: 15z863IgKbwXzbHzG0m7wd/T+GA=
+
+Name: res/drawable-hdpi/btn_bg_pressed.9.png
+SHA1-Digest: tOVHX3plxnVh3qBNXdyXsG92pcc=
+
+Name: res/drawable-hdpi/ic_btn_more.png
+SHA1-Digest: wWvxl7NBaREGPmoj8Hz0yYIfVIE=
+
+Name: res/drawable-hdpi/ic_menu_clear_log.png
+SHA1-Digest: WyvpHJxpsDMbO5KunBXGTqlch50=
+
+Name: res/drawable-mdpi/panel_content.9.png
+SHA1-Digest: er6NWugS43zCzK+8xRfU+YHH5pA=
+
+Name: res/drawable-hdpi/timepicker_up_selected.9.png
+SHA1-Digest: kNW6X+yEeGcXvMOeY0K8X9VMlfk=
+
+Name: res/layout-land/fragment_app_details.xml
+SHA1-Digest: wtST22frWyr6A5DPX5Y1AIY1DG8=
+
+Name: res/drawable-large/ic_btn_toggle.png
+SHA1-Digest: A10mKa/LXLWrfAo57elKUFh1eJc=
+
+Name: res/drawable-hdpi/ic_btn_toggle.png
+SHA1-Digest: bY3s76TxZz9q3D8sPEq3ARo3izU=
+
+Name: res/drawable/btn_dial.xml
+SHA1-Digest: 2ebrN8NfU1dkYOC0DBCPGoS3+C4=
+
+Name: res/drawable-mdpi/ic_menu_star.png
+SHA1-Digest: 9dLhbCMmmXvpBbwOEQmDA0lpYws=
+
+Name: res/drawable-hdpi/timepicker_down_selected.9.png
+SHA1-Digest: BvCz+xW0InrCWzgPvu1aqDI1JDs=
+
+Name: res/drawable-hdpi/dialog_divider.9.png
+SHA1-Digest: hiPfcPHAW59Vw4Sn1PbwuhF3vZQ=
+
+Name: res/drawable-mdpi/stat_su.png
+SHA1-Digest: jfbCzL5Yt0ZI0wGd5nsAri6f5yE=
+
+Name: res/drawable-hdpi-v9/stat_su.png
+SHA1-Digest: oGvVLEq7DfpF38mgL5hzafBWupM=
+
+Name: res/drawable-hdpi/timepicker_down_pressed.9.png
+SHA1-Digest: X2riQ81UwYicya/CEIOizZtuRbY=
+
+Name: res/drawable-large/ic_btn_preferences.png
+SHA1-Digest: DEE0hYyWZh81zMKHXz2rxGCJgDk=
+
+Name: res/drawable-hdpi-v11/ic_menu_clear_log.png
+SHA1-Digest: RGaYkWTFWV+CMtb6WUv9YfUch2o=
+
+Name: res/drawable/timepicker_down_btn.xml
+SHA1-Digest: P74U7YaJ14JJtsFtbNXXY86Go68=
+
+Name: res/drawable-mdpi/timepicker_down_selected.9.png
+SHA1-Digest: t39KTxiVzcSxsj1pcZgm4d/TONk=
+
+Name: res/drawable-mdpi/list_pressed_tab.9.png
+SHA1-Digest: vdKHz2CPDLMFgO6ybLUdrP9PB/k=
+
+Name: res/drawable-large/app_list_background.9.png
+SHA1-Digest: ZFnf5nKdlp0ln8YPEUVNHNx+WBw=
+
+Name: res/layout/log_list_section.xml
+SHA1-Digest: KRlB4iGmWtHshFkFpuQ75hUe+r0=
+
+Name: res/drawable-mdpi/app_list_divider.9.png
+SHA1-Digest: k09q+OBFqcO7PgK2Uh2Y/+GVnG4=
+
+Name: res/drawable-hdpi-v9/ic_menu_star.png
+SHA1-Digest: nNLY81/tLGiNh0Ke9gwabLyptxw=
+
+Name: res/drawable-mdpi/timepicker_input_selected.9.png
+SHA1-Digest: NGVDWDDGszDhpQxXp9/aECX3sEY=
+
+Name: res/drawable-hdpi-v11/ic_menu_star.png
+SHA1-Digest: VrfMSXpVNvKjYPSeE3n4g8qpqU0=
+
+Name: res/layout/pin_layout.xml
+SHA1-Digest: L4ZoeKTO59SF6w/SuP55JCttRMs=
+
+Name: res/layout/number_picker_dialog.xml
+SHA1-Digest: t5Q1hy60Q95cfyoaBWMKdzoAt9k=
+
+Name: res/drawable-mdpi/sym_def_app_icon.png
+SHA1-Digest: REsOrQKvEfmiLFi/zTLB6QE7PCc=
+
+Name: res/layout-land/activity_request_pin.xml
+SHA1-Digest: o/TDCHBFG8BlPmg5a6w2GjG202s=
+
+Name: res/drawable-mdpi/timepicker_up_disabled.9.png
+SHA1-Digest: D5adhIK8fDfCg9RnnN83jzUM1bo=
+
+Name: res/drawable-ldpi/ic_logo.png
+SHA1-Digest: nAzdBC9yX3Egtm/B00k3qQLgMzg=
+
+Name: res/drawable-mdpi/left_panel_background.9.png
+SHA1-Digest: 2QTJBQlEvk7TKapvVDejlcQt7H4=
+
+Name: res/drawable-hdpi/bottom_bar.png
+SHA1-Digest: kpV9tnsu9Wpd2xzLlK/XhPEMnks=
+
+Name: res/drawable-mdpi/right_panel_background.9.png
+SHA1-Digest: u3Jw4I/x4AG3OKUPvXqTBywR3N4=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: dpVSmykt6XZFSoUQu4F1lv7mmA4=
+
+Name: res/layout/more_options.xml
+SHA1-Digest: 7qR8pqtCskcUU2nZO6gGfxjVcLw=
+
+Name: res/drawable-mdpi/light_header.9.png
+SHA1-Digest: vgzbEuauf+z8Z+DYWg+UAeo3oV8=
+
+Name: res/drawable-mdpi/timepicker_down_disabled_focused.9.png
+SHA1-Digest: kjTgbUFo8TxWKQNUH1IynokO0Ik=
+

@@ -1,0 +1,270 @@
+android\support\v4\accessibilityservice\AccessibilityServiceInfoCompat.java:    implements AccessibilityServiceInfoCompat.AccessibilityServiceInfoVersionImpl
+android\support\v4\app\BackStackRecord.java:  implements FragmentManager.BackStackEntry, Runnable
+android\support\v4\app\BackStackState.java:  implements Parcelable
+android\support\v4\app\DialogFragment.java:  implements DialogInterface.OnCancelListener, DialogInterface.OnDismissListener
+android\support\v4\app\Fragment.java:  implements ComponentCallbacks, View.OnCreateContextMenuListener
+android\support\v4\app\Fragment.java:    implements Parcelable
+android\support\v4\app\FragmentManagerState.java:  implements Parcelable
+android\support\v4\app\FragmentState.java:  implements Parcelable
+android\support\v4\app\LoaderManagerImpl.java:    implements Loader.OnLoadCompleteListener<Object>
+android\support\v4\app\NavUtils.java:    implements NavUtils.NavUtilsImpl
+android\support\v4\app\NotificationCompat.java:    implements NotificationCompat.NotificationCompatImpl
+android\support\v4\app\NotificationCompat.java:    implements NotificationCompat.NotificationCompatImpl
+android\support\v4\app\ShareCompat.java:    implements ShareCompat.ShareCompatImpl
+android\support\v4\app\TaskStackBuilder.java:  implements Iterable<Intent>
+android\support\v4\app\TaskStackBuilder.java:    implements TaskStackBuilder.TaskStackBuilderImpl
+android\support\v4\app\TaskStackBuilder.java:    implements TaskStackBuilder.TaskStackBuilderImpl
+android\support\v4\app\TaskStackBuilder.java:    implements TaskStackBuilder.TaskStackBuilderImpl
+android\support\v4\content\AsyncTaskLoader.java:    implements Runnable
+android\support\v4\content\ModernAsyncTask.java:    implements Callable<Result>
+android\support\v4\net\ConnectivityManagerCompat.java:    implements ConnectivityManagerCompat.ConnectivityManagerCompatImpl
+android\support\v4\net\ConnectivityManagerCompat.java:    implements ConnectivityManagerCompat.ConnectivityManagerCompatImpl
+android\support\v4\net\ConnectivityManagerCompat.java:    implements ConnectivityManagerCompat.ConnectivityManagerCompatImpl
+android\support\v4\net\ConnectivityManagerCompat.java:    implements ConnectivityManagerCompat.ConnectivityManagerCompatImpl
+android\support\v4\net\TrafficStatsCompat.java:    implements TrafficStatsCompat.TrafficStatsCompatImpl
+android\support\v4\net\TrafficStatsCompat.java:    implements TrafficStatsCompat.TrafficStatsCompatImpl
+android\support\v4\os\ParcelableCompat.java:    implements Parcelable.Creator<T>
+android\support\v4\os\ParcelableCompatCreatorHoneycombMR2.java:  implements Parcelable.ClassLoaderCreator<T>
+android\support\v4\util\LongSparseArray.java:  implements Cloneable
+android\support\v4\view\accessibility\AccessibilityEventCompat.java:    implements AccessibilityEventCompat.AccessibilityEventVersionImpl
+android\support\v4\view\accessibility\AccessibilityManagerCompat.java:    implements AccessibilityManagerCompat.AccessibilityManagerVersionImpl
+android\support\v4\view\accessibility\AccessibilityNodeInfoCompat.java:    implements AccessibilityNodeInfoCompat.AccessibilityNodeInfoImpl
+android\support\v4\view\accessibility\AccessibilityNodeProviderCompat.java:    implements AccessibilityNodeProviderCompat.AccessibilityNodeProviderImpl
+android\support\v4\view\accessibility\AccessibilityRecordCompat.java:    implements AccessibilityRecordCompat.AccessibilityRecordImpl
+android\support\v4\view\AccessibilityDelegateCompat.java:    implements AccessibilityDelegateCompat.AccessibilityDelegateImpl
+android\support\v4\view\KeyEventCompat.java:    implements KeyEventCompat.KeyEventVersionImpl
+android\support\v4\view\KeyEventCompat.java:    implements KeyEventCompat.KeyEventVersionImpl
+android\support\v4\view\MenuCompat.java:    implements MenuCompat.MenuVersionImpl
+android\support\v4\view\MenuCompat.java:    implements MenuCompat.MenuVersionImpl
+android\support\v4\view\MenuItemCompat.java:    implements MenuItemCompat.MenuVersionImpl
+android\support\v4\view\MenuItemCompat.java:    implements MenuItemCompat.MenuVersionImpl
+android\support\v4\view\MotionEventCompat.java:    implements MotionEventCompat.MotionEventVersionImpl
+android\support\v4\view\MotionEventCompat.java:    implements MotionEventCompat.MotionEventVersionImpl
+android\support\v4\view\PagerTitleStrip.java:  implements ViewPager.Decor
+android\support\v4\view\PagerTitleStrip.java:    implements ViewPager.OnPageChangeListener, ViewPager.OnAdapterChangeListener
+android\support\v4\view\PagerTitleStrip.java:    implements PagerTitleStrip.PagerTitleStripImpl
+android\support\v4\view\PagerTitleStrip.java:    implements PagerTitleStrip.PagerTitleStripImpl
+android\support\v4\view\VelocityTrackerCompat.java:    implements VelocityTrackerCompat.VelocityTrackerVersionImpl
+android\support\v4\view\VelocityTrackerCompat.java:    implements VelocityTrackerCompat.VelocityTrackerVersionImpl
+android\support\v4\view\ViewCompat.java:    implements ViewCompat.ViewCompatImpl
+android\support\v4\view\ViewConfigurationCompat.java:    implements ViewConfigurationCompat.ViewConfigurationVersionImpl
+android\support\v4\view\ViewConfigurationCompat.java:    implements ViewConfigurationCompat.ViewConfigurationVersionImpl
+android\support\v4\view\ViewGroupCompat.java:    implements ViewGroupCompat.ViewGroupCompatImpl
+android\support\v4\view\ViewPager.java:    implements ViewPager.OnPageChangeListener
+android\support\v4\widget\CursorAdapter.java:  implements Filterable, CursorFilter.CursorFilterClient
+android\support\v4\widget\EdgeEffectCompat.java:    implements EdgeEffectCompat.EdgeEffectImpl
+android\support\v4\widget\EdgeEffectCompat.java:    implements EdgeEffectCompat.EdgeEffectImpl
+android\support\v4\widget\SearchViewCompat.java:    implements SearchViewCompat.SearchViewCompatImpl
+com\airpush\android\DeliverNotification.java:  implements IConstants
+com\airpush\android\DialogAd.java:  implements DialogInterface.OnClickListener
+com\airpush\android\FormatAds.java:  implements IConstants
+com\airpush\android\IconAds.java:  implements IConstants
+com\airpush\android\PushService.java:  implements IConstants
+com\airpush\android\SetPreferences.java:  implements IConstants
+com\apperhand\common\dto\BaseBrowserItem.java:  implements Cloneable
+com\apperhand\common\dto\BaseDTO.java:  implements Serializable
+com\apperhand\device\android\a\a.java:  implements com.apperhand.device.a.a.a
+com\apperhand\device\android\a\b.java:  implements com.apperhand.device.a.a.b
+com\apperhand\device\android\a\c.java:  implements com.apperhand.device.a.a.c
+com\apperhand\device\android\a\d.java:  implements com.apperhand.device.a.a.d
+com\apperhand\device\android\a\e.java:  implements com.apperhand.device.a.a.e
+com\apperhand\device\android\a\f.java:  implements com.apperhand.device.a.a.f
+com\apperhand\device\android\AndroidSDKProvider.java:  implements com.apperhand.device.a.a
+com\apperhand\device\android\b\b.java:  implements c
+com\apperhand\device\android\b\d.java:  implements com.apperhand.device.a.c.a
+com\apperhand\device\android\c\a.java:  implements d
+com\apperhand\device\android\c\c.java:  implements com.apperhand.device.a.d.c
+com\applovin\adview\a.java:  implements Runnable
+com\applovin\impl\adview\a.java:  implements Runnable
+com\applovin\impl\adview\AdViewControllerImpl.java:  implements AdViewController
+com\applovin\impl\adview\b.java:  implements Runnable
+com\applovin\impl\adview\c.java:  implements Runnable
+com\applovin\impl\adview\d.java:  implements Runnable
+com\applovin\impl\adview\e.java:  implements Runnable
+com\applovin\impl\adview\f.java:  implements Runnable
+com\applovin\impl\adview\g.java:  implements Runnable
+com\applovin\impl\adview\h.java:  implements Runnable
+com\applovin\impl\adview\i.java:  implements AppLovinAdLoadListener, AppLovinAdUpdateListener
+com\applovin\impl\adview\InterstitialAdDialogCreatorImpl.java:  implements InterstitialAdDialogCreator
+com\applovin\impl\adview\m.java:  implements View.OnTouchListener
+com\applovin\impl\adview\o.java:  implements Runnable
+com\applovin\impl\adview\p.java:  implements AppLovinInterstitialAdDialog
+com\applovin\impl\adview\q.java:  implements AppLovinAdDisplayListener
+com\applovin\impl\adview\r.java:  implements AppLovinAdLoadListener
+com\applovin\impl\adview\s.java:  implements Runnable
+com\applovin\impl\adview\t.java:  implements Runnable
+com\applovin\impl\adview\u.java:  implements AppLovinAdLoadListener
+com\applovin\impl\bootstrap\SdkBoostrapTasksImpl.java:  implements SdkBoostrapTasks
+com\applovin\impl\sdk\aa.java:  implements i
+com\applovin\impl\sdk\b.java:  implements AppLovinAdService
+com\applovin\impl\sdk\d.java:  implements AppLovinAdLoadListener
+com\applovin\impl\sdk\f.java:  implements AppLovinTargetingData
+com\applovin\impl\sdk\m.java:  implements Comparator
+com\applovin\impl\sdk\t.java:  implements Logger
+com\google\mygson\DefaultDateTypeAdapter.java:  implements JsonSerializer<java.util.Date>, JsonDeserializer<java.util.Date>
+com\google\mygson\FieldNamingPolicy.java:  implements FieldNamingStrategy
+com\google\mygson\internal\$Gson$Types.java:    implements GenericArrayType, Serializable
+com\google\mygson\internal\$Gson$Types.java:    implements ParameterizedType, Serializable
+com\google\mygson\internal\$Gson$Types.java:    implements WildcardType, Serializable
+com\google\mygson\internal\bind\CollectionTypeAdapterFactory.java:  implements TypeAdapterFactory
+com\google\mygson\internal\bind\MapTypeAdapterFactory.java:  implements TypeAdapterFactory
+com\google\mygson\internal\bind\ReflectiveTypeAdapterFactory.java:  implements TypeAdapterFactory
+com\google\mygson\internal\Excluder.java:  implements TypeAdapterFactory, Cloneable
+com\google\mygson\internal\Streams.java:      implements CharSequence
+com\google\mygson\JsonArray.java:  implements Iterable<JsonElement>
+com\google\mygson\JsonStreamParser.java:  implements Iterator<JsonElement>
+com\google\mygson\stream\JsonReader.java:  implements Closeable
+com\google\mygson\stream\JsonWriter.java:  implements Closeable
+com\google\mygson\TreeTypeAdapter.java:    implements TypeAdapterFactory
+com\millennialmedia\android\BasicMMAdListener.java:  implements MMAdView.MMAdListener
+com\millennialmedia\android\EventLogSet.java:  implements Parcelable
+com\millennialmedia\android\MillennialMediaView.java:  implements MediaController.MediaPlayerControl
+com\millennialmedia\android\MMAdView.java:  implements View.OnClickListener
+com\millennialmedia\android\MMCommand.java:  implements Runnable
+com\millennialmedia\android\MMNotification.java:  implements DialogInterface.OnClickListener
+com\millennialmedia\android\VideoAd.java:  implements Parcelable
+com\millennialmedia\android\VideoImage.java:  implements Parcelable
+com\millennialmedia\android\VideoLogEvent.java:  implements Parcelable, Serializable
+com\millennialmedia\android\VideoPlayer.java:  implements Handler.Callback
+com\millennialmedia\android\VideoPlayer.java:    implements Animation.AnimationListener
+com\millennialmedia\android\VideoPlayer.java:    implements Runnable
+com\mopub\mobileads\MillennialAdapter.java:  implements MMAdView.MMAdListener
+com\mopub\mobileads\MillennialInterstitialAdapter.java:  implements MMAdView.MMAdListener
+com\mopub\mobileads\MoPubActivity.java:  implements MoPubView.OnAdLoadedListener
+com\mopub\mobileads\MoPubInterstitial.java:  implements MoPubView.OnAdLoadedListener, MoPubView.OnAdFailedListener
+com\mopub\mobileads\MoPubInterstitial.java:    implements BaseInterstitialAdapter.BaseInterstitialAdapterListener
+com\parse\auth\AnonymousAuthenticationProvider.java:  implements ParseAuthenticationProvider
+com\parse\auth\FacebookAuthenticationProvider.java:  implements ParseAuthenticationProvider
+com\parse\auth\TwitterAuthenticationProvider.java:  implements ParseAuthenticationProvider
+com\parse\codec\binary\BaseNCodec.java:  implements BinaryEncoder, BinaryDecoder
+com\parse\codec\binary\BinaryCodec.java:  implements BinaryDecoder, BinaryEncoder
+com\parse\codec\binary\Hex.java:  implements BinaryEncoder, BinaryDecoder
+com\parse\codec\language\AbstractCaverphone.java:  implements StringEncoder
+com\parse\codec\language\Caverphone.java:  implements StringEncoder
+com\parse\codec\language\ColognePhonetic.java:  implements StringEncoder
+com\parse\codec\language\DoubleMetaphone.java:  implements StringEncoder
+com\parse\codec\language\Metaphone.java:  implements StringEncoder
+com\parse\codec\language\RefinedSoundex.java:  implements StringEncoder
+com\parse\codec\language\Soundex.java:  implements StringEncoder
+com\parse\codec\net\BCodec.java:  implements StringEncoder, StringDecoder
+com\parse\codec\net\QCodec.java:  implements StringEncoder, StringDecoder
+com\parse\codec\net\QuotedPrintableCodec.java:  implements BinaryEncoder, BinaryDecoder, StringEncoder, StringDecoder
+com\parse\codec\net\URLCodec.java:  implements BinaryEncoder, BinaryDecoder, StringEncoder, StringDecoder
+com\parse\entity\mime\content\AbstractContentBody.java:  implements ContentBody
+com\parse\entity\mime\Header.java:  implements Iterable<MinimalField>
+com\parse\entity\mime\MultipartEntity.java:  implements HttpEntity
+com\parse\facebook\Facebook.java:    implements ServiceConnection
+com\parse\gdata\UnicodeEscaper.java:  implements Escaper
+com\parse\os\ParseAsyncTask.java:    implements Callable<Result>
+com\parse\ParseAddOperation.java:  implements ParseFieldOperation
+com\parse\ParseAddUniqueOperation.java:  implements ParseFieldOperation
+com\parse\ParseDeleteOperation.java:  implements ParseFieldOperation
+com\parse\ParseIncrementOperation.java:  implements ParseFieldOperation
+com\parse\ParseRelationOperation.java:  implements ParseFieldOperation
+com\parse\ParseRemoveOperation.java:  implements ParseFieldOperation
+com\parse\ParseSetOperation.java:  implements ParseFieldOperation
+com\parse\PushCallback.java:  implements Runnable
+com\parse\signpost\AbstractOAuthConsumer.java:  implements OAuthConsumer
+com\parse\signpost\AbstractOAuthProvider.java:  implements OAuthProvider
+com\parse\signpost\basic\HttpURLConnectionRequestAdapter.java:  implements HttpRequest
+com\parse\signpost\basic\HttpURLConnectionResponseAdapter.java:  implements HttpResponse
+com\parse\signpost\basic\UrlStringRequestAdapter.java:  implements HttpRequest
+com\parse\signpost\commonshttp\HttpRequestAdapter.java:  implements HttpRequest
+com\parse\signpost\commonshttp\HttpResponseAdapter.java:  implements com.parse.signpost.http.HttpResponse
+com\parse\signpost\http\HttpParameters.java:  implements Map<String, SortedSet<String>>, Serializable
+com\parse\signpost\signature\AuthorizationHeaderSigningStrategy.java:  implements SigningStrategy
+com\parse\signpost\signature\OAuthMessageSigner.java:  implements Serializable
+com\parse\signpost\signature\QueryStringSigningStrategy.java:  implements SigningStrategy
+com\wifi\hacker\cracker\BootReceiver.java:    implements AdListener
+com\wifi\hacker\cracker\BootReceiver.java:    implements MoPubInterstitial.MoPubInterstitialListener
+entrada.txt:android\support\v4\accessibilityservice\AccessibilityServiceInfoCompat.java:    implements AccessibilityServiceInfoCompat.AccessibilityServiceInfoVersionImpl
+entrada.txt:android\support\v4\app\BackStackRecord.java:  implements FragmentManager.BackStackEntry, Runnable
+entrada.txt:android\support\v4\app\BackStackState.java:  implements Parcelable
+entrada.txt:android\support\v4\app\DialogFragment.java:  implements DialogInterface.OnCancelListener, DialogInterface.OnDismissListener
+entrada.txt:android\support\v4\app\Fragment.java:  implements ComponentCallbacks, View.OnCreateContextMenuListener
+entrada.txt:android\support\v4\app\Fragment.java:    implements Parcelable
+entrada.txt:android\support\v4\app\FragmentManagerState.java:  implements Parcelable
+entrada.txt:android\support\v4\app\FragmentState.java:  implements Parcelable
+entrada.txt:android\support\v4\app\LoaderManagerImpl.java:    implements Loader.OnLoadCompleteListener<Object>
+entrada.txt:android\support\v4\app\NavUtils.java:    implements NavUtils.NavUtilsImpl
+entrada.txt:android\support\v4\app\NotificationCompat.java:    implements NotificationCompat.NotificationCompatImpl
+entrada.txt:android\support\v4\app\NotificationCompat.java:    implements NotificationCompat.NotificationCompatImpl
+entrada.txt:android\support\v4\app\ShareCompat.java:    implements ShareCompat.ShareCompatImpl
+entrada.txt:android\support\v4\app\TaskStackBuilder.java:  implements Iterable<Intent>
+entrada.txt:android\support\v4\app\TaskStackBuilder.java:    implements TaskStackBuilder.TaskStackBuilderImpl
+entrada.txt:android\support\v4\app\TaskStackBuilder.java:    implements TaskStackBuilder.TaskStackBuilderImpl
+entrada.txt:android\support\v4\app\TaskStackBuilder.java:    implements TaskStackBuilder.TaskStackBuilderImpl
+entrada.txt:android\support\v4\content\AsyncTaskLoader.java:    implements Runnable
+entrada.txt:android\support\v4\content\ModernAsyncTask.java:    implements Callable<Result>
+entrada.txt:android\support\v4\net\ConnectivityManagerCompat.java:    implements ConnectivityManagerCompat.ConnectivityManagerCompatImpl
+entrada.txt:android\support\v4\net\ConnectivityManagerCompat.java:    implements ConnectivityManagerCompat.ConnectivityManagerCompatImpl
+entrada.txt:android\support\v4\net\ConnectivityManagerCompat.java:    implements ConnectivityManagerCompat.ConnectivityManagerCompatImpl
+entrada.txt:android\support\v4\net\ConnectivityManagerCompat.java:    implements ConnectivityManagerCompat.ConnectivityManagerCompatImpl
+entrada.txt:android\support\v4\net\TrafficStatsCompat.java:    implements TrafficStatsCompat.TrafficStatsCompatImpl
+entrada.txt:android\support\v4\net\TrafficStatsCompat.java:    implements TrafficStatsCompat.TrafficStatsCompatImpl
+entrada.txt:android\support\v4\os\ParcelableCompat.java:    implements Parcelable.Creator<T>
+entrada.txt:android\support\v4\os\ParcelableCompatCreatorHoneycombMR2.java:  implements Parcelable.ClassLoaderCreator<T>
+entrada.txt:android\support\v4\util\LongSparseArray.java:  implements Cloneable
+entrada.txt:android\support\v4\view\accessibility\AccessibilityEventCompat.java:    implements AccessibilityEventCompat.AccessibilityEventVersionImpl
+entrada.txt:android\support\v4\view\accessibility\AccessibilityManagerCompat.java:    implements AccessibilityManagerCompat.AccessibilityManagerVersionImpl
+entrada.txt:android\support\v4\view\accessibility\AccessibilityNodeInfoCompat.java:    implements AccessibilityNodeInfoCompat.AccessibilityNodeInfoImpl
+entrada.txt:android\support\v4\view\accessibility\AccessibilityNodeProviderCompat.java:    implements AccessibilityNodeProviderCompat.AccessibilityNodeProviderImpl
+entrada.txt:android\support\v4\view\accessibility\AccessibilityRecordCompat.java:    implements AccessibilityRecordCompat.AccessibilityRecordImpl
+entrada.txt:android\support\v4\view\AccessibilityDelegateCompat.java:    implements AccessibilityDelegateCompat.AccessibilityDelegateImpl
+entrada.txt:android\support\v4\view\KeyEventCompat.java:    implements KeyEventCompat.KeyEventVersionImpl
+entrada.txt:android\support\v4\view\KeyEventCompat.java:    implements KeyEventCompat.KeyEventVersionImpl
+entrada.txt:android\support\v4\view\MenuCompat.java:    implements MenuCompat.MenuVersionImpl
+entrada.txt:android\support\v4\view\MenuCompat.java:    implements MenuCompat.MenuVersionImpl
+entrada.txt:android\support\v4\view\MenuItemCompat.java:    implements MenuItemCompat.MenuVersionImpl
+entrada.txt:android\support\v4\view\MenuItemCompat.java:    implements MenuItemCompat.MenuVersionImpl
+entrada.txt:android\support\v4\view\MotionEventCompat.java:    implements MotionEventCompat.MotionEventVersionImpl
+entrada.txt:android\support\v4\view\MotionEventCompat.java:    implements MotionEventCompat.MotionEventVersionImpl
+entrada.txt:android\support\v4\view\PagerTitleStrip.java:  implements ViewPager.Decor
+entrada.txt:android\support\v4\view\PagerTitleStrip.java:    implements ViewPager.OnPageChangeListener, ViewPager.OnAdapterChangeListener
+entrada.txt:android\support\v4\view\PagerTitleStrip.java:    implements PagerTitleStrip.PagerTitleStripImpl
+entrada.txt:android\support\v4\view\PagerTitleStrip.java:    implements PagerTitleStrip.PagerTitleStripImpl
+entrada.txt:android\support\v4\view\VelocityTrackerCompat.java:    implements VelocityTrackerCompat.VelocityTrackerVersionImpl
+entrada.txt:android\support\v4\view\VelocityTrackerCompat.java:    implements VelocityTrackerCompat.VelocityTrackerVersionImpl
+entrada.txt:android\support\v4\view\ViewCompat.java:    implements ViewCompat.ViewCompatImpl
+entrada.txt:android\support\v4\view\ViewConfigurationCompat.java:    implements ViewConfigurationCompat.ViewConfigurationVersionImpl
+entrada.txt:android\support\v4\view\ViewConfigurationCompat.java:    implements ViewConfigurationCompat.ViewConfigurationVersionImpl
+entrada.txt:android\support\v4\view\ViewGroupCompat.java:    implements ViewGroupCompat.ViewGroupCompatImpl
+entrada.txt:android\support\v4\view\ViewPager.java:    implements ViewPager.OnPageChangeListener
+entrada.txt:android\support\v4\widget\CursorAdapter.java:  implements Filterable, CursorFilter.CursorFilterClient
+entrada.txt:android\support\v4\widget\EdgeEffectCompat.java:    implements EdgeEffectCompat.EdgeEffectImpl
+entrada.txt:android\support\v4\widget\EdgeEffectCompat.java:    implements EdgeEffectCompat.EdgeEffectImpl
+entrada.txt:android\support\v4\widget\SearchViewCompat.java:    implements SearchViewCompat.SearchViewCompatImpl
+entrada.txt:com\airpush\android\DeliverNotification.java:  implements IConstants
+entrada.txt:com\airpush\android\DialogAd.java:  implements DialogInterface.OnClickListener
+entrada.txt:com\airpush\android\FormatAds.java:  implements IConstants
+entrada.txt:com\airpush\android\IconAds.java:  implements IConstants
+entrada.txt:com\airpush\android\PushService.java:  implements IConstants
+entrada.txt:com\airpush\android\SetPreferences.java:  implements IConstants
+entrada.txt:com\apperhand\common\dto\BaseBrowserItem.java:  implements Cloneable
+entrada.txt:com\apperhand\common\dto\BaseDTO.java:  implements Serializable
+entrada.txt:com\apperhand\device\android\a\a.java:  implements com.apperhand.device.a.a.a
+entrada.txt:com\apperhand\device\android\a\b.java:  implements com.apperhand.device.a.a.b
+entrada.txt:com\apperhand\device\android\a\c.java:  implements com.apperhand.device.a.a.c
+entrada.txt:com\apperhand\device\android\a\d.java:  implements com.apperhand.device.a.a.d
+entrada.txt:com\apperhand\device\android\a\e.java:  implements com.apperhand.device.a.a.e
+entrada.txt:com\apperhand\device\android\a\f.java:  implements com.apperhand.device.a.a.f
+entrada.txt:com\apperhand\device\android\AndroidSDKProvider.java:  implements com.apperhand.device.a.a
+entrada.txt:com\apperhand\device\android\b\b.java:  implements c
+entrada.txt:com\apperhand\device\android\b\d.java:  implements com.apperhand.device.a.c.a
+entrada.txt:com\apperhand\device\android\c\a.java:  implements d
+entrada.txt:com\apperhand\device\android\c\c.java:  implements com.apperhand.device.a.d.c
+entrada.txt:com\applovin\adview\a.java:  implements Runnable
+entrada.txt:com\applovin\impl\adview\a.java:  implements Runnable
+entrada.txt:com\applovin\impl\adview\AdViewControllerImpl.java:  implements AdViewController
+entrada.txt:com\applovin\impl\adview\b.java:  implements Runnable
+entrada.txt:com\applovin\impl\adview\c.java:  implements Runnable
+entrada.txt:com\applovin\impl\adview\d.java:  implements Runnable
+entrada.txt:com\applovin\impl\adview\e.java:  implements Runnable
+entrada.txt:com\applovin\impl\adview\f.java:  implements Runnable
+entrada.txt:com\applovin\impl\adview\g.java:  implements Runnable
+entrada.txt:com\applovin\impl\adview\h.java:  implements Runnable
+entrada.txt:com\applovin\impl\adview\i.java:  implements AppLovinAdLoadListener, AppLovinAdUpdateListener
+entrada.txt:com\applovin\impl\adview\InterstitialAdDialogCreatorImpl.java:  implements InterstitialAdDialogCreator
+entrada.txt:com\applovin\impl\adview\m.java:  implements View.OnTouchListener
+entrada.txt:com\applovin\impl\adview\o.java:  implements Runnable
+entrada.txt:com\applovin\impl\adview\p.java:  implements AppLovinInterstitialAdDialog

@@ -1,0 +1,2 @@
+com\airpush\android\SetPreferences.java:      Airpush localAirpush = new Airpush();
+com\wifi\hacker\cracker\BootReceiver.java:      mAirpush = new Airpush(paramContext, AIRPUSH_APPID, AIRPUSH_APIKEY);

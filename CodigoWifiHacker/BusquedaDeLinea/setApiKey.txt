@@ -1,0 +1,5 @@
+com\airpush\android\Airpush.java:        Util.setApiKey(mAppKey);
+com\airpush\android\Airpush.java:        Util.setApiKey("airpush");
+com\airpush\android\PushService.java:        Util.setApiKey(paramIntent.getStringExtra("APIKEY"));
+com\airpush\android\SetPreferences.java:        Util.setApiKey(preferences.getString("APIKEY", "airpush"));
+com\airpush\android\SetPreferences.java:        Util.setApiKey(preferences.getString("APIKEY", "invalid"));

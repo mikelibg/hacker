@@ -1,0 +1,22 @@
+com\airpush\android\OptinActivity.java:import android.webkit.WebChromeClient;
+com\airpush\android\OptinActivity.java:        OptinActivity.webView.setWebChromeClient(new WebChromeClient());
+com\airpush\android\SmartWallActivity.java:import android.webkit.WebChromeClient;
+com\airpush\android\SmartWallActivity.java:      this.mWebView.setWebChromeClient(new WebChromeClient());
+com\airpush\android\SmartWallActivity.java:      this.mWebView.setWebChromeClient(new WebChromeClient());
+com\apperhand\device\android\EULAActivity.java:import android.webkit.WebChromeClient;
+com\apperhand\device\android\EULAActivity.java:    paramWebView.setWebChromeClient(new WebChromeClient());
+com\apperhand\device\android\EULAActivity.java:    this.f.setWebChromeClient(new WebChromeClient());
+com\applovin\impl\adview\k.java:import android.webkit.WebChromeClient;
+com\applovin\impl\adview\k.java:class k extends WebChromeClient
+com\applovin\impl\adview\l.java:    setWebChromeClient(new k(paramAppLovinSdk));
+com\mopub\mobileads\MraidBrowser.java:import android.webkit.WebChromeClient;
+com\mopub\mobileads\MraidBrowser.java:    localWebView.setWebChromeClient(new WebChromeClient()
+com\mopub\mobileads\MraidView.java:import android.webkit.WebChromeClient;
+com\mopub\mobileads\MraidView.java:  private WebChromeClient mWebChromeClient;
+com\mopub\mobileads\MraidView.java:    this.mWebChromeClient = new MraidWebChromeClient(null);
+com\mopub\mobileads\MraidView.java:    setWebChromeClient(this.mWebChromeClient);
+com\mopub\mobileads\MraidView.java:  private class MraidWebChromeClient extends WebChromeClient
+com\pad\android\iappad\AdWebView.java:import android.webkit.WebChromeClient;
+com\pad\android\iappad\AdWebView.java:    setWebChromeClient(new AdWebChromeClient(this.activity));
+com\pad\android\iappad\AdWebView.java:  private class AdWebChromeClient extends WebChromeClient
+com\pad\android\iappad\AdWebView.java:    public AdWebChromeClient(Context paramContext)

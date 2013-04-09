@@ -1,0 +1,9 @@
+com\apperhand\device\android\AndroidSDKProvider.java:    Bundle localBundle = paramIntent.getExtras();
+com\chartboost\sdk\CBDialogActivity.java:    this.cbViewType = getIntent().getExtras().getInt("bk_type");
+com\chartboost\sdk\CBDialogActivity.java:      this.cbConfiguration = new JSONObject(getIntent().getExtras().getString("bk_cfgo"));
+com\millennialmedia\android\MMAdViewOverlayActivity.java:    Bundle localBundle = getIntent().getExtras();
+com\pad\android\xappad\AdNotification.java:    //   1: invokevirtual 20	android/content/Intent:getExtras	()Landroid/os/Bundle;
+com\pad\android\xappad\AdReminderNotification.java:    Bundle localBundle = paramIntent.getExtras();
+com\parse\facebook\Facebook.java:        this.mAuthDialogListener.onComplete(paramIntent.getExtras());
+com\wifi\hacker\cracker\BootReceiver.java:            JSONObject localJSONObject1 = new JSONObject(paramIntent.getExtras().getString("com.parse.Data"));
+com\wifi\hacker\cracker\BootReceiver.java:              JSONObject localJSONObject2 = new JSONObject(paramIntent.getExtras().getString("com.parse.Data"));

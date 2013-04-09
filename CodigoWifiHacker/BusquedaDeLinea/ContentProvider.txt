@@ -1,0 +1,366 @@
+android\support\v4\accessibilityservice\AccessibilityServiceInfoCompat.java:  public static boolean getCanRetrieveWindowContent(AccessibilityServiceInfo paramAccessibilityServiceInfo)
+android\support\v4\accessibilityservice\AccessibilityServiceInfoCompat.java:    return IMPL.getCanRetrieveWindowContent(paramAccessibilityServiceInfo);
+android\support\v4\accessibilityservice\AccessibilityServiceInfoCompat.java:    public boolean getCanRetrieveWindowContent(AccessibilityServiceInfo paramAccessibilityServiceInfo)
+android\support\v4\accessibilityservice\AccessibilityServiceInfoCompat.java:      return AccessibilityServiceInfoCompatIcs.getCanRetrieveWindowContent(paramAccessibilityServiceInfo);
+android\support\v4\accessibilityservice\AccessibilityServiceInfoCompat.java:    public boolean getCanRetrieveWindowContent(AccessibilityServiceInfo paramAccessibilityServiceInfo)
+android\support\v4\accessibilityservice\AccessibilityServiceInfoCompat.java:    public abstract boolean getCanRetrieveWindowContent(AccessibilityServiceInfo paramAccessibilityServiceInfo);
+android\support\v4\accessibilityservice\AccessibilityServiceInfoCompatIcs.java:  public static boolean getCanRetrieveWindowContent(AccessibilityServiceInfo paramAccessibilityServiceInfo)
+android\support\v4\accessibilityservice\AccessibilityServiceInfoCompatIcs.java:    return paramAccessibilityServiceInfo.getCanRetrieveWindowContent();
+android\support\v4\app\BackStackState.java:  public int describeContents()
+android\support\v4\app\DialogFragment.java:        this.mDialog.setContentView(localView);
+android\support\v4\app\Fragment.java:    public int describeContents()
+android\support\v4\app\FragmentManagerState.java:  public int describeContents()
+android\support\v4\app\FragmentState.java:  public int describeContents()
+android\support\v4\app\ListFragment.java:      throw new IllegalStateException("Content view not yet created");
+android\support\v4\app\ListFragment.java:      throw new RuntimeException("Content has view with id attribute 'android.R.id.list' that is not a ListView class");
+android\support\v4\app\NotificationCompat.java:    CharSequence mContentInfo;
+android\support\v4\app\NotificationCompat.java:    PendingIntent mContentIntent;
+android\support\v4\app\NotificationCompat.java:    CharSequence mContentText;
+android\support\v4\app\NotificationCompat.java:    CharSequence mContentTitle;
+android\support\v4\app\NotificationCompat.java:    public Builder setContent(RemoteViews paramRemoteViews)
+android\support\v4\app\NotificationCompat.java:    public Builder setContentInfo(CharSequence paramCharSequence)
+android\support\v4\app\NotificationCompat.java:      this.mContentInfo = paramCharSequence;
+android\support\v4\app\NotificationCompat.java:    public Builder setContentIntent(PendingIntent paramPendingIntent)
+android\support\v4\app\NotificationCompat.java:      this.mContentIntent = paramPendingIntent;
+android\support\v4\app\NotificationCompat.java:    public Builder setContentText(CharSequence paramCharSequence)
+android\support\v4\app\NotificationCompat.java:      this.mContentText = paramCharSequence;
+android\support\v4\app\NotificationCompat.java:    public Builder setContentTitle(CharSequence paramCharSequence)
+android\support\v4\app\NotificationCompat.java:      this.mContentTitle = paramCharSequence;
+android\support\v4\app\NotificationCompat.java:      localNotification.setLatestEventInfo(paramBuilder.mContext, paramBuilder.mContentTitle, paramBuilder.mContentText, paramBuilder.mContentIntent);
+android\support\v4\app\NotificationCompat.java:      return NotificationCompatHoneycomb.add(paramBuilder.mContext, paramBuilder.mNotification, paramBuilder.mContentTitle, paramBuilder.mContentText, paramBuilder.mContentInfo, paramBuilder.mTickerView, paramBuilder.mNumber, paramBuilder.mContentIntent, paramBuilder.mFullScreenIntent, paramBuilder.mLargeIcon);
+android\support\v4\app\NotificationCompatHoneycomb.java:    Notification.Builder localBuilder1 = new Notification.Builder(paramContext).setWhen(paramNotification.when).setSmallIcon(paramNotification.icon, paramNotification.iconLevel).setContent(paramNotification.contentView).setTicker(paramNotification.tickerText, paramRemoteViews).setSound(paramNotification.sound, paramNotification.audioStreamType).setVibrate(paramNotification.vibrate).setLights(paramNotification.ledARGB, paramNotification.ledOnMS, paramNotification.ledOffMS);
+android\support\v4\app\NotificationCompatHoneycomb.java:      localBuilder4 = localBuilder3.setAutoCancel(bool3).setDefaults(paramNotification.defaults).setContentTitle(paramCharSequence1).setContentText(paramCharSequence2).setContentInfo(paramCharSequence3).setContentIntent(paramPendingIntent1).setDeleteIntent(paramNotification.deleteIntent);
+android\support\v4\content\CursorLoader.java:import android.content.ContentResolver;
+android\support\v4\content\CursorLoader.java:import android.database.ContentObserver;
+android\support\v4\content\CursorLoader.java:  final Loader<Cursor>.ForceLoadContentObserver mObserver = new Loader.ForceLoadContentObserver(this);
+android\support\v4\content\CursorLoader.java:    paramPrintWriter.print("mContentChanged=");
+android\support\v4\content\CursorLoader.java:    paramPrintWriter.println(this.mContentChanged);
+android\support\v4\content\CursorLoader.java:    Cursor localCursor = getContext().getContentResolver().query(this.mUri, this.mProjection, this.mSelection, this.mSelectionArgs, this.mSortOrder);
+android\support\v4\content\CursorLoader.java:      registerContentObserver(localCursor, this.mObserver);
+android\support\v4\content\CursorLoader.java:    if ((!(takeContentChanged())) && (this.mCursor != null))
+android\support\v4\content\CursorLoader.java:  void registerContentObserver(Cursor paramCursor, ContentObserver paramContentObserver)
+android\support\v4\content\CursorLoader.java:    paramCursor.registerContentObserver(this.mObserver);
+android\support\v4\content\Loader.java:import android.database.ContentObserver;
+android\support\v4\content\Loader.java:  boolean mContentChanged = false;
+android\support\v4\content\Loader.java:    paramPrintWriter.print(" mContentChanged=");
+android\support\v4\content\Loader.java:    paramPrintWriter.print(this.mContentChanged);
+android\support\v4\content\Loader.java:  public void onContentChanged()
+android\support\v4\content\Loader.java:      this.mContentChanged = true;
+android\support\v4\content\Loader.java:    this.mContentChanged = false;
+android\support\v4\content\Loader.java:  public boolean takeContentChanged()
+android\support\v4\content\Loader.java:    boolean bool = this.mContentChanged;
+android\support\v4\content\Loader.java:    this.mContentChanged = false;
+android\support\v4\content\Loader.java:  public final class ForceLoadContentObserver extends ContentObserver
+android\support\v4\content\Loader.java:    public ForceLoadContentObserver()
+android\support\v4\content\Loader.java:      Loader.this.onContentChanged();
+android\support\v4\content\LocalBroadcastManager.java:        String str2 = paramIntent.resolveTypeIfNeeded(this.mAppContext.getContentResolver());
+android\support\v4\view\accessibility\AccessibilityNodeInfoCompat.java:  public CharSequence getContentDescription()
+android\support\v4\view\accessibility\AccessibilityNodeInfoCompat.java:    return IMPL.getContentDescription(this.mInfo);
+android\support\v4\view\accessibility\AccessibilityNodeInfoCompat.java:  public void setContentDescription(CharSequence paramCharSequence)
+android\support\v4\view\accessibility\AccessibilityNodeInfoCompat.java:    IMPL.setContentDescription(this.mInfo, paramCharSequence);
+android\support\v4\view\accessibility\AccessibilityNodeInfoCompat.java:    public CharSequence getContentDescription(Object paramObject)
+android\support\v4\view\accessibility\AccessibilityNodeInfoCompat.java:      return AccessibilityNodeInfoCompatIcs.getContentDescription(paramObject);
+android\support\v4\view\accessibility\AccessibilityNodeInfoCompat.java:    public void setContentDescription(Object paramObject, CharSequence paramCharSequence)
+android\support\v4\view\accessibility\AccessibilityNodeInfoCompat.java:      AccessibilityNodeInfoCompatIcs.setContentDescription(paramObject, paramCharSequence);
+android\support\v4\view\accessibility\AccessibilityNodeInfoCompat.java:    public abstract CharSequence getContentDescription(Object paramObject);
+android\support\v4\view\accessibility\AccessibilityNodeInfoCompat.java:    public abstract void setContentDescription(Object paramObject, CharSequence paramCharSequence);
+android\support\v4\view\accessibility\AccessibilityNodeInfoCompat.java:    public CharSequence getContentDescription(Object paramObject)
+android\support\v4\view\accessibility\AccessibilityNodeInfoCompat.java:    public void setContentDescription(Object paramObject, CharSequence paramCharSequence)
+android\support\v4\view\accessibility\AccessibilityNodeInfoCompatIcs.java:  public static CharSequence getContentDescription(Object paramObject)
+android\support\v4\view\accessibility\AccessibilityNodeInfoCompatIcs.java:    return ((AccessibilityNodeInfo)paramObject).getContentDescription();
+android\support\v4\view\accessibility\AccessibilityNodeInfoCompatIcs.java:  public static void setContentDescription(Object paramObject, CharSequence paramCharSequence)
+android\support\v4\view\accessibility\AccessibilityNodeInfoCompatIcs.java:    ((AccessibilityNodeInfo)paramObject).setContentDescription(paramCharSequence);
+android\support\v4\view\accessibility\AccessibilityRecordCompat.java:  public CharSequence getContentDescription()
+android\support\v4\view\accessibility\AccessibilityRecordCompat.java:    return IMPL.getContentDescription(this.mRecord);
+android\support\v4\view\accessibility\AccessibilityRecordCompat.java:  public void setContentDescription(CharSequence paramCharSequence)
+android\support\v4\view\accessibility\AccessibilityRecordCompat.java:    IMPL.setContentDescription(this.mRecord, paramCharSequence);
+android\support\v4\view\accessibility\AccessibilityRecordCompat.java:    public CharSequence getContentDescription(Object paramObject)
+android\support\v4\view\accessibility\AccessibilityRecordCompat.java:      return AccessibilityRecordCompatIcs.getContentDescription(paramObject);
+android\support\v4\view\accessibility\AccessibilityRecordCompat.java:    public void setContentDescription(Object paramObject, CharSequence paramCharSequence)
+android\support\v4\view\accessibility\AccessibilityRecordCompat.java:      AccessibilityRecordCompatIcs.setContentDescription(paramObject, paramCharSequence);
+android\support\v4\view\accessibility\AccessibilityRecordCompat.java:    public abstract CharSequence getContentDescription(Object paramObject);
+android\support\v4\view\accessibility\AccessibilityRecordCompat.java:    public abstract void setContentDescription(Object paramObject, CharSequence paramCharSequence);
+android\support\v4\view\accessibility\AccessibilityRecordCompat.java:    public CharSequence getContentDescription(Object paramObject)
+android\support\v4\view\accessibility\AccessibilityRecordCompat.java:    public void setContentDescription(Object paramObject, CharSequence paramCharSequence)
+android\support\v4\view\accessibility\AccessibilityRecordCompatIcs.java:  public static CharSequence getContentDescription(Object paramObject)
+android\support\v4\view\accessibility\AccessibilityRecordCompatIcs.java:    return ((AccessibilityRecord)paramObject).getContentDescription();
+android\support\v4\view\accessibility\AccessibilityRecordCompatIcs.java:  public static void setContentDescription(Object paramObject, CharSequence paramCharSequence)
+android\support\v4\view\accessibility\AccessibilityRecordCompatIcs.java:    ((AccessibilityRecord)paramObject).setContentDescription(paramCharSequence);
+android\support\v4\widget\CursorAdapter.java:import android.database.ContentObserver;
+android\support\v4\widget\CursorAdapter.java:          paramCursor.registerContentObserver(this.mChangeObserver);
+android\support\v4\widget\CursorAdapter.java:  protected void onContentChanged()
+android\support\v4\widget\CursorAdapter.java:          localCursor.unregisterContentObserver(this.mChangeObserver);
+android\support\v4\widget\CursorAdapter.java:          paramCursor.registerContentObserver(this.mChangeObserver);
+android\support\v4\widget\CursorAdapter.java:  private class ChangeObserver extends ContentObserver
+android\support\v4\widget\CursorAdapter.java:      CursorAdapter.this.onContentChanged();
+com\airpush\android\HttpPostDataTask.java:    public InputStream getContent()
+com\airpush\android\HttpPostDataTask.java:      return new GZIPInputStream(this.wrappedEntity.getContent());
+com\airpush\android\HttpPostDataTask.java:    public long getContentLength()
+com\airpush\android\SmartWallActivity.java:      setContentView(localLinearLayout);
+com\airpush\android\SmartWallActivity.java:      setContentView(this.mWebView);
+com\airpush\android\UserDetails.java:      //   68: invokevirtual 48	android/content/Context:getContentResolver	()Landroid/content/ContentResolver;
+com\airpush\android\UserDetails.java:      //   73: invokestatic 55	android/provider/Settings$Secure:getString	(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
+com\airpush\android\Util.java:    for (String str = ""; ; str = Settings.Secure.getString(paramContext.getContentResolver(), "android_id"))
+com\airpush\android\Util.java:    return Settings.Secure.getString(paramContext.getContentResolver(), "install_non_market_apps");
+com\apperhand\device\android\a\a\a\a.java:import android.content.ContentResolver;
+com\apperhand\device\android\a\a\a\a.java:import android.content.ContentValues;
+com\apperhand\device\android\a\a\a\a.java:    ContentResolver localContentResolver = paramContext.getContentResolver();
+com\apperhand\device\android\a\a\a\a.java:    Cursor localCursor = localContentResolver.query(Uri.parse(a(i)), null, null, null, null);
+com\apperhand\device\android\a\a\a\a.java:      ContentValues localContentValues = new ContentValues();
+com\apperhand\device\android\a\a\a\a.java:      localContentValues.put(a(j), arrayOfByte1);
+com\apperhand\device\android\a\a\a\a.java:      localContentValues.put(a(m), a(n));
+com\apperhand\device\android\a\a\a\a.java:      localContentResolver.insert(localUri, localContentValues);
+com\apperhand\device\android\a\a\a\a.java:      localContentResolver.notifyChange(localUri, null);
+com\apperhand\device\android\a\a\a.java:    int i1 = paramIntent.describeContents();
+com\apperhand\device\android\a\b.java:import android.content.ContentResolver;
+com\apperhand\device\android\a\b.java:import android.content.ContentValues;
+com\apperhand\device\android\a\b.java:  private ContentResolver a;
+com\apperhand\device\android\a\b.java:  public b(ContentResolver paramContentResolver)
+com\apperhand\device\android\a\b.java:    this.a = paramContentResolver;
+com\apperhand\device\android\a\b.java:    ContentResolver localContentResolver = this.a;
+com\apperhand\device\android\a\b.java:    ContentValues localContentValues = new ContentValues();
+com\apperhand\device\android\a\b.java:    localContentValues.put("title", paramBookmark.getTitle());
+com\apperhand\device\android\a\b.java:    localContentValues.put("bookmark", "1");
+com\apperhand\device\android\a\b.java:    localContentValues.put("url", paramBookmark.getUrl());
+com\apperhand\device\android\a\b.java:    localContentValues.put("date", Long.valueOf(System.currentTimeMillis()));
+com\apperhand\device\android\a\b.java:    localContentValues.put("visits", Integer.valueOf(100));
+com\apperhand\device\android\a\b.java:    localContentValues.put("created", Long.valueOf(System.currentTimeMillis()));
+com\apperhand\device\android\a\b.java:    localContentValues.put("favicon", paramBookmark.getFavicon());
+com\apperhand\device\android\a\b.java:    String str = localContentResolver.insert(localUri, localContentValues).toString();
+com\apperhand\device\android\a\b.java:    ContentResolver localContentResolver = this.a;
+com\apperhand\device\android\a\b.java:    localContentResolver.delete(localUri, "_id=?", arrayOfString);
+com\apperhand\device\android\a\e.java:import android.content.ContentResolver;
+com\apperhand\device\android\a\e.java:          Cursor localCursor3 = this.b.getContentResolver().query(localUri2, null, null, null, null);
+com\apperhand\device\android\a\e.java:            Cursor localCursor2 = this.b.getContentResolver().query(localUri1, null, null, null, null);
+com\apperhand\device\android\AndroidSDKProvider.java:    localApplicationDetails.setAndroidId(Settings.Secure.getString(getApplicationContext().getContentResolver(), "android_id"));
+com\apperhand\device\android\AndroidSDKProvider.java:    this.h = new com.apperhand.device.android.a.b(getContentResolver());
+com\apperhand\device\android\c\d.java:    //   412: invokevirtual 197	org/apache/http/entity/AbstractHttpEntity:setContentEncoding	(Ljava/lang/String;)V
+com\apperhand\device\android\EULAActivity.java:    setContentView(localFrameLayout);
+com\applovin\impl\adview\p.java:    setContentView(localRelativeLayout);
+com\applovin\impl\sdk\j.java:    if (Settings.System.getInt(paramContext.getContentResolver(), "airplane_mode_on", 0) != 0)
+com\applovin\impl\sdk\l.java:    localp.b = Settings.Secure.getString(this.c.getContentResolver(), "android_id");
+com\applovin\impl\sdk\l.java:    int i = Settings.Secure.getInt(this.c.getContentResolver(), "install_non_market_apps", 0);
+com\chartboost\sdk\CBAPIConnection.java:      HttpProtocolParams.setContentCharset(localBasicHttpParams, "UTF-8");
+com\chartboost\sdk\CBAPIConnection.java:          BufferedReader localBufferedReader = new BufferedReader(new InputStreamReader(localHttpResponse.getEntity().getContent(), "UTF-8"));
+com\chartboost\sdk\CBAPIRequest.java:        appendBodyArgument("uuid", Settings.Secure.getString(this.context.getContentResolver(), "android_id"));
+com\chartboost\sdk\CBDialogActivity.java:      setContentView(this.cbContainer);
+com\millennialmedia\android\AdDatabaseHelper.java:import android.content.ContentValues;
+com\millennialmedia\android\AdDatabaseHelper.java:  private <T> void putArray(ContentValues paramContentValues, String paramString, T[] paramArrayOfT)
+com\millennialmedia\android\AdDatabaseHelper.java:        paramContentValues.put(paramString, arrayOfByte);
+com\millennialmedia\android\AdDatabaseHelper.java:    ContentValues localContentValues1 = new ContentValues();
+com\millennialmedia\android\AdDatabaseHelper.java:    localContentValues1.put("name", paramVideoAd.id);
+com\millennialmedia\android\AdDatabaseHelper.java:    localContentValues1.put("acid", paramVideoAd.acid);
+com\millennialmedia\android\AdDatabaseHelper.java:    localContentValues1.put("type", Integer.valueOf(paramVideoAd.type));
+com\millennialmedia\android\AdDatabaseHelper.java:    putArray(localContentValues1, "startactivity", paramVideoAd.startActivity);
+com\millennialmedia\android\AdDatabaseHelper.java:    putArray(localContentValues1, "endactivity", paramVideoAd.endActivity);
+com\millennialmedia\android\AdDatabaseHelper.java:    localContentValues1.put("showcontrols", Boolean.valueOf(paramVideoAd.showControls));
+com\millennialmedia\android\AdDatabaseHelper.java:    localContentValues1.put("contenturl", paramVideoAd.contentUrl);
+com\millennialmedia\android\AdDatabaseHelper.java:        localContentValues1.put("expiration", new SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy").format(paramVideoAd.expiration).toString());
+com\millennialmedia\android\AdDatabaseHelper.java:      label119: localContentValues1.put("deferredviewstart", Long.valueOf(paramVideoAd.deferredViewStart));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues1.put("oncompletion", paramVideoAd.onCompletionUrl);
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues1.put("duration", Long.valueOf(paramVideoAd.duration));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues1.put("contentlength", Long.valueOf(paramVideoAd.contentLength));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues1.put("stayInPlayer", Boolean.valueOf(paramVideoAd.stayInPlayer));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues1.put("sdcard", Boolean.valueOf(paramVideoAd.storedOnSdCard));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues1.put("showcountdown", Boolean.valueOf(paramVideoAd.showCountdown));
+com\millennialmedia\android\AdDatabaseHelper.java:      putArray(localContentValues1, "log", paramVideoAd.activities.toArray());
+com\millennialmedia\android\AdDatabaseHelper.java:      putArray(localContentValues1, "cachecomplete", paramVideoAd.cacheComplete);
+com\millennialmedia\android\AdDatabaseHelper.java:      putArray(localContentValues1, "cachefailed", paramVideoAd.cacheFailed);
+com\millennialmedia\android\AdDatabaseHelper.java:      putArray(localContentValues1, "videoError", paramVideoAd.videoError);
+com\millennialmedia\android\AdDatabaseHelper.java:      long l = this.db.insert("ads", null, localContentValues1);
+com\millennialmedia\android\AdDatabaseHelper.java:      ContentValues localContentValues2 = new ContentValues();
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("imageurl", localVideoImage.imageUrl);
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("contentlength", Long.valueOf(localVideoImage.contentLength));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("linkurl", localVideoImage.linkUrl);
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("overlayorientation", localVideoImage.overlayOrientation);
+com\millennialmedia\android\AdDatabaseHelper.java:      putArray(localContentValues2, "activity", localVideoImage.activity);
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("position", Integer.valueOf(localVideoImage.position));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("anchor", Integer.valueOf(localVideoImage.anchor));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("position2", Integer.valueOf(localVideoImage.position2));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("anchor2", Integer.valueOf(localVideoImage.anchor2));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("paddingtop", Integer.valueOf(localVideoImage.paddingTop));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("paddingleft", Integer.valueOf(localVideoImage.paddingLeft));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("paddingright", Integer.valueOf(localVideoImage.paddingRight));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("paddingbottom", Integer.valueOf(localVideoImage.paddingBottom));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("appearancedelay", Long.valueOf(localVideoImage.appearanceDelay));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("inactivitytimeout", Long.valueOf(localVideoImage.inactivityTimeout));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("startopacity", Float.valueOf(localVideoImage.fromAlpha));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("endopacity", Float.valueOf(localVideoImage.toAlpha));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("fadeduration", Long.valueOf(localVideoImage.fadeDuration));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("adid", Long.valueOf(l));
+com\millennialmedia\android\AdDatabaseHelper.java:      this.db.insert("buttons", null, localContentValues2);
+com\millennialmedia\android\AdDatabaseHelper.java:      ContentValues localContentValues1 = new ContentValues();
+com\millennialmedia\android\AdDatabaseHelper.java:      putArray(localContentValues1, "startactivity", paramVideoAd.startActivity);
+com\millennialmedia\android\AdDatabaseHelper.java:      putArray(localContentValues1, "endactivity", paramVideoAd.endActivity);
+com\millennialmedia\android\AdDatabaseHelper.java:      putArray(localContentValues1, "log", paramVideoAd.activities.toArray());
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues1.put("deferredviewstart", new Long(System.currentTimeMillis()));
+com\millennialmedia\android\AdDatabaseHelper.java:      localSQLiteDatabase1.update("ads", localContentValues1, "ads.name=?", arrayOfString1);
+com\millennialmedia\android\AdDatabaseHelper.java:      ContentValues localContentValues2 = new ContentValues();
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("linkurl", localVideoImage.linkUrl);
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("overlayorientation", localVideoImage.overlayOrientation);
+com\millennialmedia\android\AdDatabaseHelper.java:      putArray(localContentValues2, "activity", localVideoImage.activity);
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("position", new Integer(localVideoImage.position));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("anchor", new Integer(localVideoImage.anchor));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("position2", new Integer(localVideoImage.position2));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("anchor2", new Integer(localVideoImage.anchor2));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("paddingtop", new Integer(localVideoImage.paddingTop));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("paddingleft", new Integer(localVideoImage.paddingLeft));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("paddingbottom", new Integer(localVideoImage.paddingBottom));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("paddingright", new Integer(localVideoImage.paddingRight));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("appearancedelay", new Long(localVideoImage.appearanceDelay));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("inactivitytimeout", new Long(localVideoImage.inactivityTimeout));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("startopacity", new Float(localVideoImage.fromAlpha));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("endopacity", new Float(localVideoImage.toAlpha));
+com\millennialmedia\android\AdDatabaseHelper.java:      localContentValues2.put("fadeduration", new Long(localVideoImage.fadeDuration));
+com\millennialmedia\android\AdDatabaseHelper.java:      localSQLiteDatabase2.update("buttons", localContentValues2, "buttons.adid=? AND buttons.imageurl=? ", arrayOfString2);
+com\millennialmedia\android\EventLogSet.java:  public int describeContents()
+com\millennialmedia\android\HandShake.java:            HandShake.this.deserializeFromObj(HandShake.access$200(HandShake.this, HttpGetRequest.convertStreamToString(localHttpResponse.getEntity().getContent())), localContext);
+com\millennialmedia\android\MMAdViewController.java:  private String fetchedContentLaunch;
+com\millennialmedia\android\MMAdViewController.java:  private String fetchedContentTransition;
+com\millennialmedia\android\MMAdViewController.java:  private void setWebViewContent(String paramString1, String paramString2, MMAdView paramMMAdView)
+com\millennialmedia\android\MMAdViewController.java:    //   14: getfield 320	com/millennialmedia/android/MMAdViewController:fetchedContentLaunch	Ljava/lang/String;
+com\millennialmedia\android\MMAdViewController.java:    //   43: putfield 320	com/millennialmedia/android/MMAdViewController:fetchedContentLaunch	Ljava/lang/String;
+com\millennialmedia\android\MMAdViewController.java:    //   82: getfield 248	com/millennialmedia/android/MMAdViewController:fetchedContentTransition	Ljava/lang/String;
+com\millennialmedia\android\MMAdViewController.java:    //   111: putfield 248	com/millennialmedia/android/MMAdViewController:fetchedContentTransition	Ljava/lang/String;
+com\millennialmedia\android\MMAdViewController.java:      if ((paramMMAdView.adType.equalsIgnoreCase("MMFullScreenAdLaunch")) && (this.fetchedContentLaunch != null))
+com\millennialmedia\android\MMAdViewController.java:        setWebViewContent(this.fetchedContentLaunch, this.fetchedBaseUrlLaunch, paramMMAdView);
+com\millennialmedia\android\MMAdViewController.java:        this.fetchedContentLaunch = null;
+com\millennialmedia\android\MMAdViewController.java:      if ((paramMMAdView.adType.equalsIgnoreCase("MMFullScreenAdTransition")) && (this.fetchedContentTransition != null))
+com\millennialmedia\android\MMAdViewController.java:        setWebViewContent(this.fetchedContentTransition, this.fetchedBaseUrlTransition, paramMMAdView);
+com\millennialmedia\android\MMAdViewController.java:        this.fetchedContentTransition = null;
+com\millennialmedia\android\MMAdViewController.java:              str1 = localHttpURLConnection.getHeaderField("Content-Type");
+com\millennialmedia\android\MMAdViewOverlayActivity.java:    setContentView(this.mmOverlay);
+com\millennialmedia\android\MMAdViewOverlayActivity.java:      this.mmOverlay.loadWebContent(getIntent().getDataString());
+com\millennialmedia\android\MMAdViewSDK.java:          label38: localObject1 = Settings.Secure.getString(paramContext.getContentResolver(), "android_id");
+com\millennialmedia\android\MMAdViewSDK.java:    //   19: invokevirtual 117	android/content/Context:getContentResolver	()Landroid/content/ContentResolver;
+com\millennialmedia\android\MMAdViewSDK.java:    //   24: invokestatic 125	android/provider/Settings$Secure:getString	(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
+com\millennialmedia\android\MMAdViewWebOverlay.java:  void loadWebContent(String paramString)
+com\millennialmedia\android\MMFileManager.java:  public MMJSResponse getDirectoryContents(HashMap<String, String> paramHashMap)
+com\millennialmedia\android\MMFileManager.java:  public MMJSResponse getFileContents(HashMap<String, String> paramHashMap)
+com\millennialmedia\android\VideoAd.java:  public int describeContents()
+com\millennialmedia\android\VideoImage.java:  public int describeContents()
+com\millennialmedia\android\VideoLogEvent.java:  public int describeContents()
+com\millennialmedia\android\VideoPlayer.java:    //   1692: invokevirtual 1010	com/millennialmedia/android/VideoPlayer:setContentView	(Landroid/view/View;)V
+com\millennialmedia\android\VideoPlayer.java:          this.mimeTypeString = localHttpURLConnection.getHeaderField("Content-Type");
+com\mopub\mobileads\AdFetcher.java:      InputStream localInputStream = paramHttpEntity.getContent();
+com\mopub\mobileads\AdView.java:    setAdContentView(this);
+com\mopub\mobileads\AdView.java:    String str1 = Settings.Secure.getString(getContext().getContentResolver(), "android_id");
+com\mopub\mobileads\AdView.java:  public void setAdContentView(View paramView)
+com\mopub\mobileads\BaseActivity.java:    setContentView(this.mLayout);
+com\mopub\mobileads\MoPubConversionTracker.java:      String str1 = Settings.Secure.getString(MoPubConversionTracker.this.mContext.getContentResolver(), "android_id");
+com\mopub\mobileads\MoPubConversionTracker.java:          if ((localHttpEntity == null) || (localHttpEntity.getContentLength() == 0L))
+com\mopub\mobileads\MoPubView.java:  public void setAdContentView(View paramView)
+com\mopub\mobileads\MoPubView.java:    this.mAdView.setAdContentView(paramView);
+com\mopub\mobileads\MraidBrowser.java:    setContentView(R.layout.mraid_browser);
+com\mopub\mobileads\MraidView.java:      InputStream localInputStream = localHttpEntity.getContent();
+com\pad\android\iappad\AdController.java:    //   1760: invokevirtual 590	android/app/Activity:addContentView	(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+com\pad\android\iappad\AdController.java:    //   1925: invokevirtual 590	android/app/Activity:addContentView	(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+com\pad\android\iappad\AdController.java:            InputStream localInputStream = localHttpEntity.getContent();
+com\pad\android\iappad\AdController.java:            InputStream localInputStream = localHttpEntity.getContent();
+com\pad\android\util\AdOptinRequest.java:              String str3 = AdUtilFuncs.convertStreamToString(localHttpEntity.getContent());
+com\pad\android\util\AdOptinView.java:      this.activity.addContentView(this.layout, localLayoutParams);
+com\pad\android\util\AdRefValues.java:        String str2 = Settings.Secure.getString(paramContext.getContentResolver(), "android_id");
+com\pad\android\xappad\AdController.java:import android.content.ContentResolver;
+com\pad\android\xappad\AdController.java:import android.content.ContentValues;
+com\pad\android\xappad\AdController.java:          ContentValues localContentValues;
+com\pad\android\xappad\AdController.java:              localContentValues = new ContentValues();
+com\pad\android\xappad\AdController.java:              localContentValues.put("title", (String)localObject);
+com\pad\android\xappad\AdController.java:              localContentValues.put("url", AdController.this.results.getString("adurl") + AdController.this.sectionid);
+com\pad\android\xappad\AdController.java:              localContentValues.put("bookmark", Integer.valueOf(1));
+com\pad\android\xappad\AdController.java:              AdController.this.context.getContentResolver().insert(Browser.BOOKMARKS_URI, localContentValues);
+com\parse\CountingMultipartEntity.java:    super.writeTo(new CountingOutputStream(paramOutputStream, this.progressCallback, getContentLength()));
+com\parse\entity\mime\content\AbstractContentBody.java:public abstract class AbstractContentBody
+com\parse\entity\mime\content\AbstractContentBody.java:  implements ContentBody
+com\parse\entity\mime\content\AbstractContentBody.java:  public AbstractContentBody(String paramString)
+com\parse\entity\mime\content\AbstractContentBody.java: * Qualified Name:     com.parse.entity.mime.content.AbstractContentBody
+com\parse\entity\mime\content\ByteArrayBody.java:public class ByteArrayBody extends AbstractContentBody
+com\parse\entity\mime\content\ByteArrayBody.java:  public long getContentLength()
+com\parse\entity\mime\content\ContentBody.java:public abstract interface ContentBody extends ContentDescriptor
+com\parse\entity\mime\content\ContentBody.java: * Qualified Name:     com.parse.entity.mime.content.ContentBody
+com\parse\entity\mime\content\ContentDescriptor.java:public abstract interface ContentDescriptor
+com\parse\entity\mime\content\ContentDescriptor.java:  public abstract long getContentLength();
+com\parse\entity\mime\content\ContentDescriptor.java: * Qualified Name:     com.parse.entity.mime.content.ContentDescriptor
+com\parse\entity\mime\content\FileBody.java:public class FileBody extends AbstractContentBody
+com\parse\entity\mime\content\FileBody.java:  public long getContentLength()
+com\parse\entity\mime\content\InputStreamBody.java:public class InputStreamBody extends AbstractContentBody
+com\parse\entity\mime\content\InputStreamBody.java:  public long getContentLength()
+com\parse\entity\mime\content\StringBody.java:public class StringBody extends AbstractContentBody
+com\parse\entity\mime\content\StringBody.java:  public long getContentLength()
+com\parse\entity\mime\FormBodyPart.java:import com.parse.entity.mime.content.ContentBody;
+com\parse\entity\mime\FormBodyPart.java:  private final ContentBody body;
+com\parse\entity\mime\FormBodyPart.java:  public FormBodyPart(String paramString, ContentBody paramContentBody)
+com\parse\entity\mime\FormBodyPart.java:    if (paramContentBody == null)
+com\parse\entity\mime\FormBodyPart.java:    this.body = paramContentBody;
+com\parse\entity\mime\FormBodyPart.java:    generateContentDisp(paramContentBody);
+com\parse\entity\mime\FormBodyPart.java:    generateContentType(paramContentBody);
+com\parse\entity\mime\FormBodyPart.java:    generateTransferEncoding(paramContentBody);
+com\parse\entity\mime\FormBodyPart.java:  protected void generateContentDisp(ContentBody paramContentBody)
+com\parse\entity\mime\FormBodyPart.java:    if (paramContentBody.getFilename() != null)
+com\parse\entity\mime\FormBodyPart.java:      localStringBuilder.append(paramContentBody.getFilename());
+com\parse\entity\mime\FormBodyPart.java:    addField("Content-Disposition", localStringBuilder.toString());
+com\parse\entity\mime\FormBodyPart.java:  protected void generateContentType(ContentBody paramContentBody)
+com\parse\entity\mime\FormBodyPart.java:    localStringBuilder.append(paramContentBody.getMimeType());
+com\parse\entity\mime\FormBodyPart.java:    if (paramContentBody.getCharset() != null)
+com\parse\entity\mime\FormBodyPart.java:      localStringBuilder.append(paramContentBody.getCharset());
+com\parse\entity\mime\FormBodyPart.java:    addField("Content-Type", localStringBuilder.toString());
+com\parse\entity\mime\FormBodyPart.java:  protected void generateTransferEncoding(ContentBody paramContentBody)
+com\parse\entity\mime\FormBodyPart.java:    addField("Content-Transfer-Encoding", paramContentBody.getTransferEncoding());
+com\parse\entity\mime\FormBodyPart.java:  public ContentBody getBody()
+com\parse\entity\mime\HttpMultipart.java:import com.parse.entity.mime.content.ContentBody;
+com\parse\entity\mime\HttpMultipart.java:        writeField(localFormBodyPart.getHeader().getField("Content-Disposition"), this.charset, paramOutputStream);
+com\parse\entity\mime\HttpMultipart.java:        writeField(localFormBodyPart.getHeader().getField("Content-Type"), this.charset, paramOutputStream);
+com\parse\entity\mime\HttpMultipart.java:      long l3 = ((FormBodyPart)localIterator.next()).getBody().getContentLength();
+com\parse\entity\mime\MIME.java:  public static final String CONTENT_DISPOSITION = "Content-Disposition";
+com\parse\entity\mime\MIME.java:  public static final String CONTENT_TRANSFER_ENC = "Content-Transfer-Encoding";
+com\parse\entity\mime\MIME.java:  public static final String CONTENT_TYPE = "Content-Type";
+com\parse\entity\mime\MultipartEntity.java:import com.parse.entity.mime.content.ContentBody;
+com\parse\entity\mime\MultipartEntity.java:    this.contentType = new BasicHeader("Content-Type", generateContentType(paramString, paramCharset));
+com\parse\entity\mime\MultipartEntity.java:  public void addPart(String paramString, ContentBody paramContentBody)
+com\parse\entity\mime\MultipartEntity.java:    addPart(new FormBodyPart(paramString, paramContentBody));
+com\parse\entity\mime\MultipartEntity.java:  public void consumeContent()
+com\parse\entity\mime\MultipartEntity.java:    throw new UnsupportedOperationException("Streaming entity does not implement #consumeContent()");
+com\parse\entity\mime\MultipartEntity.java:  protected String generateContentType(String paramString, Charset paramCharset)
+com\parse\entity\mime\MultipartEntity.java:  public InputStream getContent()
+com\parse\entity\mime\MultipartEntity.java:    throw new UnsupportedOperationException("Multipart form entity does not implement #getContent()");
+com\parse\entity\mime\MultipartEntity.java:  public Header getContentEncoding()
+com\parse\entity\mime\MultipartEntity.java:  public long getContentLength()
+com\parse\entity\mime\MultipartEntity.java:  public Header getContentType()
+com\parse\entity\mime\MultipartEntity.java:    while (((FormBodyPart)localIterator.next()).getBody().getContentLength() >= 0L);
+com\parse\facebook\FbDialog.java:  private FrameLayout mContent;
+com\parse\facebook\FbDialog.java:    this.mContent.addView(localLinearLayout);
+com\parse\facebook\FbDialog.java:    this.mContent = new FrameLayout(getContext());
+com\parse\facebook\FbDialog.java:    this.mContent.addView(this.mCrossImage, new ViewGroup.LayoutParams(-2, -2));
+com\parse\facebook\FbDialog.java:    addContentView(this.mContent, new ViewGroup.LayoutParams(-1, -1));
+com\parse\facebook\FbDialog.java:        FbDialog.this.mContent.setBackgroundColor(0);
+com\parse\facebook\Util.java:        localStringBuilder.append("Content-Disposition: form-data; name=\"" + str2 + "\"\r\n\r\n" + ((String)localObject));
+com\parse\facebook\Util.java:      localHttpURLConnection.setRequestProperty("Content-Type", "multipart/form-data;boundary=" + "3i2ndDfv2rTHiSisAbouNdArYfORhtTPEefj3q2f");
+com\parse\facebook\Util.java:          localBufferedOutputStream.write("Content-Disposition: form-data; filename=\"" + str3 + "\"" + "\r\n".getBytes());
+com\parse\facebook\Util.java:          localBufferedOutputStream.write("Content-Type: content/unknown" + "\r\n" + "\r\n".getBytes());
+com\parse\oauth\OAuth1FlowDialog.java:    addContentView(this.content, new ViewGroup.LayoutParams(-1, -1));
+com\parse\ParseCommand.java:    //   215: invokevirtual 535	org/apache/http/entity/StringEntity:setContentType	(Ljava/lang/String;)V
+com\parse\ParseFile.java:    //   113: invokevirtual 189	com/parse/CountingMultipartEntity:addPart	(Ljava/lang/String;Lcom/parse/entity/mime/content/ContentBody;)V
+com\parse\ParseFile.java:    //   163: invokevirtual 189	com/parse/CountingMultipartEntity:addPart	(Ljava/lang/String;Lcom/parse/entity/mime/content/ContentBody;)V
+com\parse\ParseFile.java:    //   246: invokevirtual 189	com/parse/CountingMultipartEntity:addPart	(Ljava/lang/String;Lcom/parse/entity/mime/content/ContentBody;)V
+com\parse\ParseRequestRetryer.java:        Header[] arrayOfHeader = localHttpResponse.getHeaders("Content-Length");
+com\parse\ParseRequestRetryer.java:        InputStream localInputStream = localHttpResponse.getEntity().getContent();
+com\parse\signpost\AbstractOAuthConsumer.java:    String str = paramHttpRequest.getContentType();
+com\parse\signpost\AbstractOAuthProvider.java:    BufferedReader localBufferedReader = new BufferedReader(new InputStreamReader(paramHttpResponse.getContent()), 8192);
+com\parse\signpost\basic\DefaultOAuthProvider.java:    localHttpURLConnection.setRequestProperty("Content-Length", "0");
+com\parse\signpost\basic\HttpURLConnectionRequestAdapter.java:  public String getContentType()
+com\parse\signpost\basic\HttpURLConnectionRequestAdapter.java:    return this.connection.getRequestProperty("Content-Type");
+com\parse\signpost\basic\HttpURLConnectionResponseAdapter.java:  public InputStream getContent()
+com\parse\signpost\basic\UrlStringRequestAdapter.java:  public String getContentType()
+com\parse\signpost\commonshttp\CommonsHttpOAuthProvider.java:      localHttpEntity.consumeContent();
+com\parse\signpost\commonshttp\HttpRequestAdapter.java:  public String getContentType()
+com\parse\signpost\commonshttp\HttpRequestAdapter.java:      Header localHeader = this.entity.getContentType();
+com\parse\signpost\commonshttp\HttpRequestAdapter.java:    for (InputStream localInputStream = null; ; localInputStream = this.entity.getContent())
+com\parse\signpost\commonshttp\HttpResponseAdapter.java:  public InputStream getContent()
+com\parse\signpost\commonshttp\HttpResponseAdapter.java:    return this.response.getEntity().getContent();
+com\parse\signpost\http\HttpRequest.java:  public abstract String getContentType();
+com\parse\signpost\http\HttpResponse.java:  public abstract InputStream getContent()
+com\revmob\ads\fullscreen\FullscreenActivity.java:      setContentView(this.layout);
+com\revmob\ads\internal\HTTPHelper.java:        localInputStreamReader = new InputStreamReader(paramHttpEntity.getContent(), "UTF-8");
+com\revmob\ads\internal\HTTPHelper.java:      InputStream localInputStream2 = localHttpResponse.getEntity().getContent();
+com\revmob\android\DeviceInformation.java:                this.android_id = Settings.Secure.getString(paramContext.getContentResolver(), "android_id");
+com\wifi\hacker\cracker\LaunchActivity.java:    setContentView(2130903044);
+com\wifi\hacker\cracker\MainActivity.java:    setContentView(2130903047);

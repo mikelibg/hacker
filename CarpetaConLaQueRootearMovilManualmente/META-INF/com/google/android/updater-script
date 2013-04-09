@@ -1,0 +1,35 @@
+assert(getprop("ro.product.device") == "GT-S5360" ||
+       getprop("ro.product.product") == "GT-S5360"||
+       getprop("ro.product.device") == "GT-S5570B" ||
+       getprop("ro.build.product") == "GT-S5570B"  ||
+       getprop("ro.product.device") == "GT-S5670L" ||
+       getprop("ro.product.product") == "GT-S5670L"||
+       getprop("ro.product.device") == "GT-S5670B" ||
+       getprop("ro.product.product") == "GT-S5670B"||
+       getprop("ro.product.device") == "GT-S5830L" ||
+       getprop("ro.build.product") == "GT-S5830L"  ||
+       getprop("ro.product.device") == "GT-S5830B" ||
+       getprop("ro.build.product") == "GT-S5830B"  ||
+       getprop("ro.product.device") == "GT-S5830" ||
+       getprop("ro.build.product") == "GT-S5830"  ||
+       getprop("ro.product.device") == "GT-S5570" ||
+       getprop("ro.build.product") == "GT-S5570"  ||
+       getprop("ro.product.device") == "GT-S5670" ||
+       getprop("ro.product.product") == "GT-S5670"||
+       getprop("ro.product.device") == "GT-B7510" ||
+       getprop("ro.product.product") == "GT-B7510"
+       );
+ui_print("Root for Galaxy Young...");
+ui_print("Installing su and Superuser.apk...");
+show_progress(0.100000, 0);
+show_progress(0.500000, 0);
+# format("MTD", "system");
+# mount("MTD", "system", "/system");
+package_extract_dir("system", "/system");
+set_perm(0, 0, 04755, "/system/xbin/sqlite3");
+set_perm(0, 0, 04755, "/system/xbin/su");
+set_perm(0, 0, 04755, "/system/xbin/ssh");
+set_perm(0, 0, 04755, "/system/xbin/busybox");
+ui_print("Installing OK...");
+ui_print("by yodeput...");
+unmount("/system");

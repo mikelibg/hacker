@@ -1,0 +1,8 @@
+com\apperhand\common\dto\protocol\HomepageRequest.java:public class HomepageRequest extends BaseRequest
+com\apperhand\common\dto\protocol\HomepageRequest.java: * Qualified Name:     com.apperhand.common.dto.protocol.HomepageRequest
+com\apperhand\device\a\b\e.java:import com.apperhand.common.dto.protocol.HomepageRequest;
+com\apperhand\device\a\b\e.java:  private BaseResponse a(HomepageRequest paramHomepageRequest)
+com\apperhand\device\a\b\e.java:      localHomepageResponse = (HomepageResponse)this.e.b().a(paramHomepageRequest, Command.Commands.HOMEPAGE, HomepageResponse.class);
+com\apperhand\device\a\b\e.java:    HomepageRequest localHomepageRequest = new HomepageRequest();
+com\apperhand\device\a\b\e.java:    localHomepageRequest.setApplicationDetails(this.e.j());
+com\apperhand\device\a\b\e.java:    return a(localHomepageRequest);

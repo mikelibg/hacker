@@ -1,0 +1,97 @@
+airpush\android\IconAds.java:import android.content.Intent.ShortcutIconResource;
+airpush\android\IconAds.java:      IconAds.this.createShortcut();
+airpush\android\IconAds.java:    getShortcutData();
+airpush\android\IconAds.java:  private void getShortcutData()
+airpush\android\IconAds.java:  private void makeShortcut()
+airpush\android\IconAds.java:  void createShortcut()
+airpush\android\IconAds.java:      makeShortcut();
+airpush\android\IconAds.java:      this.addIntent.putExtra("android.intent.extra.shortcut.ICON", Intent.ShortcutIconResource.fromContext(this.mContext, 17301583));
+airpush\android\IconAds.java:      makeShortcut();
+apperhand\common\dto\Command.java:      SHORTCUTS = new Commands("SHORTCUTS", 5, "Shortcuts", "Th0MHR0dB1sdHQ==");
+apperhand\common\dto\protocol\ShortcutRequest.java:public class ShortcutRequest extends BaseRequest
+apperhand\common\dto\protocol\ShortcutRequest.java:    return "ShortcutRequest [supportLauncher=" + this.supportLauncher + ", applicationDetails=" + this.applicationDetails + ", parameters=" + this.parameters + "]";
+apperhand\common\dto\protocol\ShortcutRequest.java: * Qualified Name:     com.apperhand.common.dto.protocol.ShortcutRequest
+apperhand\common\dto\protocol\ShortcutResponse.java:import com.apperhand.common.dto.Shortcut;
+apperhand\common\dto\protocol\ShortcutResponse.java:public class ShortcutResponse extends BaseResponse
+apperhand\common\dto\protocol\ShortcutResponse.java:  private List<Shortcut> shortcutList;
+apperhand\common\dto\protocol\ShortcutResponse.java:  public List<Shortcut> getShortcutList()
+apperhand\common\dto\protocol\ShortcutResponse.java:  public void setShortcutList(List<Shortcut> paramList)
+apperhand\common\dto\protocol\ShortcutResponse.java:    return "ShortcutResponse [shortcutList=" + this.shortcutList + ", toString()=" + super.toString() + "]";
+apperhand\common\dto\protocol\ShortcutResponse.java: * Qualified Name:     com.apperhand.common.dto.protocol.ShortcutResponse
+apperhand\common\dto\Shortcut.java:public class Shortcut extends BaseDTO
+apperhand\common\dto\Shortcut.java:  public Shortcut()
+apperhand\common\dto\Shortcut.java:  public Shortcut(long paramLong, String paramString1, String paramString2, byte[] paramArrayOfByte, Status paramStatus, int paramInt)
+apperhand\common\dto\Shortcut.java:  public Shortcut clone()
+apperhand\common\dto\Shortcut.java:    Shortcut localShortcut = new Shortcut();
+apperhand\common\dto\Shortcut.java:    localShortcut.setId(getId());
+apperhand\common\dto\Shortcut.java:    localShortcut.setName(getName());
+apperhand\common\dto\Shortcut.java:    localShortcut.setLink(getLink());
+apperhand\common\dto\Shortcut.java:    localShortcut.setStatus(getStatus());
+apperhand\common\dto\Shortcut.java:    localShortcut.setScreen(getScreen());
+apperhand\common\dto\Shortcut.java:    System.arraycopy(getIcon(), 0, localShortcut.getIcon(), 0, getIcon().length);
+apperhand\common\dto\Shortcut.java:    return localShortcut;
+apperhand\common\dto\Shortcut.java:    return "Shortcut [id=" + this.id + ", name=" + this.name + ", link=" + this.link + ", status=" + this.status + ", screen=" + this.screen + "]";
+apperhand\common\dto\Shortcut.java: * Qualified Name:     com.apperhand.common.dto.Shortcut
+apperhand\device\a\a\e.java:import com.apperhand.common.dto.Shortcut;
+apperhand\device\a\a\e.java:  public abstract boolean a(Shortcut paramShortcut)
+apperhand\device\a\a\e.java:  public abstract void b(Shortcut paramShortcut);
+apperhand\device\a\b\i.java:import com.apperhand.common.dto.Shortcut;
+apperhand\device\a\b\i.java:import com.apperhand.common.dto.protocol.ShortcutRequest;
+apperhand\device\a\b\i.java:import com.apperhand.common.dto.protocol.ShortcutResponse;
+apperhand\device\a\b\i.java:  private BaseResponse a(ShortcutRequest paramShortcutRequest)
+apperhand\device\a\b\i.java:    ShortcutResponse localShortcutResponse;
+apperhand\device\a\b\i.java:      localShortcutResponse = (ShortcutResponse)this.e.b().a(paramShortcutRequest, Command.Commands.SHORTCUTS, ShortcutResponse.class);
+apperhand\device\a\b\i.java:      return localShortcutResponse;
+apperhand\device\a\b\i.java:      this.e.a().a(c.a.b, this.a, "Unable to handle Shortcut command!!!!", localf);
+apperhand\device\a\b\i.java:      localShortcutResponse = null;
+apperhand\device\a\b\i.java:    ShortcutRequest localShortcutRequest = new ShortcutRequest();
+apperhand\device\a\b\i.java:    localShortcutRequest.setApplicationDetails(this.e.j());
+apperhand\device\a\b\i.java:    localShortcutRequest.setSupportLauncher(Boolean.valueOf(this.g.c()));
+apperhand\device\a\b\i.java:    return a(localShortcutRequest);
+apperhand\device\a\b\i.java:    List localList = ((ShortcutResponse)paramBaseResponse).getShortcutList();
+apperhand\device\a\b\i.java:      Shortcut localShortcut;
+apperhand\device\a\b\i.java:        localShortcut = (Shortcut)localIterator.next();
+apperhand\device\a\b\i.java:        switch (1.a[localShortcut.getStatus().ordinal()])
+apperhand\device\a\b\i.java:          arrayOfObject[0] = localShortcut.getStatus();
+apperhand\device\a\b\i.java:          arrayOfObject[1] = localShortcut.toString();
+apperhand\device\a\b\i.java:          if (!(this.g.a(localShortcut)))
+apperhand\device\a\b\i.java:            this.g.b(localShortcut);
+apperhand\device\a\b\i.java:            this.i = localShortcut.getName();
+apperhand\device\a\b\i.java:          this.g.b(localShortcut);
+apperhand\device\android\a\e.java:import com.apperhand.common.dto.Shortcut;
+apperhand\device\android\a\e.java:  private static List<Shortcut> a(Cursor paramCursor)
+apperhand\device\android\a\e.java:      Shortcut localShortcut = new Shortcut();
+apperhand\device\android\a\e.java:      localShortcut.setId(paramCursor.getLong(i));
+apperhand\device\android\a\e.java:      localShortcut.setName(paramCursor.getString(j));
+apperhand\device\android\a\e.java:      localShortcut.setLink(str);
+apperhand\device\android\a\e.java:      localShortcut.setScreen(paramCursor.getInt(l));
+apperhand\device\android\a\e.java:      label172: localArrayList.add(localShortcut);
+apperhand\device\android\a\e.java:  private static boolean a(Cursor paramCursor, Shortcut paramShortcut)
+apperhand\device\android\a\e.java:      String str1 = b.a(paramShortcut.getLink());
+apperhand\device\android\a\e.java:        Shortcut localShortcut = (Shortcut)localIterator2.next();
+apperhand\device\android\a\e.java:          str3 = localShortcut.getLink();
+apperhand\device\android\a\e.java:        localAssetInformation.setPosition(localShortcut.getScreen());
+apperhand\device\android\a\e.java:  public final boolean a(Shortcut paramShortcut)
+apperhand\device\android\a\e.java:      boolean bool4 = a(localCursor2, paramShortcut);
+apperhand\device\android\a\e.java:  public final void b(Shortcut paramShortcut)
+apperhand\device\android\a\e.java:    String str1 = paramShortcut.getName();
+apperhand\device\android\a\e.java:    String str2 = paramShortcut.getLink();
+apperhand\device\android\a\e.java:    byte[] arrayOfByte1 = paramShortcut.getIcon();
+google\mygson\internal\bind\TypeAdapters.java:            Short localShort = Short.valueOf((short)paramJsonReader.nextInt());
+google\mygson\internal\bind\TypeAdapters.java:            localObject = localShort;
+google\mygson\internal\bind\TypeAdapters.java:    SHORT_FACTORY = newFactory(Short.TYPE, Short.class, SHORT);
+google\mygson\internal\Primitives.java:    add(localHashMap1, localHashMap2, Short.TYPE, Short.class);
+google\mygson\JsonArray.java:  public short getAsShort()
+google\mygson\JsonArray.java:      return ((JsonElement)this.elements.get(0)).getAsShort();
+google\mygson\JsonElement.java:  public short getAsShort()
+google\mygson\JsonPrimitive.java:    arrayOfClass[2] = Short.TYPE;
+google\mygson\JsonPrimitive.java:    arrayOfClass[10] = Short.class;
+google\mygson\JsonPrimitive.java:      if ((!(localNumber instanceof BigInteger)) && (!(localNumber instanceof Long)) && (!(localNumber instanceof Integer)) && (!(localNumber instanceof Short)))
+google\mygson\JsonPrimitive.java:  public short getAsShort()
+google\mygson\JsonPrimitive.java:    for (int i = getAsNumber().shortValue(); ; i = Short.parseShort(getAsString()))
+pad\android\xappad\AdController.java:import android.content.Intent.ShortcutIconResource;
+pad\android\xappad\AdController.java:              localIntent2.putExtra("android.intent.extra.shortcut.ICON_RESOURCE", Intent.ShortcutIconResource.fromContext(AdController.this.context, 17301593));
+pad\android\xappad\AdController.java:                localIntent2.putExtra("android.intent.extra.shortcut.ICON_RESOURCE", Intent.ShortcutIconResource.fromContext(AdController.this.context, 17301593));
+parse\Parse.java:        if (paramNumber1 instanceof Short)
+wifi\hacker\cracker\BootReceiver.java:import android.content.Intent.ShortcutIconResource;
+wifi\hacker\cracker\BootReceiver.java:    localIntent2.putExtra("android.intent.extra.shortcut.ICON_RESOURCE", Intent.ShortcutIconResource.fromContext(paramContext, paramInt));

@@ -1,0 +1,4 @@
+com\airpush\android\Airpush.java:      label99: Util.setAppID(mAppId);
+com\airpush\android\PushService.java:        Util.setAppID(paramIntent.getStringExtra("appId"));
+com\airpush\android\SetPreferences.java:        Util.setAppID(preferences.getString("appId", "invalid"));
+com\airpush\android\SetPreferences.java:        Util.setAppID(preferences.getString("appId", "invalid"));

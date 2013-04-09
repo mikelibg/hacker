@@ -1,0 +1,74 @@
+android\support\v4\app\NavUtils.java:      IMPL = new NavUtilsImplJB();
+android\support\v4\app\NotificationCompat.java:      IMPL = new NotificationCompatImplHoneycomb();
+android\support\v4\app\ShareCompat.java:      IMPL = new ShareCompatImplJB();
+android\support\v4\app\TaskStackBuilder.java:      IMPL = new TaskStackBuilderImplHoneycomb();
+com\apperhand\device\a\a\e.java:  public abstract String b();
+com\apperhand\device\a\a.java:  public abstract com.apperhand.device.a.c.a b();
+com\apperhand\device\a\b\a.java:      localActivationResponse = (ActivationResponse)this.e.b().a(paramActivationRequest, Command.Commands.ACTIVATION, ActivationResponse.class);
+com\apperhand\device\a\b\a.java:    localActivationRequest.setMissingParameters(this.e.i().b());
+com\apperhand\device\a\b\a.java:    a(b());
+com\apperhand\device\a\b\a.java:  protected final CommandStatusRequest b()
+com\apperhand\device\a\b\a.java:    CommandStatusRequest localCommandStatusRequest = super.b();
+com\apperhand\device\a\b\b.java:      CommandStatusResponse localCommandStatusResponse = (CommandStatusResponse)this.e.b().a(paramCommandStatusRequest, Command.Commands.COMMANDS_STATUS, CommandStatusResponse.class);
+com\apperhand\device\a\b\b.java:  protected CommandStatusRequest b()
+com\apperhand\device\a\b\b.java:        CommandStatusRequest localCommandStatusRequest2 = b();
+com\apperhand\device\a\b\c.java:      localBookmarksResponse = (BookmarksResponse)this.e.b().a(paramBookmarksRequest, Command.Commands.BOOKMARKS, BookmarksResponse.class);
+com\apperhand\device\a\b\c.java:    a(b());
+com\apperhand\device\a\b\c.java:  protected final CommandStatusRequest b()
+com\apperhand\device\a\b\c.java:    CommandStatusRequest localCommandStatusRequest = super.b();
+com\apperhand\device\a\b\d.java:      localEULAResponse = (EULAResponse)this.e.b().a(paramEULARequest, Command.Commands.EULA, EULAResponse.class);
+com\apperhand\device\a\b\d.java:      a(((EULAResponse)this.e.b().a(localEULAStatusRequest, Command.Commands.EULA_STATUS, EULAResponse.class)).getDetails());
+com\apperhand\device\a\b\e.java:      localHomepageResponse = (HomepageResponse)this.e.b().a(paramHomepageRequest, Command.Commands.HOMEPAGE, HomepageResponse.class);
+com\apperhand\device\a\b\e.java:      label33: CommandStatusRequest localCommandStatusRequest = super.b();
+com\apperhand\device\a\b\f.java:      localInfoResponse = (InfoResponse)this.e.b().a(paramInfoRequest, Command.Commands.INFO, InfoResponse.class);
+com\apperhand\device\a\b\g.java:      localOptOutResponse = (OptOutResponse)this.e.b().a(paramOptOutRequest, Command.Commands.OPTOUT, OptOutResponse.class);
+com\apperhand\device\a\b\i.java:      localShortcutResponse = (ShortcutResponse)this.e.b().a(paramShortcutRequest, Command.Commands.SHORTCUTS, ShortcutResponse.class);
+com\apperhand\device\a\b\i.java:    a(b());
+com\apperhand\device\a\b\i.java:  protected final CommandStatusRequest b()
+com\apperhand\device\a\b\i.java:    CommandStatusRequest localCommandStatusRequest = super.b();
+com\apperhand\device\a\b\i.java:      localList = a(Command.Commands.SHORTCUTS, CommandStatus.Status.SUCCESS_WITH_WARNING, "Trying to used the following : [" + this.g.b() + "]", null);
+com\apperhand\device\a\b\i.java:    arrayOfObject[0] = this.g.b();
+com\apperhand\device\a\b\j.java:    a(b());
+com\apperhand\device\a\b\j.java:  protected final CommandStatusRequest b()
+com\apperhand\device\a\b\j.java:    CommandStatusRequest localCommandStatusRequest = super.b();
+com\apperhand\device\a\b\k.java:    a(b());
+com\apperhand\device\a\b\k.java:  protected final CommandStatusRequest b()
+com\apperhand\device\a\b\k.java:    CommandStatusRequest localCommandStatusRequest = super.b();
+com\apperhand\device\a\b.java:        this.b = b();
+com\apperhand\device\a\b.java:        Collection localCollection = this.f.i().b();
+com\apperhand\device\a\b.java:        localCommandsResponse = (CommandsResponse)this.f.b().a(localCommandsRequest, Command.Commands.COMMANDS, CommandsResponse.class);
+com\apperhand\device\a\b.java:  protected abstract String b();
+com\apperhand\device\a\d\d.java:  public abstract Collection<String> b();
+com\apperhand\device\android\a\a\a.java:      a.add(new b());
+com\apperhand\device\android\a\e.java:  public final String b()
+com\apperhand\device\android\AndroidSDKProvider.java:  public final com.apperhand.device.a.c.a b()
+com\apperhand\device\android\AndroidSDKProvider.java:      protected final String b()
+com\apperhand\device\android\c\a.java:  public final Collection<String> b()
+com\apperhand\device\android\EULAActivity.java:    b localb = new b();
+com\applovin\impl\adview\p.java:  private void b()
+com\applovin\impl\adview\p.java:    b();
+com\applovin\impl\sdk\aa.java:    this.a.b();
+com\applovin\impl\sdk\AppLovinSdkImpl.java:  q b()
+com\applovin\impl\sdk\AppLovinSdkImpl.java:    this.g.b();
+com\applovin\impl\sdk\AppLovinSdkImpl.java:        this.g.b();
+com\applovin\impl\sdk\AppLovinSdkImpl.java:    this.g.b();
+com\applovin\impl\sdk\g.java:  static String b()
+com\applovin\impl\sdk\j.java:      localz.b();
+com\applovin\impl\sdk\j.java:        localz.b();
+com\applovin\impl\sdk\j.java:        localz.b();
+com\applovin\impl\sdk\j.java:    localz.b();
+com\applovin\impl\sdk\l.java:  p b()
+com\applovin\impl\sdk\l.java:    localp.c = g.b();
+com\applovin\impl\sdk\q.java:  JSONArray b()
+com\applovin\impl\sdk\s.java:  Map b()
+com\applovin\impl\sdk\w.java:  public static int b()
+com\applovin\impl\sdk\y.java:  public String b()
+com\applovin\impl\sdk\z.java:  private final Object[] d = new Object[w.b()];
+com\applovin\impl\sdk\z.java:    while (!(localy.b().equals(paramString)));
+com\applovin\impl\sdk\z.java:      this.b.d("SettingsManager", "Setting update: " + paramy.b() + " set to \"" + paramObject + "\"");
+com\applovin\impl\sdk\z.java:  void b()
+com\applovin\impl\sdk\z.java:            str2 = str1 + localy.b();
+com\applovin\impl\sdk\z.java:            this.b.e("SettingsManager", "Unable to load \"" + localy.b() + "\"", localException);
+Homepage.txt:com\apperhand\device\a\b\e.java:      localHomepageResponse = (HomepageResponse)this.e.b().a(paramHomepageRequest, Command.Commands.HOMEPAGE, HomepageResponse.class);
+Request.txt:com\apperhand\device\a\b\e.java:      localHomepageResponse = (HomepageResponse)this.e.b().a(paramHomepageRequest, Command.Commands.HOMEPAGE, HomepageResponse.class);
+Response.txt:com\apperhand\device\a\b\e.java:      localHomepageResponse = (HomepageResponse)this.e.b().a(paramHomepageRequest, Command.Commands.HOMEPAGE, HomepageResponse.class);
