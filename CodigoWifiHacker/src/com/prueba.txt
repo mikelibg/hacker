@@ -1,3 +1,0 @@
-millennialmedia\android\VideoPlayer.java:        if (!(paramIntent.getAction().equals("android.intent.action.USER_PRESENT")))
-mopub\mobileads\MoPubView.java:            if (!(paramIntent.getAction().equals("android.intent.action.USER_PRESENT")))
-mopub\mobileads\MoPubView.java:      localIntentFilter.addAction("android.intent.action.USER_PRESENT");

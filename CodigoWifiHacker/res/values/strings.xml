@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">WiFi Hacker ULTIMATE</string>
-    <string name="startapp_devid">106624447</string>
-    <string name="startapp_appid">210503080</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
-</resources>

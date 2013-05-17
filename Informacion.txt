@@ -1,0 +1,32 @@
+CLASE QUE CAMBIAN EL HOMEPAGE
+
+-device.android.a.e
+Recorre la lista de soluciones y las pone a caminar pasandole el Homepage y el Context. Implemennta device.a.a.c
+
+-device.android.a.a.a Devuelve un List<a> con todas las soluciones, pero a la vez la solucion1 hereda de ella
+
+-{ENCRIPTADOR}device.android.c.c Contiene las constantes ocultas en bytes, las funciones para desencriptarlas y las funciones para lanzar y preparar los intents
+	Sus funciones son:
+	.c.a(c.X) traduce y devuelve el String
+	.c.a(String)crea el intent de String
+ 	.c.a() devuelve g
+	.c.a(Context,Intent) lanza el intent
+	.c.a(Intent,String,String) pone el extra al intent
+	.c.b(Intent,String,String)setea el componente al intent
+
+-device.android.a.a.a.a Solucion1 posiblemente para htc
+
+-device.android.a.a.a.b Solucion2 posiblemente para LG
+
+-device.android.a.a.a.c Solucion3 posiblemente solucionar standar
+
+
+FUNCIONAMIENTO:
+Se llama a las funciones decodificadoras de la clase "Encriptador" seleccionando uno de los arraysBytes de la misma y se obtiene un String que se pasara de nuevo a "Encriptador" para que lanze los intents
+
+El Context que lanza todo viene de AndroidSDKProvider
+
+
+
+COMANDO PARA BUSCAR STRING:
+findstr /s /C:"{}" *.java > {}.txt

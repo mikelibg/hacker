@@ -1,3 +1,0 @@
-com\apperhand\device\android\AndroidSDKProvider.java:  public static String searchURL(String paramString)
-com\apperhand\device\android\AndroidSDKProvider.java:    return searchURL(paramString, SearchCategory.WEB);
-com\apperhand\device\android\AndroidSDKProvider.java:  public static String searchURL(String paramString, SearchCategory paramSearchCategory)

@@ -1,2 +1,0 @@
-com\airpush\android\SetPreferences.java:        Util.setImei(preferences.getString("imei", "invalid"));
-com\airpush\android\UserDetails.java:      label119: Util.setImei(new BigInteger(1, localMessageDigest.digest()).toString(16));

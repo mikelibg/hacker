@@ -1,5 +1,0 @@
-com\revmob\ads\EnvironmentConfig.java:  public static String getFullServerUrl(String paramString1, String paramString2)
-com\revmob\advertiser\AppInstallTracker.java:    return EnvironmentConfig.getFullServerUrl("https", String.format("api/v4/mobile_apps/%s/install.json", arrayOfObject));
-com\revmob\RevMob.java:    return EnvironmentConfig.getFullServerUrl("https", String.format("api/v4/mobile_apps/%s/%s/fetch.json", new Object[] { paramString2, paramString1 }));
-com\revmob\RevMob.java:    return EnvironmentConfig.getFullServerUrl("https", String.format("api/v4/mobile_apps/%s/placements/%s/%s/fetch.json", arrayOfObject));
-com\revmob\RevMob.java:    return EnvironmentConfig.getFullServerUrl("https", String.format("api/v4/mobile_apps/%s/sessions.json", arrayOfObject));

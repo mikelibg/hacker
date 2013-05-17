@@ -1,2 +1,0 @@
-android\support\v4\app\DialogFragment.java:      Bundle localBundle = paramBundle.getBundle("android:savedDialogState");
-com\apperhand\device\android\a\a\a\a.java:        localBundle.getBundle(a(k)).putString(a(l), paramHomepage.getPageURL());
